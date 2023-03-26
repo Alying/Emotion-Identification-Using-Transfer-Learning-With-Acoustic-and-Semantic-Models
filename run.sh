@@ -2,6 +2,8 @@
 
 # Main emotion identification script.
 
+./path.sh
+
 stage=0
 
 # Data preparation
