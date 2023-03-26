@@ -6,6 +6,6 @@ stage=0
 
 # Data preparation
 if [ $stage -le 0 ]; then
-  download_data.sh
+  utils/download_data.sh
 fi
 
