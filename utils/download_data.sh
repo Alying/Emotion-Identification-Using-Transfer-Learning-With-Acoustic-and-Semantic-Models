@@ -1,37 +1,26 @@
 #!/usr/bin/env bash
 # Used for downloading CremaD data
 
+mkdir -p local/data
+cd local/data   ### Note: the rest of this script is executed from the directory 'db'.
 
-# below copied from local/download_data.sh
-mkdir -p db
-
-cd db  ### Note: the rest of this script is executed from the directory 'db'.
+debug_mode=true
 
 # TED-LIUM database:
-if [[ $(hostname -f) == *.clsp.jhu.edu ]] ; then
-  if [ ! -e TEDLIUM_release-3 ]; then
-    ln -sf /export/corpora5/TEDLIUM_release-3
-  fi
-  echo "$0: linking the TEDLIUM data from /export/corpora5/TEDLIUM_release-3"
-else
-  if [ ! -e TEDLIUM_release-3 ]; then
-    echo "$0: downloading TEDLIUM_release-3 data (it won't re-download if it was already downloaded.)"
-    # the following command won't re-get it if it's already there
-    # because of the --continue switch.
-    wget --continue http://www.openslr.org/resources/51/TEDLIUM_release-3.tgz || exit 1
-    
-    echo "$0: extracting TEDLIUM_release-3 data"
-    tar xf "TEDLIUM_release-3.tgz"
+if [ ! -e CREMA-D ]; then
+  echo "$0: cloning the CREMA-D data (it won't re-download if it was already downloaded.)"
+  # the following command won't re-get it if it's already there
+  # because of the --continue switch.
+ 
+  if $debug_mode; then
+  	mkdir -p CREMA-D
+	wget --continue https://github.com/CheyneyComputerScience/CREMA-D/archive/refs/heads/master.zip || exit 1
+  	unzip master.zip -d CREMA-D 
   else
-    echo "$0: not downloading or un-tarring TEDLIUM_release3 because it already exists."
+     	git lfs clone https://github.com/CheyneyComputerScience/CREMA-D.git
   fi
-fi
-
-
-num_sph=$(find TEDLIUM_release-3/data -name '*.sph' | wc -l)
-if [ "$num_sph" != 2351 ]; then
-  echo "$0: expected to find 2351 .sph files in the directory db/TEDLIUM_release-3, found $num_sph"
-  exit 1
+else
+  echo "$0: not downloading or unzipping CREMA-D because it already exists."
 fi
 
 exit 0
