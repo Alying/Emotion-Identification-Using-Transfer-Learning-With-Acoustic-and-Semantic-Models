@@ -9,4 +9,4 @@ done
 
 cd ../utils
 
-python split_data.py
+python3 split_data.py
