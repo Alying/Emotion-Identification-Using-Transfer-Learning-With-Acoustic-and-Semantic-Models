@@ -40,16 +40,14 @@ train_rows = int(total_rows*train_percent)
 if os.path.isfile("../local/data/test/data.csv") or os.path.isfile("../local/data/train/data.csv"):
    quit()
 
-df.to_csv("../local/data/train/data.csv",
+df[:train_rows].to_csv("../local/data/train/data.csv",
           index=False,
           header=True,
-          mode='a',
-          chunksize=train_rows)
+          mode='a')
 
-df.to_csv("../local/data/test/data.csv",
+df[train_rows+1:].to_csv("../local/data/test/data.csv",
           index=False,
           header=True,
-          mode='a',
-          chunksize=total_rows - train_rows)
+          mode='a')
 
 
