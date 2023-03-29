@@ -1,8 +1,11 @@
 import os
+import os.path
 import random
 import pandas as pd
 from sklearn.model_selection import train_test_split
 cwd = os.getcwd()
+
+train_percent = 0.1
 
 def tied_emotions(row):
     emotions = str.split(row, ':')
@@ -23,10 +26,30 @@ def tied_emotions(row):
 # read in csv
 df = pd.read_csv("../local/data/CREMA-D/processedResults/tabulatedVotes.csv")
 
+# get emotion labels
 df['emoVote'] = df['emoVote'].apply(tied_emotions)
-print(df.emoVote.head(15))
+#print(df.emoVote.head(15))
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, train_size=0.2)
-print(cwd)
-print("HELLO")
+# drop unnecessary columns
+df = df.iloc[: , 1:]
+
+# split train, test data
+total_rows = df.shape[0]
+train_rows = int(total_rows*train_percent)
+
+if os.path.isfile("../local/data/test/data.csv") or os.path.isfile("../local/data/train/data.csv"):
+   quit()
+
+df.to_csv("../local/data/train/data.csv",
+          index=False,
+          header=True,
+          mode='a',
+          chunksize=train_rows)
+
+df.to_csv("../local/data/test/data.csv",
+          index=False,
+          header=True,
+          mode='a',
+          chunksize=total_rows - train_rows)
+
 
