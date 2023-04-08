@@ -13,11 +13,11 @@ else
 fi
 
 # IEMOCAP database:
-if [ ! -e IEMOCAP ]; then
+if [ ! -e IEMOCAP_full_release ]; then
   echo "$0: downloading the IEMOCAP data (it won't re-download if it was already downloaded.)"
   tar -xf "IEMOCAP_full_release_withoutVideos.tar.gz"
 else
-  echo "$0: not downloading or unzipping CREMA-D because it already exists."
+  echo "$0: not downloading or unzipping IEMOCAP because it already exists."
 fi
 
 exit 0

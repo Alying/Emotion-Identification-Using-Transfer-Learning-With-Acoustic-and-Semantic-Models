@@ -49,5 +49,3 @@ df[train_rows+1:].to_csv("../local/data/test/data.csv",
           index=False,
           header=True,
           mode='a')
-
-
