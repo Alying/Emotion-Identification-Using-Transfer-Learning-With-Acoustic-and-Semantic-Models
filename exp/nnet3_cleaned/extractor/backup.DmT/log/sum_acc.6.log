@@ -1,0 +1,22 @@
+# ivector-extractor-sum-accs exp/nnet3_cleaned/extractor/acc.6.1 exp/nnet3_cleaned/extractor/acc.6.2 exp/nnet3_cleaned/extractor/acc.6.3 exp/nnet3_cleaned/extractor/acc.6.4 exp/nnet3_cleaned/extractor/acc.6.5 exp/nnet3_cleaned/extractor/acc.6.6 exp/nnet3_cleaned/extractor/acc.6.7 exp/nnet3_cleaned/extractor/acc.6.8 exp/nnet3_cleaned/extractor/acc.6.9 exp/nnet3_cleaned/extractor/acc.6.10 exp/nnet3_cleaned/extractor/acc.6.11 exp/nnet3_cleaned/extractor/acc.6.12 exp/nnet3_cleaned/extractor/acc.6.13 exp/nnet3_cleaned/extractor/acc.6.14 exp/nnet3_cleaned/extractor/acc.6.15 exp/nnet3_cleaned/extractor/acc.6 
+# Started at Mon Apr 10 21:54:41 PDT 2023
+#
+ivector-extractor-sum-accs exp/nnet3_cleaned/extractor/acc.6.1 exp/nnet3_cleaned/extractor/acc.6.2 exp/nnet3_cleaned/extractor/acc.6.3 exp/nnet3_cleaned/extractor/acc.6.4 exp/nnet3_cleaned/extractor/acc.6.5 exp/nnet3_cleaned/extractor/acc.6.6 exp/nnet3_cleaned/extractor/acc.6.7 exp/nnet3_cleaned/extractor/acc.6.8 exp/nnet3_cleaned/extractor/acc.6.9 exp/nnet3_cleaned/extractor/acc.6.10 exp/nnet3_cleaned/extractor/acc.6.11 exp/nnet3_cleaned/extractor/acc.6.12 exp/nnet3_cleaned/extractor/acc.6.13 exp/nnet3_cleaned/extractor/acc.6.14 exp/nnet3_cleaned/extractor/acc.6.15 exp/nnet3_cleaned/extractor/acc.6 
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.1
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.2
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.3
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.4
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.5
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.6
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.7
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.8
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.9
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.10
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.11
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.12
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.13
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.14
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:74) Reading stats from exp/nnet3_cleaned/extractor/acc.6.15
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:83) Wrote summed stats to exp/nnet3_cleaned/extractor/acc.6
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 10 21:54:41 PDT 2023, elapsed time 0 seconds

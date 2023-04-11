@@ -7,6 +7,6 @@ for set in test train; do
   fi
 done
 
-cd ../utils
+cd ../personal_utils
 
-python3 split_data.py
+python3 prepare_data.py

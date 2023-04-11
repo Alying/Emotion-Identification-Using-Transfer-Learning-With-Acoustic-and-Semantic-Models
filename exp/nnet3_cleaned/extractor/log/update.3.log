@@ -1,0 +1,317 @@
+# ivector-extractor-est --num-threads=8 exp/nnet3_cleaned/extractor/3.ie exp/nnet3_cleaned/extractor/acc.3 exp/nnet3_cleaned/extractor/4.ie 
+# Started at Mon Apr 10 22:03:44 PDT 2023
+#
+ivector-extractor-est --num-threads=8 exp/nnet3_cleaned/extractor/3.ie exp/nnet3_cleaned/extractor/acc.3 exp/nnet3_cleaned/extractor/4.ie 
+LOG (ivector-extractor-est[5.5.1068~1-59299]:main():ivector-extractor-est.cc:55) Reading model
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:main():ivector-extractor-est.cc:59) Reading statistics
+LOG (ivector-extractor-est[5.5.1068~1-59299]:Update():ivector-extractor.cc:1277) Overall auxf/frame on training data was -79.642 per frame over 58705.2 frames.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 1 because count 77.1028 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 2 because count 32.4067 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 4 because count 98.2153 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 7 because count 61.4636 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 9 because count 99.4573 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 12 because count 51.8726 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 16 because count 78.1128 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 18 because count 56.5188 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 25 because count 89.9769 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 23 because count 77.5347 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 27 because count 92.9601 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 34 because count 97.5672 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 40 because count 36.7389 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 41 because count 27.4646 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 42 because count 25.7703 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 48 because count 92.233 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 44 because count 79.3544 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 49 because count 60.0788 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 55 because count 28.8601 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 53 because count 58.6441 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 54 because count 10.9025 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 63 because count 81.7579 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 64 because count 75.3595 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 69 because count 57.2115 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 73 because count 87.3067 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 74 because count 55.1919 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 76 because count 91.7464 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 71 because count 63.7871 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 79 because count 42.5552 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 84 because count 73.3272 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 87 because count 80.0198 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 89 because count 65.1615 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 86 because count 76.4077 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 95 because count 80.0955 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 94 because count 66.1166 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 96 because count 98.5647 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 93 because count 29.4782 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 100 because count 93.6546 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 101 because count 88.5878 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 103 because count 52.7079 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 106 because count 94.6632 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 109 because count 86.6493 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 111 because count 56.2121 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 107 because count 33.4096 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 114 because count 90.9445 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 120 because count 58.3086 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 119 because count 64.8747 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 123 because count 91.8261 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 122 because count 36.1109 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 124 because count 82.7601 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 132 because count 58.644 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 131 because count 77.1197 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 130 because count 72.387 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 137 because count 25.9683 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 142 because count 87.8454 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 145 because count 73.2818 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 146 because count 33.7509 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 150 because count 40.4845 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 156 because count 65.7379 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 158 because count 98.1299 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 154 because count 95.8905 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 160 because count 59.246 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 159 because count 87.1995 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 164 because count 64.9407 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 166 because count 12.8206 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 169 because count 59.3736 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 162 because count 98.2547 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 174 because count 86.318 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 173 because count 85.4479 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 177 because count 72.5998 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 182 because count 84.9416 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 187 because count 89.8761 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 191 because count 49.2023 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 193 because count 80.0967 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 192 because count 79.4871 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 195 because count 85.6516 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 197 because count 89.3256 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 196 because count 49.5267 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 200 because count 47.0427 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 198 because count 11.3288 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 204 because count 63.1981 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 213 because count 68.6267 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 215 because count 16.6168 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 216 because count 47.4321 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 218 because count 30.1467 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 220 because count 83.9595 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 227 because count 96.157 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 228 because count 78.0813 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 232 because count 52.7831 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 233 because count 74.8217 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 234 because count 96.5124 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 241 because count 83.8264 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 240 because count 43.9649 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 243 because count 93.4692 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 245 because count 13.1207 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 247 because count 50.6377 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 250 because count 76.4794 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 252 because count 71.3912 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 253 because count 97.1527 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 259 because count 95.1824 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 257 because count 72.4582 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 269 because count 57.2632 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 273 because count 41.3765 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 276 because count 99.8576 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 278 because count 92.1446 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 299 because count 63.3918 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 301 because count 82.549 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 308 because count 97.2965 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 314 because count 99.3327 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 321 because count 87.4042 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 317 because count 89.6864 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 326 because count 54.8281 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 328 because count 69.8463 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 331 because count 72.6717 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 335 because count 73.7945 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 346 because count 94.2667 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 349 because count 93.5467 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 347 because count 76.1442 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 355 because count 81.6093 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 357 because count 93.5818 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 359 because count 98.0305 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 368 because count 98.528 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 369 because count 83.1905 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 372 because count 93.9137 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 383 because count 57.9598 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 388 because count 95.5713 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 389 because count 75.8273 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 401 because count 95.3148 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 404 because count 96.5825 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 402 because count 90.7073 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 419 because count 49.1687 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 423 because count 80.1732 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 426 because count 97.0734 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 429 because count 97.5455 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 430 because count 76.7622 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 436 because count 88.4994 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 438 because count 78.4168 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 449 because count 9.80746 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 452 because count 91.7489 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 454 because count 83.8848 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 459 because count 98.355 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 462 because count 99.4377 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 463 because count 74.4564 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 465 because count 76.5381 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 467 because count 67.6194 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 469 because count 92.4569 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 471 because count 84.4205 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 472 because count 86.3657 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 473 because count 65.4703 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 475 because count 63.9891 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 478 because count 98.9571 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 479 because count 68.9373 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 476 because count 99.3301 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 485 because count 98.5052 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 490 because count 94.1336 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 491 because count 81.2823 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 495 because count 72.9896 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 496 because count 93.2123 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 498 because count 96.0558 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 488 because count 99.3916 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 499 because count 61.4529 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 500 because count 90.6785 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 502 because count 64.9621 is below min-count.
+WARNING (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjection():ivector-extractor.cc:1330) Skipping Gaussian index 509 because count 74.6302 is below min-count.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateProjections():ivector-extractor.cc:1431) Overall objective function improvement for M (mean projections) was 0.135172 per frame over 58705.2 frames.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 6, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 24, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 60, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 98, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 113, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 115, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 180, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 183, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 184, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 212, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 221, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 223, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 249, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 251, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 256, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 258, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 261, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 263, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 267, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 272, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 274, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 275, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 281, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 282, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 283, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 284, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 285, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 287, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 288, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 289, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 292, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 293, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 294, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 295, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 296, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 297, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 302, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 303, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 304, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 306, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 307, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 309, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 310, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 311, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 312, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 313, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 315, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 316, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 318, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 319, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 320, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 322, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 323, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 324, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 327, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 329, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 330, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 332, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 333, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 334, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 336, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 337, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 338, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 339, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 340, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 342, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 343, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 348, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 350, floored 5 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 354, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 356, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 358, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 361, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 363, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 364, floored 5 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 366, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 367, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 370, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 371, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 374, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 375, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 376, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 377, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 378, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 379, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 380, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 381, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 382, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 384, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 386, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 387, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 391, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 392, floored 5 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 394, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 396, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 397, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 399, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 403, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 409, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 411, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 414, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 417, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 421, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 424, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 425, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 427, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 428, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 431, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 432, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 433, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 434, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 435, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 437, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 440, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 444, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 451, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 460, floored 2 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 470, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 477, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 481, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 482, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 486, floored 4 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 487, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 492, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 497, floored 3 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 503, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1513) For Gaussian index 511, floored 1 eigenvalues of variance.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1532) Floored 1.21582% of all Gaussian eigenvalues
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdateVariances():ivector-extractor.cc:1534) Overall objf impr/frame for variances was 0.0109563 over 58705.2 frames.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:UpdatePrior():ivector-extractor.cc:1667) Eigenvalues of iVector covariance range from 0.619014 to 1.97493
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:GetOrthogonalIvectorTransform():ivector-extractor.cc:1391) Eigenvalues of Vavg:  [ 19.9712 3.02062 1.07422 0.798956 0.712823 0.639603 0.550538 0.500367 0.449959 0.441467 0.416408 0.408353 0.373957 0.370322 0.352959 0.332066 0.321654 0.305538 0.304397 0.291123 0.280629 0.258119 0.238106 0.230836 0.227677 0.218261 0.212658 0.202294 0.196266 0.191529 0.188453 0.175889 0.171181 0.168388 0.1626 0.156074 0.154524 0.144715 0.143582 0.141451 0.137804 0.136165 0.130467 0.126375 0.117614 0.115574 0.114376 0.112424 0.109981 0.107066 0.106088 0.104234 0.101388 0.0962541 0.095888 0.093139 0.0915053 0.0903683 0.0886057 0.0851534 0.083798 0.0824291 0.0796546 0.0774631 0.0756191 0.0749846 0.0744085 0.0738042 0.071898 0.0709312 0.0692184 0.0682913 0.0664455 0.0648 0.0636112 0.062459 0.0615812 0.0608496 0.059527 0.0581314 0.0575077 0.056028 0.0549659 0.0546332 0.0533351 0.0526737 0.0519315 0.0504557 0.0498684 0.0495933 0.0486731 0.048617 0.0462134 0.0459016 0.044835 0.044352 0.0436249 0.0418381 0.0402012 ]
+
+LOG (ivector-extractor-est[5.5.1068~1-59299]:PriorDiagnostics():ivector-extractor.cc:1644) Overall auxf improvement from prior is 0.0668888 per frame, or 1.75928 per iVector.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:TransformIvectors():ivector-extractor.cc:533) Setting iVector prior offset to 56.4003
+LOG (ivector-extractor-est[5.5.1068~1-59299]:Update():ivector-extractor.cc:1292) Overall objective-function improvement per frame was 0.213017
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-est[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:IvectorVarianceDiagnostic():ivector-extractor.cc:1315) The proportion of within-Gaussian variance explained by the iVectors is 0.29893.
+LOG (ivector-extractor-est[5.5.1068~1-59299]:main():ivector-extractor-est.cc:67) Updated model and wrote it to exp/nnet3_cleaned/extractor/4.ie
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 10 22:03:44 PDT 2023, elapsed time 0 seconds

@@ -1,0 +1,31 @@
+# ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/25/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.25.gz|' -|" "ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/26/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.26.gz|' -|" exp/nnet3_cleaned/extractor/acc.9.13 
+# Started at Mon Apr 10 22:04:31 PDT 2023
+#
+ivector-extractor-sum-accs --parallel=true "ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/25/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.25.gz|' -|" "ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/26/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.26.gz|' -|" exp/nnet3_cleaned/extractor/acc.9.13 
+ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/26/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.26.gz|' - 
+ivector-extractor-acc-stats --num-threads=4 exp/nnet3_cleaned/extractor/9.ie 'ark,s,cs:splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/25/feats.scp ark:- | transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark,s,cs:gunzip -c exp/nnet3_cleaned/extractor/post.25.gz|' - 
+transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/25/feats.scp ark:- 
+subsample-feats --n=2 ark:- ark:- 
+subsample-feats --n=2 ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 scp:local/data/train_hires/split30/26/feats.scp ark:- 
+transform-feats exp/nnet3_cleaned/extractor/final.mat ark:- ark:- 
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -114.679 over 15940 frames.
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:161) Applied transform to 74 utterances; 0 had errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:115) Processed 74 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:117) Processed 15940 input frames and 7982 output frames.
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -114.679 over 17858 frames.
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:161) Applied transform to 75 utterances; 0 had errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:115) Processed 75 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:117) Processed 17858 input frames and 8940 output frames.
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:main():ivector-extractor-acc-stats.cc:151) Done 74 files, 0 with errors.  Total frames 7982
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:main():ivector-extractor-acc-stats.cc:151) Done 75 files, 0 with errors.  Total frames 8940
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:main():ivector-extractor-acc-stats.cc:159) Wrote stats to -
+LOG (ivector-extractor-acc-stats[5.5.1068~1-59299]:main():ivector-extractor-acc-stats.cc:159) Wrote stats to -
+LOG (ivector-extractor-sum-accs[5.5.1068~1-59299]:main():ivector-extractor-sum-accs.cc:83) Wrote summed stats to exp/nnet3_cleaned/extractor/acc.9.13
+# Accounting: time=9 threads=1
+# Ended (code 0) at Mon Apr 10 22:04:40 PDT 2023, elapsed time 9 seconds

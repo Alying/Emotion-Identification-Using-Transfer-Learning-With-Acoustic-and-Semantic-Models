@@ -1,0 +1,18 @@
+# gmm-gselect --n=30 exp/nnet3_cleaned/diag_ubm/0.dubm "ark,s,cs:apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/spk2utt exp/nnet3_cleaned/diag_ubm/global_cmvn.stats scp:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/nnet3_cleaned/diag_ubm/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |" "ark:|gzip -c >exp/nnet3_cleaned/diag_ubm/gselect.18.gz" 
+# Started at Mon Apr 10 22:03:03 PDT 2023
+#
+gmm-gselect --n=30 exp/nnet3_cleaned/diag_ubm/0.dubm 'ark,s,cs:apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/spk2utt exp/nnet3_cleaned/diag_ubm/global_cmvn.stats scp:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/nnet3_cleaned/diag_ubm/final.mat ark:- ark:- | subsample-feats --n=2 ark:- ark:- |' 'ark:|gzip -c >exp/nnet3_cleaned/diag_ubm/gselect.18.gz' 
+apply-cmvn-online --config=conf/online_cmvn.conf --spk2utt=ark:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/spk2utt exp/nnet3_cleaned/diag_ubm/global_cmvn.stats scp:exp/nnet3_cleaned/diag_ubm/train_hires_subset/split30/18/feats.scp ark:- 
+transform-feats exp/nnet3_cleaned/diag_ubm/final.mat ark:- ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+subsample-feats --n=2 ark:- ark:- 
+LOG (gmm-gselect[5.5.1068~1-59299]:main():gmm-gselect.cc:114) For 0'th file, average UBM likelihood over 128 frames is -50.1447
+LOG (apply-cmvn-online[5.5.1068~1-59299]:main():apply-cmvn-online.cc:133) Applied online CMVN to 18 files, or 4076 frames.
+LOG (gmm-gselect[5.5.1068~1-59299]:main():gmm-gselect.cc:114) For 10'th file, average UBM likelihood over 78 frames is -43.6379
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -114.679 over 4076 frames.
+LOG (transform-feats[5.5.1068~1-59299]:main():transform-feats.cc:161) Applied transform to 18 utterances; 0 had errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:115) Processed 18 feature matrices; 0 with errors.
+LOG (subsample-feats[5.5.1068~1-59299]:main():subsample-feats.cc:117) Processed 4076 input frames and 2044 output frames.
+LOG (gmm-gselect[5.5.1068~1-59299]:main():gmm-gselect.cc:125) Done 18 files, 0 with errors, average UBM log-likelihood is -48.3288 over 2044 frames.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 10 22:03:03 PDT 2023, elapsed time 0 seconds

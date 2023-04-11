@@ -1,0 +1,2232 @@
+1001_DFA_ANG_XX Don't forget a jacket.
+1001_DFA_DIS_XX Don't forget a jacket.
+1001_DFA_FEA_XX Don't forget a jacket.
+1001_DFA_HAP_XX Don't forget a jacket.
+1001_DFA_NEU_XX Don't forget a jacket.
+1001_DFA_SAD_XX Don't forget a jacket.
+1001_IEO_ANG_HI It's eleven o'clock.
+1001_IEO_ANG_LO It's eleven o'clock.
+1001_IEO_ANG_MD It's eleven o'clock.
+1001_IEO_DIS_HI It's eleven o'clock.
+1001_IEO_DIS_LO It's eleven o'clock.
+1001_IEO_DIS_MD It's eleven o'clock.
+1001_IEO_FEA_HI It's eleven o'clock.
+1001_IEO_FEA_LO It's eleven o'clock.
+1001_IEO_FEA_MD It's eleven o'clock.
+1001_IEO_HAP_HI It's eleven o'clock.
+1001_IEO_HAP_LO It's eleven o'clock.
+1001_IEO_HAP_MD It's eleven o'clock.
+1001_IEO_NEU_XX It's eleven o'clock.
+1001_IEO_SAD_HI It's eleven o'clock.
+1001_IEO_SAD_LO It's eleven o'clock.
+1001_IEO_SAD_MD It's eleven o'clock.
+1001_IOM_ANG_XX I'm on my way to the meeting.
+1001_IOM_DIS_XX I'm on my way to the meeting.
+1001_IOM_FEA_XX I'm on my way to the meeting.
+1001_IOM_HAP_XX I'm on my way to the meeting.
+1001_IOM_NEU_XX I'm on my way to the meeting.
+1001_IOM_SAD_XX I'm on my way to the meeting.
+1001_ITH_ANG_XX I think I have a doctor's appointment.
+1001_ITH_DIS_XX I think I have a doctor's appointment.
+1001_ITH_FEA_XX I think I have a doctor's appointment.
+1001_ITH_HAP_XX I think I have a doctor's appointment.
+1001_ITH_NEU_XX I think I have a doctor's appointment.
+1001_ITH_SAD_XX I think I have a doctor's appointment.
+1001_ITS_ANG_XX I think I've seen this before.
+1001_ITS_DIS_XX I think I've seen this before.
+1001_ITS_FEA_XX I think I've seen this before.
+1001_ITS_HAP_XX I think I've seen this before.
+1001_ITS_NEU_XX I think I've seen this before.
+1001_ITS_SAD_XX I think I've seen this before.
+1001_IWL_ANG_XX I would like a new alarm clock.
+1001_IWL_DIS_XX I would like a new alarm clock.
+1001_IWL_FEA_XX I would like a new alarm clock.
+1001_IWL_HAP_XX I would like a new alarm clock.
+1001_IWL_NEU_XX I would like a new alarm clock.
+1001_IWL_SAD_XX I would like a new alarm clock.
+1001_IWW_ANG_XX I wonder what this is about.
+1001_IWW_DIS_XX I wonder what this is about.
+1001_IWW_FEA_XX I wonder what this is about.
+1001_IWW_HAP_XX I wonder what this is about.
+1001_IWW_NEU_XX I wonder what this is about.
+1001_IWW_SAD_XX I wonder what this is about.
+1001_MTI_ANG_XX Maybe tomorrow it will be cold.
+1001_MTI_DIS_XX Maybe tomorrow it will be cold.
+1001_MTI_FEA_XX Maybe tomorrow it will be cold.
+1001_MTI_HAP_XX Maybe tomorrow it will be cold.
+1001_MTI_NEU_XX Maybe tomorrow it will be cold.
+1001_MTI_SAD_XX Maybe tomorrow it will be cold.
+1001_TAI_ANG_XX The airplane is almost full.
+1001_TAI_DIS_XX The airplane is almost full.
+1001_TAI_FEA_XX The airplane is almost full.
+1001_TAI_HAP_XX The airplane is almost full.
+1001_TAI_NEU_XX The airplane is almost full.
+1001_TAI_SAD_XX The airplane is almost full.
+1001_TIE_ANG_XX That is exactly what happened.
+1001_TIE_DIS_XX That is exactly what happened.
+1001_TIE_FEA_XX That is exactly what happened.
+1001_TIE_HAP_XX That is exactly what happened.
+1001_TIE_NEU_XX That is exactly what happened.
+1001_TIE_SAD_XX That is exactly what happened.
+1001_TSI_ANG_XX The surface is slick.
+1001_TSI_DIS_XX The surface is slick.
+1001_TSI_FEA_XX The surface is slick.
+1001_TSI_HAP_XX The surface is slick.
+1001_TSI_NEU_XX The surface is slick.
+1001_TSI_SAD_XX The surface is slick.
+1001_WSI_ANG_XX We'll stop in a couple of minutes.
+1001_WSI_DIS_XX We'll stop in a couple of minutes.
+1001_WSI_FEA_XX We'll stop in a couple of minutes.
+1001_WSI_HAP_XX We'll stop in a couple of minutes.
+1001_WSI_NEU_XX We'll stop in a couple of minutes.
+1001_WSI_SAD_XX We'll stop in a couple of minutes.
+1002_DFA_ANG_XX Don't forget a jacket.
+1002_DFA_DIS_XX Don't forget a jacket.
+1002_DFA_FEA_XX Don't forget a jacket.
+1002_DFA_HAP_XX Don't forget a jacket.
+1002_DFA_NEU_XX Don't forget a jacket.
+1002_DFA_SAD_XX Don't forget a jacket.
+1002_IEO_ANG_HI It's eleven o'clock.
+1002_IEO_ANG_LO It's eleven o'clock.
+1002_IEO_ANG_MD It's eleven o'clock.
+1002_IEO_DIS_HI It's eleven o'clock.
+1002_IEO_DIS_LO It's eleven o'clock.
+1002_IEO_DIS_MD It's eleven o'clock.
+1002_IEO_FEA_HI It's eleven o'clock.
+1002_IEO_FEA_LO It's eleven o'clock.
+1002_IEO_FEA_MD It's eleven o'clock.
+1002_IEO_HAP_HI It's eleven o'clock.
+1002_IEO_HAP_LO It's eleven o'clock.
+1002_IEO_HAP_MD It's eleven o'clock.
+1002_IEO_NEU_XX It's eleven o'clock.
+1002_IEO_SAD_HI It's eleven o'clock.
+1002_IEO_SAD_LO It's eleven o'clock.
+1002_IEO_SAD_MD It's eleven o'clock.
+1002_IOM_ANG_XX I'm on my way to the meeting.
+1002_IOM_DIS_XX I'm on my way to the meeting.
+1002_IOM_FEA_XX I'm on my way to the meeting.
+1002_IOM_HAP_XX I'm on my way to the meeting.
+1002_IOM_NEU_XX I'm on my way to the meeting.
+1002_IOM_SAD_XX I'm on my way to the meeting.
+1002_ITH_ANG_XX I think I have a doctor's appointment.
+1002_ITH_DIS_XX I think I have a doctor's appointment.
+1002_ITH_FEA_XX I think I have a doctor's appointment.
+1002_ITH_HAP_XX I think I have a doctor's appointment.
+1002_ITH_NEU_XX I think I have a doctor's appointment.
+1002_ITH_SAD_XX I think I have a doctor's appointment.
+1002_ITS_ANG_XX I think I've seen this before.
+1002_ITS_DIS_XX I think I've seen this before.
+1002_ITS_FEA_XX I think I've seen this before.
+1002_ITS_HAP_XX I think I've seen this before.
+1002_ITS_NEU_XX I think I've seen this before.
+1002_ITS_SAD_XX I think I've seen this before.
+1002_IWL_ANG_XX I would like a new alarm clock.
+1002_IWL_DIS_XX I would like a new alarm clock.
+1002_IWL_FEA_XX I would like a new alarm clock.
+1002_IWL_HAP_XX I would like a new alarm clock.
+1002_IWL_NEU_XX I would like a new alarm clock.
+1002_IWL_SAD_XX I would like a new alarm clock.
+1002_IWW_ANG_XX I wonder what this is about.
+1002_IWW_DIS_XX I wonder what this is about.
+1002_IWW_FEA_XX I wonder what this is about.
+1002_IWW_HAP_XX I wonder what this is about.
+1002_IWW_NEU_XX I wonder what this is about.
+1002_IWW_SAD_XX I wonder what this is about.
+1002_MTI_ANG_XX Maybe tomorrow it will be cold.
+1002_MTI_DIS_XX Maybe tomorrow it will be cold.
+1002_MTI_FEA_XX Maybe tomorrow it will be cold.
+1002_MTI_HAP_XX Maybe tomorrow it will be cold.
+1002_MTI_NEU_XX Maybe tomorrow it will be cold.
+1002_MTI_SAD_XX Maybe tomorrow it will be cold.
+1002_TAI_ANG_XX The airplane is almost full.
+1002_TAI_DIS_XX The airplane is almost full.
+1002_TAI_FEA_XX The airplane is almost full.
+1002_TAI_HAP_XX The airplane is almost full.
+1002_TAI_NEU_XX The airplane is almost full.
+1002_TAI_SAD_XX The airplane is almost full.
+1002_TIE_ANG_XX That is exactly what happened.
+1002_TIE_DIS_XX That is exactly what happened.
+1002_TIE_FEA_XX That is exactly what happened.
+1002_TIE_HAP_XX That is exactly what happened.
+1002_TIE_SAD_XX That is exactly what happened.
+1002_TSI_ANG_XX The surface is slick.
+1002_TSI_DIS_XX The surface is slick.
+1002_TSI_FEA_XX The surface is slick.
+1002_TSI_HAP_XX The surface is slick.
+1002_TSI_NEU_XX The surface is slick.
+1002_TSI_SAD_XX The surface is slick.
+1002_WSI_ANG_XX We'll stop in a couple of minutes.
+1002_WSI_DIS_XX We'll stop in a couple of minutes.
+1002_WSI_FEA_XX We'll stop in a couple of minutes.
+1002_WSI_HAP_XX We'll stop in a couple of minutes.
+1002_WSI_NEU_XX We'll stop in a couple of minutes.
+1002_WSI_SAD_XX We'll stop in a couple of minutes.
+1003_DFA_ANG_XX Don't forget a jacket.
+1003_DFA_DIS_XX Don't forget a jacket.
+1003_DFA_FEA_XX Don't forget a jacket.
+1003_DFA_HAP_XX Don't forget a jacket.
+1003_DFA_NEU_XX Don't forget a jacket.
+1003_DFA_SAD_XX Don't forget a jacket.
+1003_IEO_ANG_HI It's eleven o'clock.
+1003_IEO_ANG_LO It's eleven o'clock.
+1003_IEO_ANG_MD It's eleven o'clock.
+1003_IEO_DIS_HI It's eleven o'clock.
+1003_IEO_DIS_LO It's eleven o'clock.
+1003_IEO_DIS_MD It's eleven o'clock.
+1003_IEO_FEA_HI It's eleven o'clock.
+1003_IEO_FEA_LO It's eleven o'clock.
+1003_IEO_FEA_MD It's eleven o'clock.
+1003_IEO_HAP_HI It's eleven o'clock.
+1003_IEO_HAP_LO It's eleven o'clock.
+1003_IEO_HAP_MD It's eleven o'clock.
+1003_IEO_NEU_XX It's eleven o'clock.
+1003_IEO_SAD_HI It's eleven o'clock.
+1003_IEO_SAD_LO It's eleven o'clock.
+1003_IEO_SAD_MD It's eleven o'clock.
+1003_IOM_ANG_XX I'm on my way to the meeting.
+1003_IOM_DIS_XX I'm on my way to the meeting.
+1003_IOM_FEA_XX I'm on my way to the meeting.
+1003_IOM_HAP_XX I'm on my way to the meeting.
+1003_IOM_NEU_XX I'm on my way to the meeting.
+1003_IOM_SAD_XX I'm on my way to the meeting.
+1003_ITH_ANG_XX I think I have a doctor's appointment.
+1003_ITH_DIS_XX I think I have a doctor's appointment.
+1003_ITH_FEA_XX I think I have a doctor's appointment.
+1003_ITH_HAP_XX I think I have a doctor's appointment.
+1003_ITH_NEU_XX I think I have a doctor's appointment.
+1003_ITH_SAD_XX I think I have a doctor's appointment.
+1003_ITS_ANG_XX I think I've seen this before.
+1003_ITS_DIS_XX I think I've seen this before.
+1003_ITS_FEA_XX I think I've seen this before.
+1003_ITS_HAP_XX I think I've seen this before.
+1003_ITS_NEU_XX I think I've seen this before.
+1003_ITS_SAD_XX I think I've seen this before.
+1003_IWL_ANG_XX I would like a new alarm clock.
+1003_IWL_DIS_XX I would like a new alarm clock.
+1003_IWL_FEA_XX I would like a new alarm clock.
+1003_IWL_HAP_XX I would like a new alarm clock.
+1003_IWL_NEU_XX I would like a new alarm clock.
+1003_IWL_SAD_XX I would like a new alarm clock.
+1003_IWW_ANG_XX I wonder what this is about.
+1003_IWW_DIS_XX I wonder what this is about.
+1003_IWW_FEA_XX I wonder what this is about.
+1003_IWW_HAP_XX I wonder what this is about.
+1003_IWW_NEU_XX I wonder what this is about.
+1003_IWW_SAD_XX I wonder what this is about.
+1003_MTI_ANG_XX Maybe tomorrow it will be cold.
+1003_MTI_DIS_XX Maybe tomorrow it will be cold.
+1003_MTI_FEA_XX Maybe tomorrow it will be cold.
+1003_MTI_HAP_XX Maybe tomorrow it will be cold.
+1003_MTI_NEU_XX Maybe tomorrow it will be cold.
+1003_MTI_SAD_XX Maybe tomorrow it will be cold.
+1003_TAI_ANG_XX The airplane is almost full.
+1003_TAI_DIS_XX The airplane is almost full.
+1003_TAI_FEA_XX The airplane is almost full.
+1003_TAI_HAP_XX The airplane is almost full.
+1003_TAI_NEU_XX The airplane is almost full.
+1003_TAI_SAD_XX The airplane is almost full.
+1003_TIE_ANG_XX That is exactly what happened.
+1003_TIE_DIS_XX That is exactly what happened.
+1003_TIE_FEA_XX That is exactly what happened.
+1003_TIE_HAP_XX That is exactly what happened.
+1003_TIE_NEU_XX That is exactly what happened.
+1003_TIE_SAD_XX That is exactly what happened.
+1003_TSI_ANG_XX The surface is slick.
+1003_TSI_DIS_XX The surface is slick.
+1003_TSI_FEA_XX The surface is slick.
+1003_TSI_HAP_XX The surface is slick.
+1003_TSI_NEU_XX The surface is slick.
+1003_TSI_SAD_XX The surface is slick.
+1003_WSI_ANG_XX We'll stop in a couple of minutes.
+1003_WSI_DIS_XX We'll stop in a couple of minutes.
+1003_WSI_FEA_XX We'll stop in a couple of minutes.
+1003_WSI_HAP_XX We'll stop in a couple of minutes.
+1003_WSI_NEU_XX We'll stop in a couple of minutes.
+1003_WSI_SAD_XX We'll stop in a couple of minutes.
+1004_DFA_ANG_XX Don't forget a jacket.
+1004_DFA_DIS_XX Don't forget a jacket.
+1004_DFA_FEA_XX Don't forget a jacket.
+1004_DFA_HAP_XX Don't forget a jacket.
+1004_DFA_NEU_XX Don't forget a jacket.
+1004_DFA_SAD_XX Don't forget a jacket.
+1004_IEO_ANG_HI It's eleven o'clock.
+1004_IEO_ANG_LO It's eleven o'clock.
+1004_IEO_ANG_MD It's eleven o'clock.
+1004_IEO_DIS_HI It's eleven o'clock.
+1004_IEO_DIS_LO It's eleven o'clock.
+1004_IEO_DIS_MD It's eleven o'clock.
+1004_IEO_FEA_HI It's eleven o'clock.
+1004_IEO_FEA_LO It's eleven o'clock.
+1004_IEO_FEA_MD It's eleven o'clock.
+1004_IEO_HAP_HI It's eleven o'clock.
+1004_IEO_HAP_LO It's eleven o'clock.
+1004_IEO_HAP_MD It's eleven o'clock.
+1004_IEO_NEU_XX It's eleven o'clock.
+1004_IEO_SAD_HI It's eleven o'clock.
+1004_IEO_SAD_LO It's eleven o'clock.
+1004_IEO_SAD_MD It's eleven o'clock.
+1004_IOM_ANG_XX I'm on my way to the meeting.
+1004_IOM_DIS_XX I'm on my way to the meeting.
+1004_IOM_FEA_XX I'm on my way to the meeting.
+1004_IOM_HAP_XX I'm on my way to the meeting.
+1004_IOM_NEU_XX I'm on my way to the meeting.
+1004_IOM_SAD_XX I'm on my way to the meeting.
+1004_ITH_ANG_XX I think I have a doctor's appointment.
+1004_ITH_DIS_XX I think I have a doctor's appointment.
+1004_ITH_FEA_XX I think I have a doctor's appointment.
+1004_ITH_HAP_XX I think I have a doctor's appointment.
+1004_ITH_NEU_XX I think I have a doctor's appointment.
+1004_ITH_SAD_XX I think I have a doctor's appointment.
+1004_ITS_ANG_XX I think I've seen this before.
+1004_ITS_DIS_XX I think I've seen this before.
+1004_ITS_FEA_XX I think I've seen this before.
+1004_ITS_HAP_XX I think I've seen this before.
+1004_ITS_NEU_XX I think I've seen this before.
+1004_ITS_SAD_XX I think I've seen this before.
+1004_IWL_ANG_XX I would like a new alarm clock.
+1004_IWL_DIS_XX I would like a new alarm clock.
+1004_IWL_FEA_XX I would like a new alarm clock.
+1004_IWL_HAP_XX I would like a new alarm clock.
+1004_IWL_NEU_XX I would like a new alarm clock.
+1004_IWL_SAD_XX I would like a new alarm clock.
+1004_IWW_ANG_XX I wonder what this is about.
+1004_IWW_DIS_XX I wonder what this is about.
+1004_IWW_FEA_XX I wonder what this is about.
+1004_IWW_HAP_XX I wonder what this is about.
+1004_IWW_NEU_XX I wonder what this is about.
+1004_IWW_SAD_XX I wonder what this is about.
+1004_MTI_ANG_XX Maybe tomorrow it will be cold.
+1004_MTI_DIS_XX Maybe tomorrow it will be cold.
+1004_MTI_FEA_XX Maybe tomorrow it will be cold.
+1004_MTI_HAP_XX Maybe tomorrow it will be cold.
+1004_MTI_NEU_XX Maybe tomorrow it will be cold.
+1004_MTI_SAD_XX Maybe tomorrow it will be cold.
+1004_TAI_ANG_XX The airplane is almost full.
+1004_TAI_DIS_XX The airplane is almost full.
+1004_TAI_FEA_XX The airplane is almost full.
+1004_TAI_HAP_XX The airplane is almost full.
+1004_TAI_NEU_XX The airplane is almost full.
+1004_TAI_SAD_XX The airplane is almost full.
+1004_TIE_ANG_XX That is exactly what happened.
+1004_TIE_DIS_XX That is exactly what happened.
+1004_TIE_FEA_XX That is exactly what happened.
+1004_TIE_HAP_XX That is exactly what happened.
+1004_TIE_NEU_XX That is exactly what happened.
+1004_TIE_SAD_XX That is exactly what happened.
+1004_TSI_ANG_XX The surface is slick.
+1004_TSI_DIS_XX The surface is slick.
+1004_TSI_FEA_XX The surface is slick.
+1004_TSI_HAP_XX The surface is slick.
+1004_TSI_NEU_XX The surface is slick.
+1004_TSI_SAD_XX The surface is slick.
+1004_WSI_ANG_XX We'll stop in a couple of minutes.
+1004_WSI_DIS_XX We'll stop in a couple of minutes.
+1004_WSI_FEA_XX We'll stop in a couple of minutes.
+1004_WSI_HAP_XX We'll stop in a couple of minutes.
+1004_WSI_NEU_XX We'll stop in a couple of minutes.
+1004_WSI_SAD_XX We'll stop in a couple of minutes.
+1005_DFA_ANG_XX Don't forget a jacket.
+1005_DFA_DIS_XX Don't forget a jacket.
+1005_DFA_FEA_XX Don't forget a jacket.
+1005_DFA_HAP_XX Don't forget a jacket.
+1005_DFA_NEU_XX Don't forget a jacket.
+1005_DFA_SAD_XX Don't forget a jacket.
+1005_IEO_ANG_HI It's eleven o'clock.
+1005_IEO_ANG_LO It's eleven o'clock.
+1005_IEO_ANG_MD It's eleven o'clock.
+1005_IEO_DIS_HI It's eleven o'clock.
+1005_IEO_DIS_LO It's eleven o'clock.
+1005_IEO_DIS_MD It's eleven o'clock.
+1005_IEO_FEA_HI It's eleven o'clock.
+1005_IEO_FEA_LO It's eleven o'clock.
+1005_IEO_FEA_MD It's eleven o'clock.
+1005_IEO_HAP_HI It's eleven o'clock.
+1005_IEO_HAP_LO It's eleven o'clock.
+1005_IEO_HAP_MD It's eleven o'clock.
+1005_IEO_NEU_XX It's eleven o'clock.
+1005_IEO_SAD_HI It's eleven o'clock.
+1005_IEO_SAD_LO It's eleven o'clock.
+1005_IEO_SAD_MD It's eleven o'clock.
+1005_IOM_ANG_XX I'm on my way to the meeting.
+1005_IOM_DIS_XX I'm on my way to the meeting.
+1005_IOM_FEA_XX I'm on my way to the meeting.
+1005_IOM_HAP_XX I'm on my way to the meeting.
+1005_IOM_NEU_XX I'm on my way to the meeting.
+1005_IOM_SAD_XX I'm on my way to the meeting.
+1005_ITH_ANG_XX I think I have a doctor's appointment.
+1005_ITH_DIS_XX I think I have a doctor's appointment.
+1005_ITH_FEA_XX I think I have a doctor's appointment.
+1005_ITH_HAP_XX I think I have a doctor's appointment.
+1005_ITH_NEU_XX I think I have a doctor's appointment.
+1005_ITH_SAD_XX I think I have a doctor's appointment.
+1005_ITS_ANG_XX I think I've seen this before.
+1005_ITS_DIS_XX I think I've seen this before.
+1005_ITS_FEA_XX I think I've seen this before.
+1005_ITS_HAP_XX I think I've seen this before.
+1005_ITS_NEU_XX I think I've seen this before.
+1005_ITS_SAD_XX I think I've seen this before.
+1005_IWL_ANG_XX I would like a new alarm clock.
+1005_IWL_DIS_XX I would like a new alarm clock.
+1005_IWL_FEA_XX I would like a new alarm clock.
+1005_IWL_HAP_XX I would like a new alarm clock.
+1005_IWL_NEU_XX I would like a new alarm clock.
+1005_IWL_SAD_XX I would like a new alarm clock.
+1005_IWW_ANG_XX I wonder what this is about.
+1005_IWW_DIS_XX I wonder what this is about.
+1005_IWW_FEA_XX I wonder what this is about.
+1005_IWW_HAP_XX I wonder what this is about.
+1005_IWW_NEU_XX I wonder what this is about.
+1005_IWW_SAD_XX I wonder what this is about.
+1005_MTI_ANG_XX Maybe tomorrow it will be cold.
+1005_MTI_DIS_XX Maybe tomorrow it will be cold.
+1005_MTI_FEA_XX Maybe tomorrow it will be cold.
+1005_MTI_HAP_XX Maybe tomorrow it will be cold.
+1005_MTI_NEU_XX Maybe tomorrow it will be cold.
+1005_MTI_SAD_XX Maybe tomorrow it will be cold.
+1005_TAI_ANG_XX The airplane is almost full.
+1005_TAI_DIS_XX The airplane is almost full.
+1005_TAI_FEA_XX The airplane is almost full.
+1005_TAI_HAP_XX The airplane is almost full.
+1005_TAI_NEU_XX The airplane is almost full.
+1005_TAI_SAD_XX The airplane is almost full.
+1005_TIE_ANG_XX That is exactly what happened.
+1005_TIE_DIS_XX That is exactly what happened.
+1005_TIE_FEA_XX That is exactly what happened.
+1005_TIE_HAP_XX That is exactly what happened.
+1005_TIE_NEU_XX That is exactly what happened.
+1005_TIE_SAD_XX That is exactly what happened.
+1005_TSI_ANG_XX The surface is slick.
+1005_TSI_DIS_XX The surface is slick.
+1005_TSI_FEA_XX The surface is slick.
+1005_TSI_HAP_XX The surface is slick.
+1005_TSI_NEU_XX The surface is slick.
+1005_TSI_SAD_XX The surface is slick.
+1005_WSI_ANG_XX We'll stop in a couple of minutes.
+1005_WSI_DIS_XX We'll stop in a couple of minutes.
+1005_WSI_FEA_XX We'll stop in a couple of minutes.
+1005_WSI_HAP_XX We'll stop in a couple of minutes.
+1005_WSI_NEU_XX We'll stop in a couple of minutes.
+1005_WSI_SAD_XX We'll stop in a couple of minutes.
+1006_DFA_ANG_XX Don't forget a jacket.
+1006_DFA_DIS_XX Don't forget a jacket.
+1006_DFA_FEA_XX Don't forget a jacket.
+1006_DFA_HAP_XX Don't forget a jacket.
+1006_DFA_NEU_XX Don't forget a jacket.
+1006_DFA_SAD_XX Don't forget a jacket.
+1006_IEO_ANG_HI It's eleven o'clock.
+1006_IEO_ANG_LO It's eleven o'clock.
+1006_IEO_ANG_MD It's eleven o'clock.
+1006_IEO_DIS_HI It's eleven o'clock.
+1006_IEO_DIS_LO It's eleven o'clock.
+1006_IEO_DIS_MD It's eleven o'clock.
+1006_IEO_FEA_HI It's eleven o'clock.
+1006_IEO_FEA_LO It's eleven o'clock.
+1006_IEO_FEA_MD It's eleven o'clock.
+1006_IEO_HAP_HI It's eleven o'clock.
+1006_IEO_HAP_LO It's eleven o'clock.
+1006_IEO_HAP_MD It's eleven o'clock.
+1006_IEO_NEU_XX It's eleven o'clock.
+1006_IEO_SAD_HI It's eleven o'clock.
+1006_IEO_SAD_LO It's eleven o'clock.
+1006_IEO_SAD_MD It's eleven o'clock.
+1006_IOM_ANG_XX I'm on my way to the meeting.
+1006_IOM_DIS_XX I'm on my way to the meeting.
+1006_IOM_FEA_XX I'm on my way to the meeting.
+1006_IOM_HAP_XX I'm on my way to the meeting.
+1006_IOM_NEU_XX I'm on my way to the meeting.
+1006_IOM_SAD_XX I'm on my way to the meeting.
+1006_ITH_ANG_XX I think I have a doctor's appointment.
+1006_ITH_DIS_XX I think I have a doctor's appointment.
+1006_ITH_FEA_XX I think I have a doctor's appointment.
+1006_ITH_HAP_XX I think I have a doctor's appointment.
+1006_ITH_NEU_XX I think I have a doctor's appointment.
+1006_ITH_SAD_XX I think I have a doctor's appointment.
+1006_ITS_ANG_XX I think I've seen this before.
+1006_ITS_DIS_XX I think I've seen this before.
+1006_ITS_FEA_XX I think I've seen this before.
+1006_ITS_HAP_XX I think I've seen this before.
+1006_ITS_NEU_XX I think I've seen this before.
+1006_ITS_SAD_XX I think I've seen this before.
+1006_IWL_ANG_XX I would like a new alarm clock.
+1006_IWL_DIS_XX I would like a new alarm clock.
+1006_IWL_FEA_XX I would like a new alarm clock.
+1006_IWL_HAP_XX I would like a new alarm clock.
+1006_IWL_NEU_XX I would like a new alarm clock.
+1006_IWL_SAD_XX I would like a new alarm clock.
+1006_IWW_ANG_XX I wonder what this is about.
+1006_IWW_DIS_XX I wonder what this is about.
+1006_IWW_FEA_XX I wonder what this is about.
+1006_IWW_HAP_XX I wonder what this is about.
+1006_IWW_NEU_XX I wonder what this is about.
+1006_IWW_SAD_XX I wonder what this is about.
+1006_MTI_ANG_XX Maybe tomorrow it will be cold.
+1006_MTI_DIS_XX Maybe tomorrow it will be cold.
+1006_MTI_FEA_XX Maybe tomorrow it will be cold.
+1006_MTI_HAP_XX Maybe tomorrow it will be cold.
+1006_MTI_NEU_XX Maybe tomorrow it will be cold.
+1006_MTI_SAD_XX Maybe tomorrow it will be cold.
+1006_TAI_ANG_XX The airplane is almost full.
+1006_TAI_DIS_XX The airplane is almost full.
+1006_TAI_FEA_XX The airplane is almost full.
+1006_TAI_HAP_XX The airplane is almost full.
+1006_TAI_NEU_XX The airplane is almost full.
+1006_TAI_SAD_XX The airplane is almost full.
+1006_TIE_ANG_XX That is exactly what happened.
+1006_TIE_DIS_XX That is exactly what happened.
+1006_TIE_FEA_XX That is exactly what happened.
+1006_TIE_HAP_XX That is exactly what happened.
+1006_TIE_NEU_XX That is exactly what happened.
+1006_TIE_SAD_XX That is exactly what happened.
+1006_TSI_ANG_XX The surface is slick.
+1006_TSI_DIS_XX The surface is slick.
+1006_TSI_FEA_XX The surface is slick.
+1006_TSI_HAP_XX The surface is slick.
+1006_TSI_NEU_XX The surface is slick.
+1006_TSI_SAD_XX The surface is slick.
+1006_WSI_ANG_XX We'll stop in a couple of minutes.
+1006_WSI_DIS_XX We'll stop in a couple of minutes.
+1006_WSI_FEA_XX We'll stop in a couple of minutes.
+1006_WSI_HAP_XX We'll stop in a couple of minutes.
+1006_WSI_NEU_XX We'll stop in a couple of minutes.
+1006_WSI_SAD_XX We'll stop in a couple of minutes.
+1007_DFA_ANG_XX Don't forget a jacket.
+1007_DFA_DIS_XX Don't forget a jacket.
+1007_DFA_FEA_XX Don't forget a jacket.
+1007_DFA_HAP_XX Don't forget a jacket.
+1007_DFA_NEU_XX Don't forget a jacket.
+1007_DFA_SAD_XX Don't forget a jacket.
+1007_IEO_ANG_HI It's eleven o'clock.
+1007_IEO_ANG_LO It's eleven o'clock.
+1007_IEO_ANG_MD It's eleven o'clock.
+1007_IEO_DIS_HI It's eleven o'clock.
+1007_IEO_DIS_LO It's eleven o'clock.
+1007_IEO_DIS_MD It's eleven o'clock.
+1007_IEO_FEA_HI It's eleven o'clock.
+1007_IEO_FEA_LO It's eleven o'clock.
+1007_IEO_FEA_MD It's eleven o'clock.
+1007_IEO_HAP_HI It's eleven o'clock.
+1007_IEO_HAP_LO It's eleven o'clock.
+1007_IEO_HAP_MD It's eleven o'clock.
+1007_IEO_NEU_XX It's eleven o'clock.
+1007_IEO_SAD_HI It's eleven o'clock.
+1007_IEO_SAD_LO It's eleven o'clock.
+1007_IEO_SAD_MD It's eleven o'clock.
+1007_IOM_ANG_XX I'm on my way to the meeting.
+1007_IOM_DIS_XX I'm on my way to the meeting.
+1007_IOM_FEA_XX I'm on my way to the meeting.
+1007_IOM_HAP_XX I'm on my way to the meeting.
+1007_IOM_NEU_XX I'm on my way to the meeting.
+1007_IOM_SAD_XX I'm on my way to the meeting.
+1007_ITH_ANG_XX I think I have a doctor's appointment.
+1007_ITH_DIS_XX I think I have a doctor's appointment.
+1007_ITH_FEA_XX I think I have a doctor's appointment.
+1007_ITH_HAP_XX I think I have a doctor's appointment.
+1007_ITH_NEU_XX I think I have a doctor's appointment.
+1007_ITH_SAD_XX I think I have a doctor's appointment.
+1007_ITS_ANG_XX I think I've seen this before.
+1007_ITS_DIS_XX I think I've seen this before.
+1007_ITS_FEA_XX I think I've seen this before.
+1007_ITS_HAP_XX I think I've seen this before.
+1007_ITS_NEU_XX I think I've seen this before.
+1007_ITS_SAD_XX I think I've seen this before.
+1007_IWL_ANG_XX I would like a new alarm clock.
+1007_IWL_DIS_XX I would like a new alarm clock.
+1007_IWL_FEA_XX I would like a new alarm clock.
+1007_IWL_HAP_XX I would like a new alarm clock.
+1007_IWL_NEU_XX I would like a new alarm clock.
+1007_IWL_SAD_XX I would like a new alarm clock.
+1007_IWW_ANG_XX I wonder what this is about.
+1007_IWW_DIS_XX I wonder what this is about.
+1007_IWW_FEA_XX I wonder what this is about.
+1007_IWW_HAP_XX I wonder what this is about.
+1007_IWW_NEU_XX I wonder what this is about.
+1007_IWW_SAD_XX I wonder what this is about.
+1007_MTI_ANG_XX Maybe tomorrow it will be cold.
+1007_MTI_DIS_XX Maybe tomorrow it will be cold.
+1007_MTI_FEA_XX Maybe tomorrow it will be cold.
+1007_MTI_HAP_XX Maybe tomorrow it will be cold.
+1007_MTI_NEU_XX Maybe tomorrow it will be cold.
+1007_MTI_SAD_XX Maybe tomorrow it will be cold.
+1007_TAI_ANG_XX The airplane is almost full.
+1007_TAI_DIS_XX The airplane is almost full.
+1007_TAI_FEA_XX The airplane is almost full.
+1007_TAI_HAP_XX The airplane is almost full.
+1007_TAI_NEU_XX The airplane is almost full.
+1007_TAI_SAD_XX The airplane is almost full.
+1007_TIE_ANG_XX That is exactly what happened.
+1007_TIE_DIS_XX That is exactly what happened.
+1007_TIE_FEA_XX That is exactly what happened.
+1007_TIE_HAP_XX That is exactly what happened.
+1007_TIE_NEU_XX That is exactly what happened.
+1007_TIE_SAD_XX That is exactly what happened.
+1007_TSI_ANG_XX The surface is slick.
+1007_TSI_DIS_XX The surface is slick.
+1007_TSI_FEA_XX The surface is slick.
+1007_TSI_HAP_XX The surface is slick.
+1007_TSI_NEU_XX The surface is slick.
+1007_TSI_SAD_XX The surface is slick.
+1007_WSI_ANG_XX We'll stop in a couple of minutes.
+1007_WSI_DIS_XX We'll stop in a couple of minutes.
+1007_WSI_FEA_XX We'll stop in a couple of minutes.
+1007_WSI_HAP_XX We'll stop in a couple of minutes.
+1007_WSI_NEU_XX We'll stop in a couple of minutes.
+1007_WSI_SAD_XX We'll stop in a couple of minutes.
+1008_DFA_ANG_XX Don't forget a jacket.
+1008_DFA_DIS_XX Don't forget a jacket.
+1008_DFA_FEA_XX Don't forget a jacket.
+1008_DFA_HAP_XX Don't forget a jacket.
+1008_DFA_NEU_XX Don't forget a jacket.
+1008_DFA_SAD_XX Don't forget a jacket.
+1008_IEO_ANG_HI It's eleven o'clock.
+1008_IEO_ANG_LO It's eleven o'clock.
+1008_IEO_ANG_MD It's eleven o'clock.
+1008_IEO_DIS_HI It's eleven o'clock.
+1008_IEO_DIS_LO It's eleven o'clock.
+1008_IEO_DIS_MD It's eleven o'clock.
+1008_IEO_FEA_HI It's eleven o'clock.
+1008_IEO_FEA_LO It's eleven o'clock.
+1008_IEO_FEA_MD It's eleven o'clock.
+1008_IEO_HAP_HI It's eleven o'clock.
+1008_IEO_HAP_LO It's eleven o'clock.
+1008_IEO_HAP_MD It's eleven o'clock.
+1008_IEO_NEU_XX It's eleven o'clock.
+1008_IEO_SAD_HI It's eleven o'clock.
+1008_IEO_SAD_LO It's eleven o'clock.
+1008_IEO_SAD_MD It's eleven o'clock.
+1008_IOM_ANG_XX I'm on my way to the meeting.
+1008_IOM_DIS_XX I'm on my way to the meeting.
+1008_IOM_FEA_XX I'm on my way to the meeting.
+1008_IOM_HAP_XX I'm on my way to the meeting.
+1008_IOM_NEU_XX I'm on my way to the meeting.
+1008_IOM_SAD_XX I'm on my way to the meeting.
+1008_ITH_ANG_XX I think I have a doctor's appointment.
+1008_ITH_DIS_XX I think I have a doctor's appointment.
+1008_ITH_FEA_XX I think I have a doctor's appointment.
+1008_ITH_HAP_XX I think I have a doctor's appointment.
+1008_ITH_NEU_XX I think I have a doctor's appointment.
+1008_ITH_SAD_XX I think I have a doctor's appointment.
+1008_ITS_ANG_XX I think I've seen this before.
+1008_ITS_DIS_XX I think I've seen this before.
+1008_ITS_FEA_XX I think I've seen this before.
+1008_ITS_HAP_XX I think I've seen this before.
+1008_ITS_NEU_XX I think I've seen this before.
+1008_ITS_SAD_XX I think I've seen this before.
+1008_IWL_ANG_XX I would like a new alarm clock.
+1008_IWL_DIS_XX I would like a new alarm clock.
+1008_IWL_FEA_XX I would like a new alarm clock.
+1008_IWL_HAP_XX I would like a new alarm clock.
+1008_IWL_NEU_XX I would like a new alarm clock.
+1008_IWL_SAD_XX I would like a new alarm clock.
+1008_IWW_ANG_XX I wonder what this is about.
+1008_IWW_DIS_XX I wonder what this is about.
+1008_IWW_FEA_XX I wonder what this is about.
+1008_IWW_HAP_XX I wonder what this is about.
+1008_IWW_NEU_XX I wonder what this is about.
+1008_IWW_SAD_XX I wonder what this is about.
+1008_MTI_ANG_XX Maybe tomorrow it will be cold.
+1008_MTI_DIS_XX Maybe tomorrow it will be cold.
+1008_MTI_FEA_XX Maybe tomorrow it will be cold.
+1008_MTI_HAP_XX Maybe tomorrow it will be cold.
+1008_MTI_NEU_XX Maybe tomorrow it will be cold.
+1008_MTI_SAD_XX Maybe tomorrow it will be cold.
+1008_TAI_ANG_XX The airplane is almost full.
+1008_TAI_DIS_XX The airplane is almost full.
+1008_TAI_FEA_XX The airplane is almost full.
+1008_TAI_HAP_XX The airplane is almost full.
+1008_TAI_NEU_XX The airplane is almost full.
+1008_TAI_SAD_XX The airplane is almost full.
+1008_TIE_ANG_XX That is exactly what happened.
+1008_TIE_DIS_XX That is exactly what happened.
+1008_TIE_FEA_XX That is exactly what happened.
+1008_TIE_HAP_XX That is exactly what happened.
+1008_TIE_NEU_XX That is exactly what happened.
+1008_TIE_SAD_XX That is exactly what happened.
+1008_TSI_ANG_XX The surface is slick.
+1008_TSI_DIS_XX The surface is slick.
+1008_TSI_FEA_XX The surface is slick.
+1008_TSI_HAP_XX The surface is slick.
+1008_TSI_NEU_XX The surface is slick.
+1008_TSI_SAD_XX The surface is slick.
+1009_DFA_ANG_XX Don't forget a jacket.
+1009_DFA_DIS_XX Don't forget a jacket.
+1009_DFA_FEA_XX Don't forget a jacket.
+1009_DFA_HAP_XX Don't forget a jacket.
+1009_DFA_NEU_XX Don't forget a jacket.
+1009_DFA_SAD_XX Don't forget a jacket.
+1009_IEO_ANG_HI It's eleven o'clock.
+1009_IEO_ANG_LO It's eleven o'clock.
+1009_IEO_ANG_MD It's eleven o'clock.
+1009_IEO_DIS_HI It's eleven o'clock.
+1009_IEO_DIS_LO It's eleven o'clock.
+1009_IEO_DIS_MD It's eleven o'clock.
+1009_IEO_FEA_HI It's eleven o'clock.
+1009_IEO_FEA_LO It's eleven o'clock.
+1009_IEO_FEA_MD It's eleven o'clock.
+1009_IEO_HAP_HI It's eleven o'clock.
+1009_IEO_HAP_LO It's eleven o'clock.
+1009_IEO_HAP_MD It's eleven o'clock.
+1009_IEO_NEU_XX It's eleven o'clock.
+1009_IEO_SAD_HI It's eleven o'clock.
+1009_IEO_SAD_LO It's eleven o'clock.
+1009_IEO_SAD_MD It's eleven o'clock.
+1009_IOM_ANG_XX I'm on my way to the meeting.
+1009_IOM_DIS_XX I'm on my way to the meeting.
+1009_IOM_FEA_XX I'm on my way to the meeting.
+1009_IOM_HAP_XX I'm on my way to the meeting.
+1009_IOM_NEU_XX I'm on my way to the meeting.
+1009_IOM_SAD_XX I'm on my way to the meeting.
+1009_ITH_ANG_XX I think I have a doctor's appointment.
+1009_ITH_DIS_XX I think I have a doctor's appointment.
+1009_ITH_FEA_XX I think I have a doctor's appointment.
+1009_ITH_HAP_XX I think I have a doctor's appointment.
+1009_ITH_NEU_XX I think I have a doctor's appointment.
+1009_ITH_SAD_XX I think I have a doctor's appointment.
+1009_ITS_ANG_XX I think I've seen this before.
+1009_ITS_DIS_XX I think I've seen this before.
+1009_ITS_FEA_XX I think I've seen this before.
+1009_ITS_HAP_XX I think I've seen this before.
+1009_ITS_NEU_XX I think I've seen this before.
+1009_ITS_SAD_XX I think I've seen this before.
+1009_IWL_ANG_XX I would like a new alarm clock.
+1009_IWL_DIS_XX I would like a new alarm clock.
+1009_IWL_FEA_XX I would like a new alarm clock.
+1009_IWL_HAP_XX I would like a new alarm clock.
+1009_IWL_NEU_XX I would like a new alarm clock.
+1009_IWL_SAD_XX I would like a new alarm clock.
+1009_IWW_ANG_XX I wonder what this is about.
+1009_IWW_DIS_XX I wonder what this is about.
+1009_IWW_FEA_XX I wonder what this is about.
+1009_IWW_HAP_XX I wonder what this is about.
+1009_IWW_NEU_XX I wonder what this is about.
+1009_IWW_SAD_XX I wonder what this is about.
+1009_TAI_ANG_XX The airplane is almost full.
+1009_TAI_DIS_XX The airplane is almost full.
+1009_TAI_FEA_XX The airplane is almost full.
+1009_TAI_HAP_XX The airplane is almost full.
+1009_TAI_NEU_XX The airplane is almost full.
+1009_TAI_SAD_XX The airplane is almost full.
+1009_TIE_ANG_XX That is exactly what happened.
+1009_TIE_DIS_XX That is exactly what happened.
+1009_TIE_FEA_XX That is exactly what happened.
+1009_TIE_HAP_XX That is exactly what happened.
+1009_TIE_NEU_XX That is exactly what happened.
+1009_TIE_SAD_XX That is exactly what happened.
+1009_TSI_ANG_XX The surface is slick.
+1009_TSI_DIS_XX The surface is slick.
+1009_TSI_FEA_XX The surface is slick.
+1009_TSI_HAP_XX The surface is slick.
+1009_TSI_NEU_XX The surface is slick.
+1009_TSI_SAD_XX The surface is slick.
+1009_WSI_ANG_XX We'll stop in a couple of minutes.
+1009_WSI_DIS_XX We'll stop in a couple of minutes.
+1009_WSI_FEA_XX We'll stop in a couple of minutes.
+1009_WSI_HAP_XX We'll stop in a couple of minutes.
+1009_WSI_NEU_XX We'll stop in a couple of minutes.
+1009_WSI_SAD_XX We'll stop in a couple of minutes.
+1010_DFA_ANG_XX Don't forget a jacket.
+1010_DFA_DIS_XX Don't forget a jacket.
+1010_DFA_FEA_XX Don't forget a jacket.
+1010_DFA_HAP_XX Don't forget a jacket.
+1010_DFA_NEU_XX Don't forget a jacket.
+1010_DFA_SAD_XX Don't forget a jacket.
+1010_IEO_ANG_HI It's eleven o'clock.
+1010_IEO_ANG_LO It's eleven o'clock.
+1010_IEO_ANG_MD It's eleven o'clock.
+1010_IEO_DIS_HI It's eleven o'clock.
+1010_IEO_DIS_LO It's eleven o'clock.
+1010_IEO_DIS_MD It's eleven o'clock.
+1010_IEO_FEA_HI It's eleven o'clock.
+1010_IEO_FEA_LO It's eleven o'clock.
+1010_IEO_FEA_MD It's eleven o'clock.
+1010_IEO_HAP_HI It's eleven o'clock.
+1010_IEO_HAP_LO It's eleven o'clock.
+1010_IEO_HAP_MD It's eleven o'clock.
+1010_IEO_NEU_XX It's eleven o'clock.
+1010_IEO_SAD_HI It's eleven o'clock.
+1010_IEO_SAD_LO It's eleven o'clock.
+1010_IEO_SAD_MD It's eleven o'clock.
+1010_IOM_ANG_XX I'm on my way to the meeting.
+1010_IOM_DIS_XX I'm on my way to the meeting.
+1010_IOM_FEA_XX I'm on my way to the meeting.
+1010_IOM_HAP_XX I'm on my way to the meeting.
+1010_IOM_NEU_XX I'm on my way to the meeting.
+1010_IOM_SAD_XX I'm on my way to the meeting.
+1010_ITH_ANG_XX I think I have a doctor's appointment.
+1010_ITH_DIS_XX I think I have a doctor's appointment.
+1010_ITH_FEA_XX I think I have a doctor's appointment.
+1010_ITH_HAP_XX I think I have a doctor's appointment.
+1010_ITH_NEU_XX I think I have a doctor's appointment.
+1010_ITH_SAD_XX I think I have a doctor's appointment.
+1010_ITS_ANG_XX I think I've seen this before.
+1010_ITS_DIS_XX I think I've seen this before.
+1010_ITS_FEA_XX I think I've seen this before.
+1010_ITS_HAP_XX I think I've seen this before.
+1010_ITS_NEU_XX I think I've seen this before.
+1010_ITS_SAD_XX I think I've seen this before.
+1010_IWL_ANG_XX I would like a new alarm clock.
+1010_IWL_DIS_XX I would like a new alarm clock.
+1010_IWL_FEA_XX I would like a new alarm clock.
+1010_IWL_HAP_XX I would like a new alarm clock.
+1010_IWL_NEU_XX I would like a new alarm clock.
+1010_IWL_SAD_XX I would like a new alarm clock.
+1010_IWW_ANG_XX I wonder what this is about.
+1010_IWW_DIS_XX I wonder what this is about.
+1010_IWW_FEA_XX I wonder what this is about.
+1010_IWW_HAP_XX I wonder what this is about.
+1010_IWW_NEU_XX I wonder what this is about.
+1010_IWW_SAD_XX I wonder what this is about.
+1010_MTI_ANG_XX Maybe tomorrow it will be cold.
+1010_MTI_DIS_XX Maybe tomorrow it will be cold.
+1010_MTI_FEA_XX Maybe tomorrow it will be cold.
+1010_MTI_HAP_XX Maybe tomorrow it will be cold.
+1010_MTI_NEU_XX Maybe tomorrow it will be cold.
+1010_MTI_SAD_XX Maybe tomorrow it will be cold.
+1010_TAI_ANG_XX The airplane is almost full.
+1010_TAI_DIS_XX The airplane is almost full.
+1010_TAI_FEA_XX The airplane is almost full.
+1010_TAI_HAP_XX The airplane is almost full.
+1010_TAI_NEU_XX The airplane is almost full.
+1010_TAI_SAD_XX The airplane is almost full.
+1010_TIE_ANG_XX That is exactly what happened.
+1010_TIE_DIS_XX That is exactly what happened.
+1010_TIE_FEA_XX That is exactly what happened.
+1010_TIE_HAP_XX That is exactly what happened.
+1010_TIE_NEU_XX That is exactly what happened.
+1010_TIE_SAD_XX That is exactly what happened.
+1010_TSI_ANG_XX The surface is slick.
+1010_TSI_DIS_XX The surface is slick.
+1010_TSI_FEA_XX The surface is slick.
+1010_TSI_HAP_XX The surface is slick.
+1010_TSI_NEU_XX The surface is slick.
+1010_TSI_SAD_XX The surface is slick.
+1010_WSI_ANG_XX We'll stop in a couple of minutes.
+1010_WSI_DIS_XX We'll stop in a couple of minutes.
+1010_WSI_FEA_XX We'll stop in a couple of minutes.
+1010_WSI_HAP_XX We'll stop in a couple of minutes.
+1010_WSI_NEU_XX We'll stop in a couple of minutes.
+1010_WSI_SAD_XX We'll stop in a couple of minutes.
+1011_DFA_ANG_XX Don't forget a jacket.
+1011_DFA_DIS_XX Don't forget a jacket.
+1011_DFA_FEA_XX Don't forget a jacket.
+1011_DFA_HAP_XX Don't forget a jacket.
+1011_DFA_NEU_XX Don't forget a jacket.
+1011_DFA_SAD_XX Don't forget a jacket.
+1011_IEO_ANG_HI It's eleven o'clock.
+1011_IEO_ANG_LO It's eleven o'clock.
+1011_IEO_ANG_MD It's eleven o'clock.
+1011_IEO_DIS_HI It's eleven o'clock.
+1011_IEO_DIS_LO It's eleven o'clock.
+1011_IEO_DIS_MD It's eleven o'clock.
+1011_IEO_FEA_HI It's eleven o'clock.
+1011_IEO_FEA_LO It's eleven o'clock.
+1011_IEO_FEA_MD It's eleven o'clock.
+1011_IEO_HAP_HI It's eleven o'clock.
+1011_IEO_HAP_LO It's eleven o'clock.
+1011_IEO_HAP_MD It's eleven o'clock.
+1011_IEO_NEU_XX It's eleven o'clock.
+1011_IEO_SAD_HI It's eleven o'clock.
+1011_IEO_SAD_LO It's eleven o'clock.
+1011_IEO_SAD_MD It's eleven o'clock.
+1011_IOM_ANG_XX I'm on my way to the meeting.
+1011_IOM_DIS_XX I'm on my way to the meeting.
+1011_IOM_FEA_XX I'm on my way to the meeting.
+1011_IOM_HAP_XX I'm on my way to the meeting.
+1011_IOM_NEU_XX I'm on my way to the meeting.
+1011_IOM_SAD_XX I'm on my way to the meeting.
+1011_ITH_ANG_XX I think I have a doctor's appointment.
+1011_ITH_DIS_XX I think I have a doctor's appointment.
+1011_ITH_FEA_XX I think I have a doctor's appointment.
+1011_ITH_HAP_XX I think I have a doctor's appointment.
+1011_ITH_NEU_XX I think I have a doctor's appointment.
+1011_ITH_SAD_XX I think I have a doctor's appointment.
+1011_ITS_ANG_XX I think I've seen this before.
+1011_ITS_DIS_XX I think I've seen this before.
+1011_ITS_FEA_XX I think I've seen this before.
+1011_ITS_HAP_XX I think I've seen this before.
+1011_ITS_NEU_XX I think I've seen this before.
+1011_ITS_SAD_XX I think I've seen this before.
+1011_IWL_ANG_XX I would like a new alarm clock.
+1011_IWL_DIS_XX I would like a new alarm clock.
+1011_IWL_FEA_XX I would like a new alarm clock.
+1011_IWL_HAP_XX I would like a new alarm clock.
+1011_IWL_NEU_XX I would like a new alarm clock.
+1011_IWL_SAD_XX I would like a new alarm clock.
+1011_IWW_ANG_XX I wonder what this is about.
+1011_IWW_DIS_XX I wonder what this is about.
+1011_IWW_FEA_XX I wonder what this is about.
+1011_IWW_HAP_XX I wonder what this is about.
+1011_IWW_NEU_XX I wonder what this is about.
+1011_IWW_SAD_XX I wonder what this is about.
+1011_MTI_ANG_XX Maybe tomorrow it will be cold.
+1011_MTI_DIS_XX Maybe tomorrow it will be cold.
+1011_MTI_FEA_XX Maybe tomorrow it will be cold.
+1011_MTI_HAP_XX Maybe tomorrow it will be cold.
+1011_MTI_NEU_XX Maybe tomorrow it will be cold.
+1011_MTI_SAD_XX Maybe tomorrow it will be cold.
+1011_TAI_ANG_XX The airplane is almost full.
+1011_TAI_DIS_XX The airplane is almost full.
+1011_TAI_FEA_XX The airplane is almost full.
+1011_TAI_HAP_XX The airplane is almost full.
+1011_TAI_NEU_XX The airplane is almost full.
+1011_TAI_SAD_XX The airplane is almost full.
+1011_TIE_ANG_XX That is exactly what happened.
+1011_TIE_DIS_XX That is exactly what happened.
+1011_TIE_FEA_XX That is exactly what happened.
+1011_TIE_HAP_XX That is exactly what happened.
+1011_TIE_NEU_XX That is exactly what happened.
+1011_TIE_SAD_XX That is exactly what happened.
+1011_TSI_ANG_XX The surface is slick.
+1011_TSI_DIS_XX The surface is slick.
+1011_TSI_FEA_XX The surface is slick.
+1011_TSI_HAP_XX The surface is slick.
+1011_TSI_NEU_XX The surface is slick.
+1011_TSI_SAD_XX The surface is slick.
+1011_WSI_ANG_XX We'll stop in a couple of minutes.
+1011_WSI_DIS_XX We'll stop in a couple of minutes.
+1011_WSI_FEA_XX We'll stop in a couple of minutes.
+1011_WSI_HAP_XX We'll stop in a couple of minutes.
+1011_WSI_NEU_XX We'll stop in a couple of minutes.
+1011_WSI_SAD_XX We'll stop in a couple of minutes.
+1012_DFA_ANG_XX Don't forget a jacket.
+1012_DFA_DIS_XX Don't forget a jacket.
+1012_DFA_FEA_XX Don't forget a jacket.
+1012_DFA_HAP_XX Don't forget a jacket.
+1012_DFA_NEU_XX Don't forget a jacket.
+1012_DFA_SAD_XX Don't forget a jacket.
+1012_IEO_ANG_HI It's eleven o'clock.
+1012_IEO_ANG_LO It's eleven o'clock.
+1012_IEO_ANG_MD It's eleven o'clock.
+1012_IEO_DIS_HI It's eleven o'clock.
+1012_IEO_DIS_LO It's eleven o'clock.
+1012_IEO_DIS_MD It's eleven o'clock.
+1012_IEO_FEA_HI It's eleven o'clock.
+1012_IEO_FEA_LO It's eleven o'clock.
+1012_IEO_FEA_MD It's eleven o'clock.
+1012_IEO_HAP_HI It's eleven o'clock.
+1012_IEO_HAP_LO It's eleven o'clock.
+1012_IEO_HAP_MD It's eleven o'clock.
+1012_IEO_NEU_XX It's eleven o'clock.
+1012_IEO_SAD_HI It's eleven o'clock.
+1012_IEO_SAD_LO It's eleven o'clock.
+1012_IEO_SAD_MD It's eleven o'clock.
+1012_IOM_ANG_XX I'm on my way to the meeting.
+1012_IOM_DIS_XX I'm on my way to the meeting.
+1012_IOM_FEA_XX I'm on my way to the meeting.
+1012_IOM_HAP_XX I'm on my way to the meeting.
+1012_IOM_NEU_XX I'm on my way to the meeting.
+1012_IOM_SAD_XX I'm on my way to the meeting.
+1012_ITH_ANG_XX I think I have a doctor's appointment.
+1012_ITH_DIS_XX I think I have a doctor's appointment.
+1012_ITH_FEA_XX I think I have a doctor's appointment.
+1012_ITH_HAP_XX I think I have a doctor's appointment.
+1012_ITH_NEU_XX I think I have a doctor's appointment.
+1012_ITH_SAD_XX I think I have a doctor's appointment.
+1012_ITS_ANG_XX I think I've seen this before.
+1012_ITS_DIS_XX I think I've seen this before.
+1012_ITS_FEA_XX I think I've seen this before.
+1012_ITS_HAP_XX I think I've seen this before.
+1012_ITS_NEU_XX I think I've seen this before.
+1012_ITS_SAD_XX I think I've seen this before.
+1012_IWL_ANG_XX I would like a new alarm clock.
+1012_IWL_DIS_XX I would like a new alarm clock.
+1012_IWL_FEA_XX I would like a new alarm clock.
+1012_IWL_HAP_XX I would like a new alarm clock.
+1012_IWL_NEU_XX I would like a new alarm clock.
+1012_IWL_SAD_XX I would like a new alarm clock.
+1012_IWW_ANG_XX I wonder what this is about.
+1012_IWW_DIS_XX I wonder what this is about.
+1012_IWW_FEA_XX I wonder what this is about.
+1012_IWW_HAP_XX I wonder what this is about.
+1012_IWW_NEU_XX I wonder what this is about.
+1012_IWW_SAD_XX I wonder what this is about.
+1012_MTI_ANG_XX Maybe tomorrow it will be cold.
+1012_MTI_DIS_XX Maybe tomorrow it will be cold.
+1012_MTI_FEA_XX Maybe tomorrow it will be cold.
+1012_MTI_HAP_XX Maybe tomorrow it will be cold.
+1012_MTI_NEU_XX Maybe tomorrow it will be cold.
+1012_MTI_SAD_XX Maybe tomorrow it will be cold.
+1012_TAI_ANG_XX The airplane is almost full.
+1012_TAI_DIS_XX The airplane is almost full.
+1012_TAI_FEA_XX The airplane is almost full.
+1012_TAI_HAP_XX The airplane is almost full.
+1012_TAI_NEU_XX The airplane is almost full.
+1012_TAI_SAD_XX The airplane is almost full.
+1012_TIE_ANG_XX That is exactly what happened.
+1012_TIE_DIS_XX That is exactly what happened.
+1012_TIE_FEA_XX That is exactly what happened.
+1012_TIE_HAP_XX That is exactly what happened.
+1012_TIE_NEU_XX That is exactly what happened.
+1012_TIE_SAD_XX That is exactly what happened.
+1012_TSI_ANG_XX The surface is slick.
+1012_TSI_DIS_XX The surface is slick.
+1012_TSI_FEA_XX The surface is slick.
+1012_TSI_HAP_XX The surface is slick.
+1012_TSI_NEU_XX The surface is slick.
+1012_TSI_SAD_XX The surface is slick.
+1012_WSI_ANG_XX We'll stop in a couple of minutes.
+1012_WSI_DIS_XX We'll stop in a couple of minutes.
+1012_WSI_FEA_XX We'll stop in a couple of minutes.
+1012_WSI_HAP_XX We'll stop in a couple of minutes.
+1012_WSI_NEU_XX We'll stop in a couple of minutes.
+1012_WSI_SAD_XX We'll stop in a couple of minutes.
+1013_DFA_ANG_XX Don't forget a jacket.
+1013_DFA_DIS_XX Don't forget a jacket.
+1013_DFA_FEA_XX Don't forget a jacket.
+1013_DFA_HAP_XX Don't forget a jacket.
+1013_DFA_NEU_XX Don't forget a jacket.
+1013_DFA_SAD_XX Don't forget a jacket.
+1013_IEO_ANG_HI It's eleven o'clock.
+1013_IEO_ANG_LO It's eleven o'clock.
+1013_IEO_ANG_MD It's eleven o'clock.
+1013_IEO_DIS_HI It's eleven o'clock.
+1013_IEO_DIS_LO It's eleven o'clock.
+1013_IEO_DIS_MD It's eleven o'clock.
+1013_IEO_FEA_HI It's eleven o'clock.
+1013_IEO_FEA_LO It's eleven o'clock.
+1013_IEO_FEA_MD It's eleven o'clock.
+1013_IEO_HAP_HI It's eleven o'clock.
+1013_IEO_HAP_LO It's eleven o'clock.
+1013_IEO_HAP_MD It's eleven o'clock.
+1013_IEO_NEU_XX It's eleven o'clock.
+1013_IEO_SAD_HI It's eleven o'clock.
+1013_IEO_SAD_LO It's eleven o'clock.
+1013_IEO_SAD_MD It's eleven o'clock.
+1013_IOM_ANG_XX I'm on my way to the meeting.
+1013_IOM_DIS_XX I'm on my way to the meeting.
+1013_IOM_FEA_XX I'm on my way to the meeting.
+1013_IOM_HAP_XX I'm on my way to the meeting.
+1013_IOM_NEU_XX I'm on my way to the meeting.
+1013_IOM_SAD_XX I'm on my way to the meeting.
+1013_ITH_ANG_XX I think I have a doctor's appointment.
+1013_ITH_DIS_XX I think I have a doctor's appointment.
+1013_ITH_FEA_XX I think I have a doctor's appointment.
+1013_ITH_HAP_XX I think I have a doctor's appointment.
+1013_ITH_NEU_XX I think I have a doctor's appointment.
+1013_ITH_SAD_XX I think I have a doctor's appointment.
+1013_ITS_ANG_XX I think I've seen this before.
+1013_ITS_DIS_XX I think I've seen this before.
+1013_ITS_FEA_XX I think I've seen this before.
+1013_ITS_HAP_XX I think I've seen this before.
+1013_ITS_NEU_XX I think I've seen this before.
+1013_ITS_SAD_XX I think I've seen this before.
+1013_IWL_ANG_XX I would like a new alarm clock.
+1013_IWL_DIS_XX I would like a new alarm clock.
+1013_IWL_FEA_XX I would like a new alarm clock.
+1013_IWL_HAP_XX I would like a new alarm clock.
+1013_IWL_NEU_XX I would like a new alarm clock.
+1013_IWL_SAD_XX I would like a new alarm clock.
+1013_IWW_ANG_XX I wonder what this is about.
+1013_IWW_DIS_XX I wonder what this is about.
+1013_IWW_FEA_XX I wonder what this is about.
+1013_IWW_HAP_XX I wonder what this is about.
+1013_IWW_NEU_XX I wonder what this is about.
+1013_IWW_SAD_XX I wonder what this is about.
+1013_MTI_ANG_XX Maybe tomorrow it will be cold.
+1013_MTI_DIS_XX Maybe tomorrow it will be cold.
+1013_MTI_FEA_XX Maybe tomorrow it will be cold.
+1013_MTI_HAP_XX Maybe tomorrow it will be cold.
+1013_MTI_NEU_XX Maybe tomorrow it will be cold.
+1013_MTI_SAD_XX Maybe tomorrow it will be cold.
+1013_TAI_ANG_XX The airplane is almost full.
+1013_TAI_DIS_XX The airplane is almost full.
+1013_TAI_FEA_XX The airplane is almost full.
+1013_TAI_HAP_XX The airplane is almost full.
+1013_TAI_NEU_XX The airplane is almost full.
+1013_TAI_SAD_XX The airplane is almost full.
+1013_TIE_ANG_XX That is exactly what happened.
+1013_TIE_DIS_XX That is exactly what happened.
+1013_TIE_FEA_XX That is exactly what happened.
+1013_TIE_HAP_XX That is exactly what happened.
+1013_TIE_NEU_XX That is exactly what happened.
+1013_TIE_SAD_XX That is exactly what happened.
+1013_TSI_ANG_XX The surface is slick.
+1013_TSI_DIS_XX The surface is slick.
+1013_TSI_FEA_XX The surface is slick.
+1013_TSI_HAP_XX The surface is slick.
+1013_TSI_NEU_XX The surface is slick.
+1013_TSI_SAD_XX The surface is slick.
+1013_WSI_ANG_XX We'll stop in a couple of minutes.
+1013_WSI_DIS_XX We'll stop in a couple of minutes.
+1013_WSI_FEA_XX We'll stop in a couple of minutes.
+1013_WSI_HAP_XX We'll stop in a couple of minutes.
+1013_WSI_NEU_XX We'll stop in a couple of minutes.
+1013_WSI_SAD_XX We'll stop in a couple of minutes.
+1014_DFA_ANG_XX Don't forget a jacket.
+1014_DFA_DIS_XX Don't forget a jacket.
+1014_DFA_FEA_XX Don't forget a jacket.
+1014_DFA_HAP_XX Don't forget a jacket.
+1014_DFA_NEU_XX Don't forget a jacket.
+1014_DFA_SAD_XX Don't forget a jacket.
+1014_IEO_ANG_HI It's eleven o'clock.
+1014_IEO_ANG_LO It's eleven o'clock.
+1014_IEO_ANG_MD It's eleven o'clock.
+1014_IEO_DIS_HI It's eleven o'clock.
+1014_IEO_DIS_LO It's eleven o'clock.
+1014_IEO_DIS_MD It's eleven o'clock.
+1014_IEO_FEA_HI It's eleven o'clock.
+1014_IEO_FEA_LO It's eleven o'clock.
+1014_IEO_FEA_MD It's eleven o'clock.
+1014_IEO_HAP_HI It's eleven o'clock.
+1014_IEO_HAP_LO It's eleven o'clock.
+1014_IEO_HAP_MD It's eleven o'clock.
+1014_IEO_NEU_XX It's eleven o'clock.
+1014_IEO_SAD_HI It's eleven o'clock.
+1014_IEO_SAD_LO It's eleven o'clock.
+1014_IEO_SAD_MD It's eleven o'clock.
+1014_IOM_ANG_XX I'm on my way to the meeting.
+1014_IOM_DIS_XX I'm on my way to the meeting.
+1014_IOM_FEA_XX I'm on my way to the meeting.
+1014_IOM_HAP_XX I'm on my way to the meeting.
+1014_IOM_NEU_XX I'm on my way to the meeting.
+1014_IOM_SAD_XX I'm on my way to the meeting.
+1014_ITH_ANG_XX I think I have a doctor's appointment.
+1014_ITH_DIS_XX I think I have a doctor's appointment.
+1014_ITH_FEA_XX I think I have a doctor's appointment.
+1014_ITH_HAP_XX I think I have a doctor's appointment.
+1014_ITH_NEU_XX I think I have a doctor's appointment.
+1014_ITH_SAD_XX I think I have a doctor's appointment.
+1014_ITS_ANG_XX I think I've seen this before.
+1014_ITS_DIS_XX I think I've seen this before.
+1014_ITS_FEA_XX I think I've seen this before.
+1014_ITS_HAP_XX I think I've seen this before.
+1014_ITS_NEU_XX I think I've seen this before.
+1014_ITS_SAD_XX I think I've seen this before.
+1014_IWL_ANG_XX I would like a new alarm clock.
+1014_IWL_DIS_XX I would like a new alarm clock.
+1014_IWL_FEA_XX I would like a new alarm clock.
+1014_IWL_HAP_XX I would like a new alarm clock.
+1014_IWL_NEU_XX I would like a new alarm clock.
+1014_IWL_SAD_XX I would like a new alarm clock.
+1014_IWW_ANG_XX I wonder what this is about.
+1014_IWW_DIS_XX I wonder what this is about.
+1014_IWW_FEA_XX I wonder what this is about.
+1014_IWW_HAP_XX I wonder what this is about.
+1014_IWW_NEU_XX I wonder what this is about.
+1014_IWW_SAD_XX I wonder what this is about.
+1014_MTI_ANG_XX Maybe tomorrow it will be cold.
+1014_MTI_DIS_XX Maybe tomorrow it will be cold.
+1014_MTI_FEA_XX Maybe tomorrow it will be cold.
+1014_MTI_HAP_XX Maybe tomorrow it will be cold.
+1014_MTI_NEU_XX Maybe tomorrow it will be cold.
+1014_MTI_SAD_XX Maybe tomorrow it will be cold.
+1014_TAI_ANG_XX The airplane is almost full.
+1014_TAI_DIS_XX The airplane is almost full.
+1014_TAI_FEA_XX The airplane is almost full.
+1014_TAI_HAP_XX The airplane is almost full.
+1014_TAI_NEU_XX The airplane is almost full.
+1014_TAI_SAD_XX The airplane is almost full.
+1014_TIE_ANG_XX That is exactly what happened.
+1014_TIE_DIS_XX That is exactly what happened.
+1014_TIE_FEA_XX That is exactly what happened.
+1014_TIE_HAP_XX That is exactly what happened.
+1014_TIE_NEU_XX That is exactly what happened.
+1014_TIE_SAD_XX That is exactly what happened.
+1014_TSI_ANG_XX The surface is slick.
+1014_TSI_DIS_XX The surface is slick.
+1014_TSI_FEA_XX The surface is slick.
+1014_TSI_HAP_XX The surface is slick.
+1014_TSI_NEU_XX The surface is slick.
+1014_TSI_SAD_XX The surface is slick.
+1014_WSI_ANG_XX We'll stop in a couple of minutes.
+1014_WSI_DIS_XX We'll stop in a couple of minutes.
+1014_WSI_FEA_XX We'll stop in a couple of minutes.
+1014_WSI_HAP_XX We'll stop in a couple of minutes.
+1014_WSI_NEU_XX We'll stop in a couple of minutes.
+1014_WSI_SAD_XX We'll stop in a couple of minutes.
+1015_DFA_ANG_XX Don't forget a jacket.
+1015_DFA_DIS_XX Don't forget a jacket.
+1015_DFA_FEA_XX Don't forget a jacket.
+1015_DFA_HAP_XX Don't forget a jacket.
+1015_DFA_NEU_XX Don't forget a jacket.
+1015_DFA_SAD_XX Don't forget a jacket.
+1015_IEO_ANG_HI It's eleven o'clock.
+1015_IEO_ANG_LO It's eleven o'clock.
+1015_IEO_ANG_MD It's eleven o'clock.
+1015_IEO_DIS_HI It's eleven o'clock.
+1015_IEO_DIS_LO It's eleven o'clock.
+1015_IEO_DIS_MD It's eleven o'clock.
+1015_IEO_FEA_HI It's eleven o'clock.
+1015_IEO_FEA_LO It's eleven o'clock.
+1015_IEO_FEA_MD It's eleven o'clock.
+1015_IEO_HAP_HI It's eleven o'clock.
+1015_IEO_HAP_LO It's eleven o'clock.
+1015_IEO_HAP_MD It's eleven o'clock.
+1015_IEO_NEU_XX It's eleven o'clock.
+1015_IEO_SAD_HI It's eleven o'clock.
+1015_IEO_SAD_LO It's eleven o'clock.
+1015_IEO_SAD_MD It's eleven o'clock.
+1015_IOM_ANG_XX I'm on my way to the meeting.
+1015_IOM_DIS_XX I'm on my way to the meeting.
+1015_IOM_FEA_XX I'm on my way to the meeting.
+1015_IOM_HAP_XX I'm on my way to the meeting.
+1015_IOM_NEU_XX I'm on my way to the meeting.
+1015_IOM_SAD_XX I'm on my way to the meeting.
+1015_ITH_ANG_XX I think I have a doctor's appointment.
+1015_ITH_DIS_XX I think I have a doctor's appointment.
+1015_ITH_FEA_XX I think I have a doctor's appointment.
+1015_ITH_HAP_XX I think I have a doctor's appointment.
+1015_ITH_NEU_XX I think I have a doctor's appointment.
+1015_ITH_SAD_XX I think I have a doctor's appointment.
+1015_ITS_ANG_XX I think I've seen this before.
+1015_ITS_DIS_XX I think I've seen this before.
+1015_ITS_FEA_XX I think I've seen this before.
+1015_ITS_HAP_XX I think I've seen this before.
+1015_ITS_NEU_XX I think I've seen this before.
+1015_ITS_SAD_XX I think I've seen this before.
+1015_IWL_ANG_XX I would like a new alarm clock.
+1015_IWL_DIS_XX I would like a new alarm clock.
+1015_IWL_FEA_XX I would like a new alarm clock.
+1015_IWL_HAP_XX I would like a new alarm clock.
+1015_IWL_NEU_XX I would like a new alarm clock.
+1015_IWL_SAD_XX I would like a new alarm clock.
+1015_IWW_ANG_XX I wonder what this is about.
+1015_IWW_DIS_XX I wonder what this is about.
+1015_IWW_FEA_XX I wonder what this is about.
+1015_IWW_HAP_XX I wonder what this is about.
+1015_IWW_NEU_XX I wonder what this is about.
+1015_IWW_SAD_XX I wonder what this is about.
+1015_MTI_ANG_XX Maybe tomorrow it will be cold.
+1015_MTI_DIS_XX Maybe tomorrow it will be cold.
+1015_MTI_FEA_XX Maybe tomorrow it will be cold.
+1015_MTI_HAP_XX Maybe tomorrow it will be cold.
+1015_MTI_NEU_XX Maybe tomorrow it will be cold.
+1015_MTI_SAD_XX Maybe tomorrow it will be cold.
+1015_TAI_ANG_XX The airplane is almost full.
+1015_TAI_DIS_XX The airplane is almost full.
+1015_TAI_FEA_XX The airplane is almost full.
+1015_TAI_HAP_XX The airplane is almost full.
+1015_TAI_NEU_XX The airplane is almost full.
+1015_TAI_SAD_XX The airplane is almost full.
+1015_TIE_ANG_XX That is exactly what happened.
+1015_TIE_DIS_XX That is exactly what happened.
+1015_TIE_FEA_XX That is exactly what happened.
+1015_TIE_HAP_XX That is exactly what happened.
+1015_TIE_NEU_XX That is exactly what happened.
+1015_TIE_SAD_XX That is exactly what happened.
+1015_TSI_ANG_XX The surface is slick.
+1015_TSI_DIS_XX The surface is slick.
+1015_TSI_FEA_XX The surface is slick.
+1015_TSI_HAP_XX The surface is slick.
+1015_TSI_NEU_XX The surface is slick.
+1015_TSI_SAD_XX The surface is slick.
+1015_WSI_ANG_XX We'll stop in a couple of minutes.
+1015_WSI_DIS_XX We'll stop in a couple of minutes.
+1015_WSI_FEA_XX We'll stop in a couple of minutes.
+1015_WSI_HAP_XX We'll stop in a couple of minutes.
+1015_WSI_NEU_XX We'll stop in a couple of minutes.
+1015_WSI_SAD_XX We'll stop in a couple of minutes.
+1016_DFA_ANG_XX Don't forget a jacket.
+1016_DFA_DIS_XX Don't forget a jacket.
+1016_DFA_FEA_XX Don't forget a jacket.
+1016_DFA_HAP_XX Don't forget a jacket.
+1016_DFA_NEU_XX Don't forget a jacket.
+1016_DFA_SAD_XX Don't forget a jacket.
+1016_IEO_ANG_HI It's eleven o'clock.
+1016_IEO_ANG_LO It's eleven o'clock.
+1016_IEO_ANG_MD It's eleven o'clock.
+1016_IEO_DIS_HI It's eleven o'clock.
+1016_IEO_DIS_LO It's eleven o'clock.
+1016_IEO_DIS_MD It's eleven o'clock.
+1016_IEO_FEA_HI It's eleven o'clock.
+1016_IEO_FEA_LO It's eleven o'clock.
+1016_IEO_FEA_MD It's eleven o'clock.
+1016_IEO_HAP_HI It's eleven o'clock.
+1016_IEO_HAP_LO It's eleven o'clock.
+1016_IEO_HAP_MD It's eleven o'clock.
+1016_IEO_NEU_XX It's eleven o'clock.
+1016_IEO_SAD_HI It's eleven o'clock.
+1016_IEO_SAD_LO It's eleven o'clock.
+1016_IEO_SAD_MD It's eleven o'clock.
+1016_IOM_ANG_XX I'm on my way to the meeting.
+1016_IOM_DIS_XX I'm on my way to the meeting.
+1016_IOM_FEA_XX I'm on my way to the meeting.
+1016_IOM_HAP_XX I'm on my way to the meeting.
+1016_IOM_NEU_XX I'm on my way to the meeting.
+1016_IOM_SAD_XX I'm on my way to the meeting.
+1016_ITH_ANG_XX I think I have a doctor's appointment.
+1016_ITH_DIS_XX I think I have a doctor's appointment.
+1016_ITH_FEA_XX I think I have a doctor's appointment.
+1016_ITH_HAP_XX I think I have a doctor's appointment.
+1016_ITH_NEU_XX I think I have a doctor's appointment.
+1016_ITH_SAD_XX I think I have a doctor's appointment.
+1016_ITS_ANG_XX I think I've seen this before.
+1016_ITS_DIS_XX I think I've seen this before.
+1016_ITS_FEA_XX I think I've seen this before.
+1016_ITS_HAP_XX I think I've seen this before.
+1016_ITS_NEU_XX I think I've seen this before.
+1016_ITS_SAD_XX I think I've seen this before.
+1016_IWL_ANG_XX I would like a new alarm clock.
+1016_IWL_DIS_XX I would like a new alarm clock.
+1016_IWL_FEA_XX I would like a new alarm clock.
+1016_IWL_HAP_XX I would like a new alarm clock.
+1016_IWL_NEU_XX I would like a new alarm clock.
+1016_IWL_SAD_XX I would like a new alarm clock.
+1016_IWW_ANG_XX I wonder what this is about.
+1016_IWW_DIS_XX I wonder what this is about.
+1016_IWW_FEA_XX I wonder what this is about.
+1016_IWW_HAP_XX I wonder what this is about.
+1016_IWW_NEU_XX I wonder what this is about.
+1016_IWW_SAD_XX I wonder what this is about.
+1016_MTI_ANG_XX Maybe tomorrow it will be cold.
+1016_MTI_DIS_XX Maybe tomorrow it will be cold.
+1016_MTI_FEA_XX Maybe tomorrow it will be cold.
+1016_MTI_HAP_XX Maybe tomorrow it will be cold.
+1016_MTI_NEU_XX Maybe tomorrow it will be cold.
+1016_MTI_SAD_XX Maybe tomorrow it will be cold.
+1016_TAI_ANG_XX The airplane is almost full.
+1016_TAI_DIS_XX The airplane is almost full.
+1016_TAI_FEA_XX The airplane is almost full.
+1016_TAI_HAP_XX The airplane is almost full.
+1016_TAI_NEU_XX The airplane is almost full.
+1016_TAI_SAD_XX The airplane is almost full.
+1016_TIE_ANG_XX That is exactly what happened.
+1016_TIE_DIS_XX That is exactly what happened.
+1016_TIE_FEA_XX That is exactly what happened.
+1016_TIE_HAP_XX That is exactly what happened.
+1016_TIE_NEU_XX That is exactly what happened.
+1016_TIE_SAD_XX That is exactly what happened.
+1016_TSI_ANG_XX The surface is slick.
+1016_TSI_DIS_XX The surface is slick.
+1016_TSI_FEA_XX The surface is slick.
+1016_TSI_HAP_XX The surface is slick.
+1016_TSI_NEU_XX The surface is slick.
+1016_TSI_SAD_XX The surface is slick.
+1016_WSI_ANG_XX We'll stop in a couple of minutes.
+1016_WSI_DIS_XX We'll stop in a couple of minutes.
+1016_WSI_FEA_XX We'll stop in a couple of minutes.
+1016_WSI_HAP_XX We'll stop in a couple of minutes.
+1016_WSI_NEU_XX We'll stop in a couple of minutes.
+1016_WSI_SAD_XX We'll stop in a couple of minutes.
+1017_DFA_ANG_XX Don't forget a jacket.
+1017_DFA_DIS_XX Don't forget a jacket.
+1017_DFA_FEA_XX Don't forget a jacket.
+1017_DFA_HAP_XX Don't forget a jacket.
+1017_DFA_NEU_XX Don't forget a jacket.
+1017_DFA_SAD_XX Don't forget a jacket.
+1017_IEO_ANG_HI It's eleven o'clock.
+1017_IEO_ANG_LO It's eleven o'clock.
+1017_IEO_ANG_MD It's eleven o'clock.
+1017_IEO_DIS_HI It's eleven o'clock.
+1017_IEO_DIS_LO It's eleven o'clock.
+1017_IEO_DIS_MD It's eleven o'clock.
+1017_IEO_FEA_HI It's eleven o'clock.
+1017_IEO_FEA_LO It's eleven o'clock.
+1017_IEO_FEA_MD It's eleven o'clock.
+1017_IEO_HAP_HI It's eleven o'clock.
+1017_IEO_HAP_LO It's eleven o'clock.
+1017_IEO_HAP_MD It's eleven o'clock.
+1017_IEO_NEU_XX It's eleven o'clock.
+1017_IEO_SAD_HI It's eleven o'clock.
+1017_IEO_SAD_LO It's eleven o'clock.
+1017_IEO_SAD_MD It's eleven o'clock.
+1017_IOM_ANG_XX I'm on my way to the meeting.
+1017_IOM_DIS_XX I'm on my way to the meeting.
+1017_IOM_FEA_XX I'm on my way to the meeting.
+1017_IOM_HAP_XX I'm on my way to the meeting.
+1017_IOM_NEU_XX I'm on my way to the meeting.
+1017_IOM_SAD_XX I'm on my way to the meeting.
+1017_ITH_ANG_XX I think I have a doctor's appointment.
+1017_ITH_DIS_XX I think I have a doctor's appointment.
+1017_ITH_FEA_XX I think I have a doctor's appointment.
+1017_ITH_HAP_XX I think I have a doctor's appointment.
+1017_ITH_NEU_XX I think I have a doctor's appointment.
+1017_ITH_SAD_XX I think I have a doctor's appointment.
+1017_ITS_ANG_XX I think I've seen this before.
+1017_ITS_DIS_XX I think I've seen this before.
+1017_ITS_FEA_XX I think I've seen this before.
+1017_ITS_HAP_XX I think I've seen this before.
+1017_ITS_NEU_XX I think I've seen this before.
+1017_ITS_SAD_XX I think I've seen this before.
+1017_IWL_ANG_XX I would like a new alarm clock.
+1017_IWL_DIS_XX I would like a new alarm clock.
+1017_IWL_FEA_XX I would like a new alarm clock.
+1017_IWL_HAP_XX I would like a new alarm clock.
+1017_IWL_NEU_XX I would like a new alarm clock.
+1017_IWL_SAD_XX I would like a new alarm clock.
+1017_IWW_ANG_XX I wonder what this is about.
+1017_IWW_DIS_XX I wonder what this is about.
+1017_IWW_FEA_XX I wonder what this is about.
+1017_IWW_HAP_XX I wonder what this is about.
+1017_IWW_NEU_XX I wonder what this is about.
+1017_IWW_SAD_XX I wonder what this is about.
+1017_MTI_ANG_XX Maybe tomorrow it will be cold.
+1017_MTI_DIS_XX Maybe tomorrow it will be cold.
+1017_MTI_FEA_XX Maybe tomorrow it will be cold.
+1017_MTI_HAP_XX Maybe tomorrow it will be cold.
+1017_MTI_NEU_XX Maybe tomorrow it will be cold.
+1017_MTI_SAD_XX Maybe tomorrow it will be cold.
+1017_TAI_ANG_XX The airplane is almost full.
+1017_TAI_DIS_XX The airplane is almost full.
+1017_TAI_FEA_XX The airplane is almost full.
+1017_TAI_HAP_XX The airplane is almost full.
+1017_TAI_NEU_XX The airplane is almost full.
+1017_TAI_SAD_XX The airplane is almost full.
+1017_TIE_ANG_XX That is exactly what happened.
+1017_TIE_DIS_XX That is exactly what happened.
+1017_TIE_FEA_XX That is exactly what happened.
+1017_TIE_HAP_XX That is exactly what happened.
+1017_TIE_NEU_XX That is exactly what happened.
+1017_TIE_SAD_XX That is exactly what happened.
+1017_TSI_ANG_XX The surface is slick.
+1017_TSI_DIS_XX The surface is slick.
+1017_TSI_FEA_XX The surface is slick.
+1017_TSI_HAP_XX The surface is slick.
+1017_TSI_NEU_XX The surface is slick.
+1017_TSI_SAD_XX The surface is slick.
+1017_WSI_ANG_XX We'll stop in a couple of minutes.
+1017_WSI_DIS_XX We'll stop in a couple of minutes.
+1017_WSI_FEA_XX We'll stop in a couple of minutes.
+1017_WSI_HAP_XX We'll stop in a couple of minutes.
+1017_WSI_NEU_XX We'll stop in a couple of minutes.
+1017_WSI_SAD_XX We'll stop in a couple of minutes.
+1018_DFA_ANG_XX Don't forget a jacket.
+1018_DFA_DIS_XX Don't forget a jacket.
+1018_DFA_FEA_XX Don't forget a jacket.
+1018_DFA_HAP_XX Don't forget a jacket.
+1018_DFA_NEU_XX Don't forget a jacket.
+1018_DFA_SAD_XX Don't forget a jacket.
+1018_IEO_ANG_HI It's eleven o'clock.
+1018_IEO_ANG_LO It's eleven o'clock.
+1018_IEO_ANG_MD It's eleven o'clock.
+1018_IEO_DIS_HI It's eleven o'clock.
+1018_IEO_DIS_LO It's eleven o'clock.
+1018_IEO_DIS_MD It's eleven o'clock.
+1018_IEO_FEA_HI It's eleven o'clock.
+1018_IEO_FEA_LO It's eleven o'clock.
+1018_IEO_FEA_MD It's eleven o'clock.
+1018_IEO_HAP_HI It's eleven o'clock.
+1018_IEO_HAP_LO It's eleven o'clock.
+1018_IEO_HAP_MD It's eleven o'clock.
+1018_IEO_NEU_XX It's eleven o'clock.
+1018_IEO_SAD_HI It's eleven o'clock.
+1018_IEO_SAD_LO It's eleven o'clock.
+1018_IEO_SAD_MD It's eleven o'clock.
+1018_IOM_ANG_XX I'm on my way to the meeting.
+1018_IOM_DIS_XX I'm on my way to the meeting.
+1018_IOM_FEA_XX I'm on my way to the meeting.
+1018_IOM_HAP_XX I'm on my way to the meeting.
+1018_IOM_NEU_XX I'm on my way to the meeting.
+1018_IOM_SAD_XX I'm on my way to the meeting.
+1018_ITH_ANG_XX I think I have a doctor's appointment.
+1018_ITH_DIS_XX I think I have a doctor's appointment.
+1018_ITH_FEA_XX I think I have a doctor's appointment.
+1018_ITH_HAP_XX I think I have a doctor's appointment.
+1018_ITH_NEU_XX I think I have a doctor's appointment.
+1018_ITH_SAD_XX I think I have a doctor's appointment.
+1018_ITS_ANG_XX I think I've seen this before.
+1018_ITS_DIS_XX I think I've seen this before.
+1018_ITS_FEA_XX I think I've seen this before.
+1018_ITS_HAP_XX I think I've seen this before.
+1018_ITS_NEU_XX I think I've seen this before.
+1018_ITS_SAD_XX I think I've seen this before.
+1018_IWL_ANG_XX I would like a new alarm clock.
+1018_IWL_DIS_XX I would like a new alarm clock.
+1018_IWL_FEA_XX I would like a new alarm clock.
+1018_IWL_HAP_XX I would like a new alarm clock.
+1018_IWL_NEU_XX I would like a new alarm clock.
+1018_IWL_SAD_XX I would like a new alarm clock.
+1018_IWW_ANG_XX I wonder what this is about.
+1018_IWW_DIS_XX I wonder what this is about.
+1018_IWW_FEA_XX I wonder what this is about.
+1018_IWW_HAP_XX I wonder what this is about.
+1018_IWW_NEU_XX I wonder what this is about.
+1018_IWW_SAD_XX I wonder what this is about.
+1018_MTI_ANG_XX Maybe tomorrow it will be cold.
+1018_MTI_DIS_XX Maybe tomorrow it will be cold.
+1018_MTI_FEA_XX Maybe tomorrow it will be cold.
+1018_MTI_HAP_XX Maybe tomorrow it will be cold.
+1018_MTI_NEU_XX Maybe tomorrow it will be cold.
+1018_MTI_SAD_XX Maybe tomorrow it will be cold.
+1018_TAI_ANG_XX The airplane is almost full.
+1018_TAI_DIS_XX The airplane is almost full.
+1018_TAI_FEA_XX The airplane is almost full.
+1018_TAI_HAP_XX The airplane is almost full.
+1018_TAI_NEU_XX The airplane is almost full.
+1018_TAI_SAD_XX The airplane is almost full.
+1018_TIE_ANG_XX That is exactly what happened.
+1018_TIE_DIS_XX That is exactly what happened.
+1018_TIE_FEA_XX That is exactly what happened.
+1018_TIE_HAP_XX That is exactly what happened.
+1018_TIE_NEU_XX That is exactly what happened.
+1018_TIE_SAD_XX That is exactly what happened.
+1018_TSI_ANG_XX The surface is slick.
+1018_TSI_DIS_XX The surface is slick.
+1018_TSI_FEA_XX The surface is slick.
+1018_TSI_HAP_XX The surface is slick.
+1018_TSI_NEU_XX The surface is slick.
+1018_TSI_SAD_XX The surface is slick.
+1018_WSI_ANG_XX We'll stop in a couple of minutes.
+1018_WSI_DIS_XX We'll stop in a couple of minutes.
+1018_WSI_FEA_XX We'll stop in a couple of minutes.
+1018_WSI_HAP_XX We'll stop in a couple of minutes.
+1018_WSI_NEU_XX We'll stop in a couple of minutes.
+1018_WSI_SAD_XX We'll stop in a couple of minutes.
+1019_DFA_ANG_XX Don't forget a jacket.
+1019_DFA_DIS_XX Don't forget a jacket.
+1019_DFA_FEA_XX Don't forget a jacket.
+1019_DFA_HAP_XX Don't forget a jacket.
+1019_DFA_NEU_XX Don't forget a jacket.
+1019_DFA_SAD_XX Don't forget a jacket.
+1019_IEO_ANG_HI It's eleven o'clock.
+1019_IEO_ANG_LO It's eleven o'clock.
+1019_IEO_ANG_MD It's eleven o'clock.
+1019_IEO_DIS_HI It's eleven o'clock.
+1019_IEO_DIS_LO It's eleven o'clock.
+1019_IEO_DIS_MD It's eleven o'clock.
+1019_IEO_FEA_HI It's eleven o'clock.
+1019_IEO_FEA_LO It's eleven o'clock.
+1019_IEO_FEA_MD It's eleven o'clock.
+1019_IEO_HAP_HI It's eleven o'clock.
+1019_IEO_HAP_LO It's eleven o'clock.
+1019_IEO_HAP_MD It's eleven o'clock.
+1019_IEO_NEU_XX It's eleven o'clock.
+1019_IEO_SAD_HI It's eleven o'clock.
+1019_IEO_SAD_LO It's eleven o'clock.
+1019_IEO_SAD_MD It's eleven o'clock.
+1019_IOM_ANG_XX I'm on my way to the meeting.
+1019_IOM_DIS_XX I'm on my way to the meeting.
+1019_IOM_FEA_XX I'm on my way to the meeting.
+1019_IOM_HAP_XX I'm on my way to the meeting.
+1019_IOM_NEU_XX I'm on my way to the meeting.
+1019_IOM_SAD_XX I'm on my way to the meeting.
+1019_ITS_ANG_XX I think I've seen this before.
+1019_ITS_DIS_XX I think I've seen this before.
+1019_ITS_FEA_XX I think I've seen this before.
+1019_ITS_HAP_XX I think I've seen this before.
+1019_ITS_NEU_XX I think I've seen this before.
+1019_ITS_SAD_XX I think I've seen this before.
+1019_IWL_ANG_XX I would like a new alarm clock.
+1019_IWL_DIS_XX I would like a new alarm clock.
+1019_IWL_FEA_XX I would like a new alarm clock.
+1019_IWL_HAP_XX I would like a new alarm clock.
+1019_IWL_NEU_XX I would like a new alarm clock.
+1019_IWL_SAD_XX I would like a new alarm clock.
+1019_IWW_ANG_XX I wonder what this is about.
+1019_IWW_DIS_XX I wonder what this is about.
+1019_IWW_FEA_XX I wonder what this is about.
+1019_IWW_HAP_XX I wonder what this is about.
+1019_IWW_NEU_XX I wonder what this is about.
+1019_IWW_SAD_XX I wonder what this is about.
+1019_MTI_ANG_XX Maybe tomorrow it will be cold.
+1019_MTI_DIS_XX Maybe tomorrow it will be cold.
+1019_MTI_FEA_XX Maybe tomorrow it will be cold.
+1019_MTI_HAP_XX Maybe tomorrow it will be cold.
+1019_MTI_NEU_XX Maybe tomorrow it will be cold.
+1019_MTI_SAD_XX Maybe tomorrow it will be cold.
+1019_TAI_ANG_XX The airplane is almost full.
+1019_TAI_DIS_XX The airplane is almost full.
+1019_TAI_FEA_XX The airplane is almost full.
+1019_TAI_HAP_XX The airplane is almost full.
+1019_TAI_NEU_XX The airplane is almost full.
+1019_TAI_SAD_XX The airplane is almost full.
+1019_TIE_ANG_XX That is exactly what happened.
+1019_TIE_DIS_XX That is exactly what happened.
+1019_TIE_FEA_XX That is exactly what happened.
+1019_TIE_HAP_XX That is exactly what happened.
+1019_TIE_NEU_XX That is exactly what happened.
+1019_TIE_SAD_XX That is exactly what happened.
+1019_TSI_ANG_XX The surface is slick.
+1019_TSI_DIS_XX The surface is slick.
+1019_TSI_FEA_XX The surface is slick.
+1019_TSI_HAP_XX The surface is slick.
+1019_TSI_NEU_XX The surface is slick.
+1019_TSI_SAD_XX The surface is slick.
+1019_WSI_ANG_XX We'll stop in a couple of minutes.
+1019_WSI_DIS_XX We'll stop in a couple of minutes.
+1019_WSI_FEA_XX We'll stop in a couple of minutes.
+1019_WSI_HAP_XX We'll stop in a couple of minutes.
+1019_WSI_NEU_XX We'll stop in a couple of minutes.
+1019_WSI_SAD_XX We'll stop in a couple of minutes.
+1020_DFA_ANG_XX Don't forget a jacket.
+1020_DFA_DIS_XX Don't forget a jacket.
+1020_DFA_FEA_XX Don't forget a jacket.
+1020_DFA_HAP_XX Don't forget a jacket.
+1020_DFA_NEU_XX Don't forget a jacket.
+1020_DFA_SAD_XX Don't forget a jacket.
+1020_IEO_ANG_HI It's eleven o'clock.
+1020_IEO_ANG_LO It's eleven o'clock.
+1020_IEO_ANG_MD It's eleven o'clock.
+1020_IEO_DIS_HI It's eleven o'clock.
+1020_IEO_DIS_LO It's eleven o'clock.
+1020_IEO_DIS_MD It's eleven o'clock.
+1020_IEO_FEA_HI It's eleven o'clock.
+1020_IEO_FEA_LO It's eleven o'clock.
+1020_IEO_FEA_MD It's eleven o'clock.
+1020_IEO_HAP_HI It's eleven o'clock.
+1020_IEO_HAP_LO It's eleven o'clock.
+1020_IEO_HAP_MD It's eleven o'clock.
+1020_IEO_NEU_XX It's eleven o'clock.
+1020_IEO_SAD_HI It's eleven o'clock.
+1020_IEO_SAD_LO It's eleven o'clock.
+1020_IEO_SAD_MD It's eleven o'clock.
+1020_IOM_ANG_XX I'm on my way to the meeting.
+1020_IOM_DIS_XX I'm on my way to the meeting.
+1020_IOM_FEA_XX I'm on my way to the meeting.
+1020_IOM_HAP_XX I'm on my way to the meeting.
+1020_IOM_NEU_XX I'm on my way to the meeting.
+1020_IOM_SAD_XX I'm on my way to the meeting.
+1020_ITH_ANG_XX I think I have a doctor's appointment.
+1020_ITH_DIS_XX I think I have a doctor's appointment.
+1020_ITH_FEA_XX I think I have a doctor's appointment.
+1020_ITH_HAP_XX I think I have a doctor's appointment.
+1020_ITH_NEU_XX I think I have a doctor's appointment.
+1020_ITH_SAD_XX I think I have a doctor's appointment.
+1020_ITS_ANG_XX I think I've seen this before.
+1020_ITS_DIS_XX I think I've seen this before.
+1020_ITS_FEA_XX I think I've seen this before.
+1020_ITS_HAP_XX I think I've seen this before.
+1020_ITS_NEU_XX I think I've seen this before.
+1020_ITS_SAD_XX I think I've seen this before.
+1020_IWL_ANG_XX I would like a new alarm clock.
+1020_IWL_DIS_XX I would like a new alarm clock.
+1020_IWL_FEA_XX I would like a new alarm clock.
+1020_IWL_HAP_XX I would like a new alarm clock.
+1020_IWL_NEU_XX I would like a new alarm clock.
+1020_IWL_SAD_XX I would like a new alarm clock.
+1020_IWW_ANG_XX I wonder what this is about.
+1020_IWW_DIS_XX I wonder what this is about.
+1020_IWW_FEA_XX I wonder what this is about.
+1020_IWW_HAP_XX I wonder what this is about.
+1020_IWW_NEU_XX I wonder what this is about.
+1020_IWW_SAD_XX I wonder what this is about.
+1020_MTI_ANG_XX Maybe tomorrow it will be cold.
+1020_MTI_DIS_XX Maybe tomorrow it will be cold.
+1020_MTI_FEA_XX Maybe tomorrow it will be cold.
+1020_MTI_HAP_XX Maybe tomorrow it will be cold.
+1020_MTI_NEU_XX Maybe tomorrow it will be cold.
+1020_MTI_SAD_XX Maybe tomorrow it will be cold.
+1020_TAI_ANG_XX The airplane is almost full.
+1020_TAI_DIS_XX The airplane is almost full.
+1020_TAI_FEA_XX The airplane is almost full.
+1020_TAI_HAP_XX The airplane is almost full.
+1020_TAI_NEU_XX The airplane is almost full.
+1020_TAI_SAD_XX The airplane is almost full.
+1020_TIE_ANG_XX That is exactly what happened.
+1020_TIE_DIS_XX That is exactly what happened.
+1020_TIE_FEA_XX That is exactly what happened.
+1020_TIE_HAP_XX That is exactly what happened.
+1020_TIE_NEU_XX That is exactly what happened.
+1020_TIE_SAD_XX That is exactly what happened.
+1020_TSI_ANG_XX The surface is slick.
+1020_TSI_DIS_XX The surface is slick.
+1020_TSI_FEA_XX The surface is slick.
+1020_TSI_HAP_XX The surface is slick.
+1020_TSI_NEU_XX The surface is slick.
+1020_TSI_SAD_XX The surface is slick.
+1020_WSI_ANG_XX We'll stop in a couple of minutes.
+1020_WSI_DIS_XX We'll stop in a couple of minutes.
+1020_WSI_FEA_XX We'll stop in a couple of minutes.
+1020_WSI_HAP_XX We'll stop in a couple of minutes.
+1020_WSI_NEU_XX We'll stop in a couple of minutes.
+1020_WSI_SAD_XX We'll stop in a couple of minutes.
+1021_DFA_ANG_XX Don't forget a jacket.
+1021_DFA_DIS_XX Don't forget a jacket.
+1021_DFA_FEA_XX Don't forget a jacket.
+1021_DFA_HAP_XX Don't forget a jacket.
+1021_DFA_NEU_XX Don't forget a jacket.
+1021_DFA_SAD_XX Don't forget a jacket.
+1021_IEO_ANG_HI It's eleven o'clock.
+1021_IEO_ANG_LO It's eleven o'clock.
+1021_IEO_ANG_MD It's eleven o'clock.
+1021_IEO_DIS_HI It's eleven o'clock.
+1021_IEO_DIS_LO It's eleven o'clock.
+1021_IEO_DIS_MD It's eleven o'clock.
+1021_IEO_FEA_HI It's eleven o'clock.
+1021_IEO_FEA_LO It's eleven o'clock.
+1021_IEO_FEA_MD It's eleven o'clock.
+1021_IEO_HAP_HI It's eleven o'clock.
+1021_IEO_HAP_LO It's eleven o'clock.
+1021_IEO_HAP_MD It's eleven o'clock.
+1021_IEO_NEU_XX It's eleven o'clock.
+1021_IEO_SAD_HI It's eleven o'clock.
+1021_IEO_SAD_LO It's eleven o'clock.
+1021_IEO_SAD_MD It's eleven o'clock.
+1021_IOM_ANG_XX I'm on my way to the meeting.
+1021_IOM_DIS_XX I'm on my way to the meeting.
+1021_IOM_FEA_XX I'm on my way to the meeting.
+1021_IOM_HAP_XX I'm on my way to the meeting.
+1021_IOM_NEU_XX I'm on my way to the meeting.
+1021_IOM_SAD_XX I'm on my way to the meeting.
+1021_ITH_ANG_XX I think I have a doctor's appointment.
+1021_ITH_DIS_XX I think I have a doctor's appointment.
+1021_ITH_FEA_XX I think I have a doctor's appointment.
+1021_ITH_HAP_XX I think I have a doctor's appointment.
+1021_ITH_NEU_XX I think I have a doctor's appointment.
+1021_ITH_SAD_XX I think I have a doctor's appointment.
+1021_ITS_ANG_XX I think I've seen this before.
+1021_ITS_DIS_XX I think I've seen this before.
+1021_ITS_FEA_XX I think I've seen this before.
+1021_ITS_HAP_XX I think I've seen this before.
+1021_ITS_NEU_XX I think I've seen this before.
+1021_ITS_SAD_XX I think I've seen this before.
+1021_IWL_ANG_XX I would like a new alarm clock.
+1021_IWL_DIS_XX I would like a new alarm clock.
+1021_IWL_FEA_XX I would like a new alarm clock.
+1021_IWL_HAP_XX I would like a new alarm clock.
+1021_IWL_NEU_XX I would like a new alarm clock.
+1021_IWL_SAD_XX I would like a new alarm clock.
+1021_IWW_ANG_XX I wonder what this is about.
+1021_IWW_DIS_XX I wonder what this is about.
+1021_IWW_FEA_XX I wonder what this is about.
+1021_IWW_HAP_XX I wonder what this is about.
+1021_IWW_NEU_XX I wonder what this is about.
+1021_IWW_SAD_XX I wonder what this is about.
+1021_MTI_ANG_XX Maybe tomorrow it will be cold.
+1021_MTI_DIS_XX Maybe tomorrow it will be cold.
+1021_MTI_FEA_XX Maybe tomorrow it will be cold.
+1021_MTI_HAP_XX Maybe tomorrow it will be cold.
+1021_MTI_NEU_XX Maybe tomorrow it will be cold.
+1021_MTI_SAD_XX Maybe tomorrow it will be cold.
+1021_TAI_ANG_XX The airplane is almost full.
+1021_TAI_DIS_XX The airplane is almost full.
+1021_TAI_FEA_XX The airplane is almost full.
+1021_TAI_HAP_XX The airplane is almost full.
+1021_TAI_NEU_XX The airplane is almost full.
+1021_TAI_SAD_XX The airplane is almost full.
+1021_TIE_ANG_XX That is exactly what happened.
+1021_TIE_DIS_XX That is exactly what happened.
+1021_TIE_FEA_XX That is exactly what happened.
+1021_TIE_HAP_XX That is exactly what happened.
+1021_TIE_NEU_XX That is exactly what happened.
+1021_TIE_SAD_XX That is exactly what happened.
+1021_TSI_ANG_XX The surface is slick.
+1021_TSI_DIS_XX The surface is slick.
+1021_TSI_FEA_XX The surface is slick.
+1021_TSI_HAP_XX The surface is slick.
+1021_TSI_NEU_XX The surface is slick.
+1021_TSI_SAD_XX The surface is slick.
+1021_WSI_ANG_XX We'll stop in a couple of minutes.
+1021_WSI_DIS_XX We'll stop in a couple of minutes.
+1021_WSI_FEA_XX We'll stop in a couple of minutes.
+1021_WSI_HAP_XX We'll stop in a couple of minutes.
+1021_WSI_NEU_XX We'll stop in a couple of minutes.
+1021_WSI_SAD_XX We'll stop in a couple of minutes.
+1022_DFA_ANG_XX Don't forget a jacket.
+1022_DFA_DIS_XX Don't forget a jacket.
+1022_DFA_FEA_XX Don't forget a jacket.
+1022_DFA_HAP_XX Don't forget a jacket.
+1022_DFA_NEU_XX Don't forget a jacket.
+1022_DFA_SAD_XX Don't forget a jacket.
+1022_IEO_ANG_HI It's eleven o'clock.
+1022_IEO_ANG_LO It's eleven o'clock.
+1022_IEO_ANG_MD It's eleven o'clock.
+1022_IEO_DIS_HI It's eleven o'clock.
+1022_IEO_DIS_LO It's eleven o'clock.
+1022_IEO_DIS_MD It's eleven o'clock.
+1022_IEO_FEA_HI It's eleven o'clock.
+1022_IEO_FEA_LO It's eleven o'clock.
+1022_IEO_FEA_MD It's eleven o'clock.
+1022_IEO_HAP_HI It's eleven o'clock.
+1022_IEO_HAP_LO It's eleven o'clock.
+1022_IEO_HAP_MD It's eleven o'clock.
+1022_IEO_NEU_XX It's eleven o'clock.
+1022_IEO_SAD_HI It's eleven o'clock.
+1022_IEO_SAD_LO It's eleven o'clock.
+1022_IEO_SAD_MD It's eleven o'clock.
+1022_IOM_ANG_XX I'm on my way to the meeting.
+1022_IOM_DIS_XX I'm on my way to the meeting.
+1022_IOM_FEA_XX I'm on my way to the meeting.
+1022_IOM_HAP_XX I'm on my way to the meeting.
+1022_IOM_NEU_XX I'm on my way to the meeting.
+1022_IOM_SAD_XX I'm on my way to the meeting.
+1022_ITH_ANG_XX I think I have a doctor's appointment.
+1022_ITH_DIS_XX I think I have a doctor's appointment.
+1022_ITH_FEA_XX I think I have a doctor's appointment.
+1022_ITH_HAP_XX I think I have a doctor's appointment.
+1022_ITH_NEU_XX I think I have a doctor's appointment.
+1022_ITH_SAD_XX I think I have a doctor's appointment.
+1022_ITS_ANG_XX I think I've seen this before.
+1022_ITS_DIS_XX I think I've seen this before.
+1022_ITS_FEA_XX I think I've seen this before.
+1022_ITS_HAP_XX I think I've seen this before.
+1022_ITS_NEU_XX I think I've seen this before.
+1022_ITS_SAD_XX I think I've seen this before.
+1022_IWL_ANG_XX I would like a new alarm clock.
+1022_IWL_DIS_XX I would like a new alarm clock.
+1022_IWL_FEA_XX I would like a new alarm clock.
+1022_IWL_HAP_XX I would like a new alarm clock.
+1022_IWL_NEU_XX I would like a new alarm clock.
+1022_IWL_SAD_XX I would like a new alarm clock.
+1022_IWW_ANG_XX I wonder what this is about.
+1022_IWW_DIS_XX I wonder what this is about.
+1022_IWW_FEA_XX I wonder what this is about.
+1022_IWW_HAP_XX I wonder what this is about.
+1022_IWW_NEU_XX I wonder what this is about.
+1022_IWW_SAD_XX I wonder what this is about.
+1022_MTI_ANG_XX Maybe tomorrow it will be cold.
+1022_MTI_DIS_XX Maybe tomorrow it will be cold.
+1022_MTI_FEA_XX Maybe tomorrow it will be cold.
+1022_MTI_HAP_XX Maybe tomorrow it will be cold.
+1022_MTI_NEU_XX Maybe tomorrow it will be cold.
+1022_MTI_SAD_XX Maybe tomorrow it will be cold.
+1022_TAI_ANG_XX The airplane is almost full.
+1022_TAI_DIS_XX The airplane is almost full.
+1022_TAI_FEA_XX The airplane is almost full.
+1022_TAI_HAP_XX The airplane is almost full.
+1022_TAI_NEU_XX The airplane is almost full.
+1022_TAI_SAD_XX The airplane is almost full.
+1022_TIE_ANG_XX That is exactly what happened.
+1022_TIE_DIS_XX That is exactly what happened.
+1022_TIE_FEA_XX That is exactly what happened.
+1022_TIE_HAP_XX That is exactly what happened.
+1022_TIE_NEU_XX That is exactly what happened.
+1022_TIE_SAD_XX That is exactly what happened.
+1022_TSI_ANG_XX The surface is slick.
+1022_TSI_DIS_XX The surface is slick.
+1022_TSI_FEA_XX The surface is slick.
+1022_TSI_HAP_XX The surface is slick.
+1022_TSI_NEU_XX The surface is slick.
+1022_TSI_SAD_XX The surface is slick.
+1022_WSI_ANG_XX We'll stop in a couple of minutes.
+1022_WSI_DIS_XX We'll stop in a couple of minutes.
+1022_WSI_FEA_XX We'll stop in a couple of minutes.
+1022_WSI_HAP_XX We'll stop in a couple of minutes.
+1022_WSI_NEU_XX We'll stop in a couple of minutes.
+1022_WSI_SAD_XX We'll stop in a couple of minutes.
+1023_DFA_ANG_XX Don't forget a jacket.
+1023_DFA_DIS_XX Don't forget a jacket.
+1023_DFA_FEA_XX Don't forget a jacket.
+1023_DFA_HAP_XX Don't forget a jacket.
+1023_DFA_NEU_XX Don't forget a jacket.
+1023_DFA_SAD_XX Don't forget a jacket.
+1023_IEO_ANG_HI It's eleven o'clock.
+1023_IEO_ANG_LO It's eleven o'clock.
+1023_IEO_ANG_MD It's eleven o'clock.
+1023_IEO_DIS_HI It's eleven o'clock.
+1023_IEO_DIS_LO It's eleven o'clock.
+1023_IEO_DIS_MD It's eleven o'clock.
+1023_IEO_FEA_HI It's eleven o'clock.
+1023_IEO_FEA_LO It's eleven o'clock.
+1023_IEO_FEA_MD It's eleven o'clock.
+1023_IEO_HAP_HI It's eleven o'clock.
+1023_IEO_HAP_LO It's eleven o'clock.
+1023_IEO_HAP_MD It's eleven o'clock.
+1023_IEO_NEU_XX It's eleven o'clock.
+1023_IEO_SAD_HI It's eleven o'clock.
+1023_IEO_SAD_LO It's eleven o'clock.
+1023_IEO_SAD_MD It's eleven o'clock.
+1023_IOM_ANG_XX I'm on my way to the meeting.
+1023_IOM_DIS_XX I'm on my way to the meeting.
+1023_IOM_FEA_XX I'm on my way to the meeting.
+1023_IOM_HAP_XX I'm on my way to the meeting.
+1023_IOM_NEU_XX I'm on my way to the meeting.
+1023_IOM_SAD_XX I'm on my way to the meeting.
+1023_ITH_ANG_XX I think I have a doctor's appointment.
+1023_ITH_DIS_XX I think I have a doctor's appointment.
+1023_ITH_FEA_XX I think I have a doctor's appointment.
+1023_ITH_HAP_XX I think I have a doctor's appointment.
+1023_ITH_NEU_XX I think I have a doctor's appointment.
+1023_ITH_SAD_XX I think I have a doctor's appointment.
+1023_ITS_ANG_XX I think I've seen this before.
+1023_ITS_DIS_XX I think I've seen this before.
+1023_ITS_FEA_XX I think I've seen this before.
+1023_ITS_HAP_XX I think I've seen this before.
+1023_ITS_NEU_XX I think I've seen this before.
+1023_ITS_SAD_XX I think I've seen this before.
+1023_IWL_ANG_XX I would like a new alarm clock.
+1023_IWL_DIS_XX I would like a new alarm clock.
+1023_IWL_FEA_XX I would like a new alarm clock.
+1023_IWL_HAP_XX I would like a new alarm clock.
+1023_IWL_NEU_XX I would like a new alarm clock.
+1023_IWL_SAD_XX I would like a new alarm clock.
+1023_IWW_ANG_XX I wonder what this is about.
+1023_IWW_DIS_XX I wonder what this is about.
+1023_IWW_FEA_XX I wonder what this is about.
+1023_IWW_HAP_XX I wonder what this is about.
+1023_IWW_NEU_XX I wonder what this is about.
+1023_IWW_SAD_XX I wonder what this is about.
+1023_MTI_ANG_XX Maybe tomorrow it will be cold.
+1023_MTI_DIS_XX Maybe tomorrow it will be cold.
+1023_MTI_FEA_XX Maybe tomorrow it will be cold.
+1023_MTI_HAP_XX Maybe tomorrow it will be cold.
+1023_MTI_NEU_XX Maybe tomorrow it will be cold.
+1023_MTI_SAD_XX Maybe tomorrow it will be cold.
+1023_TAI_ANG_XX The airplane is almost full.
+1023_TAI_DIS_XX The airplane is almost full.
+1023_TAI_FEA_XX The airplane is almost full.
+1023_TAI_HAP_XX The airplane is almost full.
+1023_TAI_NEU_XX The airplane is almost full.
+1023_TAI_SAD_XX The airplane is almost full.
+1023_TIE_ANG_XX That is exactly what happened.
+1023_TIE_DIS_XX That is exactly what happened.
+1023_TIE_FEA_XX That is exactly what happened.
+1023_TIE_HAP_XX That is exactly what happened.
+1023_TIE_NEU_XX That is exactly what happened.
+1023_TIE_SAD_XX That is exactly what happened.
+1023_TSI_ANG_XX The surface is slick.
+1023_TSI_DIS_XX The surface is slick.
+1023_TSI_FEA_XX The surface is slick.
+1023_TSI_HAP_XX The surface is slick.
+1023_TSI_NEU_XX The surface is slick.
+1023_TSI_SAD_XX The surface is slick.
+1023_WSI_ANG_XX We'll stop in a couple of minutes.
+1023_WSI_DIS_XX We'll stop in a couple of minutes.
+1023_WSI_FEA_XX We'll stop in a couple of minutes.
+1023_WSI_HAP_XX We'll stop in a couple of minutes.
+1023_WSI_NEU_XX We'll stop in a couple of minutes.
+1023_WSI_SAD_XX We'll stop in a couple of minutes.
+1024_DFA_ANG_XX Don't forget a jacket.
+1024_DFA_DIS_XX Don't forget a jacket.
+1024_DFA_FEA_XX Don't forget a jacket.
+1024_DFA_HAP_XX Don't forget a jacket.
+1024_DFA_NEU_XX Don't forget a jacket.
+1024_DFA_SAD_XX Don't forget a jacket.
+1024_IEO_ANG_HI It's eleven o'clock.
+1024_IEO_ANG_LO It's eleven o'clock.
+1024_IEO_ANG_MD It's eleven o'clock.
+1024_IEO_DIS_HI It's eleven o'clock.
+1024_IEO_DIS_LO It's eleven o'clock.
+1024_IEO_DIS_MD It's eleven o'clock.
+1024_IEO_FEA_HI It's eleven o'clock.
+1024_IEO_FEA_LO It's eleven o'clock.
+1024_IEO_FEA_MD It's eleven o'clock.
+1024_IEO_HAP_HI It's eleven o'clock.
+1024_IEO_HAP_LO It's eleven o'clock.
+1024_IEO_HAP_MD It's eleven o'clock.
+1024_IEO_NEU_XX It's eleven o'clock.
+1024_IEO_SAD_HI It's eleven o'clock.
+1024_IEO_SAD_LO It's eleven o'clock.
+1024_IEO_SAD_MD It's eleven o'clock.
+1024_IOM_ANG_XX I'm on my way to the meeting.
+1024_IOM_DIS_XX I'm on my way to the meeting.
+1024_IOM_FEA_XX I'm on my way to the meeting.
+1024_IOM_HAP_XX I'm on my way to the meeting.
+1024_IOM_NEU_XX I'm on my way to the meeting.
+1024_IOM_SAD_XX I'm on my way to the meeting.
+1024_ITH_ANG_XX I think I have a doctor's appointment.
+1024_ITH_DIS_XX I think I have a doctor's appointment.
+1024_ITH_FEA_XX I think I have a doctor's appointment.
+1024_ITH_HAP_XX I think I have a doctor's appointment.
+1024_ITH_NEU_XX I think I have a doctor's appointment.
+1024_ITH_SAD_XX I think I have a doctor's appointment.
+1024_ITS_ANG_XX I think I've seen this before.
+1024_ITS_DIS_XX I think I've seen this before.
+1024_ITS_FEA_XX I think I've seen this before.
+1024_ITS_HAP_XX I think I've seen this before.
+1024_ITS_NEU_XX I think I've seen this before.
+1024_ITS_SAD_XX I think I've seen this before.
+1024_IWL_ANG_XX I would like a new alarm clock.
+1024_IWL_DIS_XX I would like a new alarm clock.
+1024_IWL_FEA_XX I would like a new alarm clock.
+1024_IWL_HAP_XX I would like a new alarm clock.
+1024_IWL_NEU_XX I would like a new alarm clock.
+1024_IWL_SAD_XX I would like a new alarm clock.
+1024_IWW_ANG_XX I wonder what this is about.
+1024_IWW_DIS_XX I wonder what this is about.
+1024_IWW_FEA_XX I wonder what this is about.
+1024_IWW_HAP_XX I wonder what this is about.
+1024_IWW_NEU_XX I wonder what this is about.
+1024_IWW_SAD_XX I wonder what this is about.
+1024_MTI_ANG_XX Maybe tomorrow it will be cold.
+1024_MTI_DIS_XX Maybe tomorrow it will be cold.
+1024_MTI_FEA_XX Maybe tomorrow it will be cold.
+1024_MTI_HAP_XX Maybe tomorrow it will be cold.
+1024_MTI_NEU_XX Maybe tomorrow it will be cold.
+1024_MTI_SAD_XX Maybe tomorrow it will be cold.
+1024_TAI_ANG_XX The airplane is almost full.
+1024_TAI_DIS_XX The airplane is almost full.
+1024_TAI_FEA_XX The airplane is almost full.
+1024_TAI_HAP_XX The airplane is almost full.
+1024_TAI_NEU_XX The airplane is almost full.
+1024_TAI_SAD_XX The airplane is almost full.
+1024_TIE_ANG_XX That is exactly what happened.
+1024_TIE_DIS_XX That is exactly what happened.
+1024_TIE_FEA_XX That is exactly what happened.
+1024_TIE_HAP_XX That is exactly what happened.
+1024_TIE_NEU_XX That is exactly what happened.
+1024_TIE_SAD_XX That is exactly what happened.
+1024_TSI_ANG_XX The surface is slick.
+1024_TSI_DIS_XX The surface is slick.
+1024_TSI_FEA_XX The surface is slick.
+1024_TSI_HAP_XX The surface is slick.
+1024_TSI_NEU_XX The surface is slick.
+1024_TSI_SAD_XX The surface is slick.
+1024_WSI_ANG_XX We'll stop in a couple of minutes.
+1024_WSI_DIS_XX We'll stop in a couple of minutes.
+1024_WSI_FEA_XX We'll stop in a couple of minutes.
+1024_WSI_HAP_XX We'll stop in a couple of minutes.
+1024_WSI_NEU_XX We'll stop in a couple of minutes.
+1024_WSI_SAD_XX We'll stop in a couple of minutes.
+1025_DFA_ANG_XX Don't forget a jacket.
+1025_DFA_DIS_XX Don't forget a jacket.
+1025_DFA_FEA_XX Don't forget a jacket.
+1025_DFA_HAP_XX Don't forget a jacket.
+1025_DFA_NEU_XX Don't forget a jacket.
+1025_DFA_SAD_XX Don't forget a jacket.
+1025_IEO_ANG_HI It's eleven o'clock.
+1025_IEO_ANG_LO It's eleven o'clock.
+1025_IEO_ANG_MD It's eleven o'clock.
+1025_IEO_DIS_HI It's eleven o'clock.
+1025_IEO_DIS_LO It's eleven o'clock.
+1025_IEO_DIS_MD It's eleven o'clock.
+1025_IEO_FEA_HI It's eleven o'clock.
+1025_IEO_FEA_LO It's eleven o'clock.
+1025_IEO_FEA_MD It's eleven o'clock.
+1025_IEO_HAP_HI It's eleven o'clock.
+1025_IEO_HAP_LO It's eleven o'clock.
+1025_IEO_HAP_MD It's eleven o'clock.
+1025_IEO_NEU_XX It's eleven o'clock.
+1025_IEO_SAD_HI It's eleven o'clock.
+1025_IEO_SAD_LO It's eleven o'clock.
+1025_IEO_SAD_MD It's eleven o'clock.
+1025_IOM_ANG_XX I'm on my way to the meeting.
+1025_IOM_DIS_XX I'm on my way to the meeting.
+1025_IOM_FEA_XX I'm on my way to the meeting.
+1025_IOM_HAP_XX I'm on my way to the meeting.
+1025_IOM_NEU_XX I'm on my way to the meeting.
+1025_IOM_SAD_XX I'm on my way to the meeting.
+1025_ITH_ANG_XX I think I have a doctor's appointment.
+1025_ITH_DIS_XX I think I have a doctor's appointment.
+1025_ITH_FEA_XX I think I have a doctor's appointment.
+1025_ITH_HAP_XX I think I have a doctor's appointment.
+1025_ITH_NEU_XX I think I have a doctor's appointment.
+1025_ITH_SAD_XX I think I have a doctor's appointment.
+1025_ITS_ANG_XX I think I've seen this before.
+1025_ITS_DIS_XX I think I've seen this before.
+1025_ITS_FEA_XX I think I've seen this before.
+1025_ITS_HAP_XX I think I've seen this before.
+1025_ITS_NEU_XX I think I've seen this before.
+1025_ITS_SAD_XX I think I've seen this before.
+1025_IWL_ANG_XX I would like a new alarm clock.
+1025_IWL_DIS_XX I would like a new alarm clock.
+1025_IWL_FEA_XX I would like a new alarm clock.
+1025_IWL_HAP_XX I would like a new alarm clock.
+1025_IWL_NEU_XX I would like a new alarm clock.
+1025_IWL_SAD_XX I would like a new alarm clock.
+1025_IWW_ANG_XX I wonder what this is about.
+1025_IWW_DIS_XX I wonder what this is about.
+1025_IWW_FEA_XX I wonder what this is about.
+1025_IWW_HAP_XX I wonder what this is about.
+1025_IWW_NEU_XX I wonder what this is about.
+1025_IWW_SAD_XX I wonder what this is about.
+1025_MTI_ANG_XX Maybe tomorrow it will be cold.
+1025_MTI_DIS_XX Maybe tomorrow it will be cold.
+1025_MTI_FEA_XX Maybe tomorrow it will be cold.
+1025_MTI_HAP_XX Maybe tomorrow it will be cold.
+1025_MTI_NEU_XX Maybe tomorrow it will be cold.
+1025_MTI_SAD_XX Maybe tomorrow it will be cold.
+1025_TAI_ANG_XX The airplane is almost full.
+1025_TAI_DIS_XX The airplane is almost full.
+1025_TAI_FEA_XX The airplane is almost full.
+1025_TAI_HAP_XX The airplane is almost full.
+1025_TAI_NEU_XX The airplane is almost full.
+1025_TAI_SAD_XX The airplane is almost full.
+1025_TIE_ANG_XX That is exactly what happened.
+1025_TIE_DIS_XX That is exactly what happened.
+1025_TIE_FEA_XX That is exactly what happened.
+1025_TIE_HAP_XX That is exactly what happened.
+1025_TIE_NEU_XX That is exactly what happened.
+1025_TIE_SAD_XX That is exactly what happened.
+1025_TSI_ANG_XX The surface is slick.
+1025_TSI_DIS_XX The surface is slick.
+1025_TSI_FEA_XX The surface is slick.
+1025_TSI_HAP_XX The surface is slick.
+1025_TSI_NEU_XX The surface is slick.
+1025_TSI_SAD_XX The surface is slick.
+1025_WSI_ANG_XX We'll stop in a couple of minutes.
+1025_WSI_DIS_XX We'll stop in a couple of minutes.
+1025_WSI_FEA_XX We'll stop in a couple of minutes.
+1025_WSI_HAP_XX We'll stop in a couple of minutes.
+1025_WSI_NEU_XX We'll stop in a couple of minutes.
+1025_WSI_SAD_XX We'll stop in a couple of minutes.
+1026_DFA_ANG_XX Don't forget a jacket.
+1026_DFA_DIS_XX Don't forget a jacket.
+1026_DFA_FEA_XX Don't forget a jacket.
+1026_DFA_HAP_XX Don't forget a jacket.
+1026_DFA_NEU_XX Don't forget a jacket.
+1026_DFA_SAD_XX Don't forget a jacket.
+1026_IEO_ANG_HI It's eleven o'clock.
+1026_IEO_ANG_LO It's eleven o'clock.
+1026_IEO_ANG_MD It's eleven o'clock.
+1026_IEO_DIS_HI It's eleven o'clock.
+1026_IEO_DIS_LO It's eleven o'clock.
+1026_IEO_DIS_MD It's eleven o'clock.
+1026_IEO_FEA_HI It's eleven o'clock.
+1026_IEO_FEA_LO It's eleven o'clock.
+1026_IEO_FEA_MD It's eleven o'clock.
+1026_IEO_HAP_HI It's eleven o'clock.
+1026_IEO_HAP_LO It's eleven o'clock.
+1026_IEO_HAP_MD It's eleven o'clock.
+1026_IEO_NEU_XX It's eleven o'clock.
+1026_IEO_SAD_HI It's eleven o'clock.
+1026_IEO_SAD_LO It's eleven o'clock.
+1026_IEO_SAD_MD It's eleven o'clock.
+1026_IOM_ANG_XX I'm on my way to the meeting.
+1026_IOM_DIS_XX I'm on my way to the meeting.
+1026_IOM_FEA_XX I'm on my way to the meeting.
+1026_IOM_HAP_XX I'm on my way to the meeting.
+1026_IOM_NEU_XX I'm on my way to the meeting.
+1026_IOM_SAD_XX I'm on my way to the meeting.
+1026_ITH_ANG_XX I think I have a doctor's appointment.
+1026_ITH_DIS_XX I think I have a doctor's appointment.
+1026_ITH_FEA_XX I think I have a doctor's appointment.
+1026_ITH_HAP_XX I think I have a doctor's appointment.
+1026_ITH_NEU_XX I think I have a doctor's appointment.
+1026_ITH_SAD_XX I think I have a doctor's appointment.
+1026_ITS_ANG_XX I think I've seen this before.
+1026_ITS_DIS_XX I think I've seen this before.
+1026_ITS_FEA_XX I think I've seen this before.
+1026_ITS_HAP_XX I think I've seen this before.
+1026_ITS_NEU_XX I think I've seen this before.
+1026_ITS_SAD_XX I think I've seen this before.
+1026_IWL_ANG_XX I would like a new alarm clock.
+1026_IWL_DIS_XX I would like a new alarm clock.
+1026_IWL_FEA_XX I would like a new alarm clock.
+1026_IWL_HAP_XX I would like a new alarm clock.
+1026_IWL_NEU_XX I would like a new alarm clock.
+1026_IWL_SAD_XX I would like a new alarm clock.
+1026_IWW_ANG_XX I wonder what this is about.
+1026_IWW_DIS_XX I wonder what this is about.
+1026_IWW_FEA_XX I wonder what this is about.
+1026_IWW_HAP_XX I wonder what this is about.
+1026_IWW_NEU_XX I wonder what this is about.
+1026_IWW_SAD_XX I wonder what this is about.
+1026_MTI_ANG_XX Maybe tomorrow it will be cold.
+1026_MTI_DIS_XX Maybe tomorrow it will be cold.
+1026_MTI_FEA_XX Maybe tomorrow it will be cold.
+1026_MTI_HAP_XX Maybe tomorrow it will be cold.
+1026_MTI_NEU_XX Maybe tomorrow it will be cold.
+1026_MTI_SAD_XX Maybe tomorrow it will be cold.
+1026_TAI_ANG_XX The airplane is almost full.
+1026_TAI_DIS_XX The airplane is almost full.
+1026_TAI_FEA_XX The airplane is almost full.
+1026_TAI_HAP_XX The airplane is almost full.
+1026_TAI_NEU_XX The airplane is almost full.
+1026_TAI_SAD_XX The airplane is almost full.
+1026_TIE_ANG_XX That is exactly what happened.
+1026_TIE_DIS_XX That is exactly what happened.
+1026_TIE_FEA_XX That is exactly what happened.
+1026_TIE_HAP_XX That is exactly what happened.
+1026_TIE_NEU_XX That is exactly what happened.
+1026_TIE_SAD_XX That is exactly what happened.
+1026_TSI_ANG_XX The surface is slick.
+1026_TSI_DIS_XX The surface is slick.
+1026_TSI_FEA_XX The surface is slick.
+1026_TSI_HAP_XX The surface is slick.
+1026_TSI_NEU_XX The surface is slick.
+1026_TSI_SAD_XX The surface is slick.
+1026_WSI_ANG_XX We'll stop in a couple of minutes.
+1026_WSI_DIS_XX We'll stop in a couple of minutes.
+1026_WSI_FEA_XX We'll stop in a couple of minutes.
+1026_WSI_HAP_XX We'll stop in a couple of minutes.
+1026_WSI_NEU_XX We'll stop in a couple of minutes.
+1026_WSI_SAD_XX We'll stop in a couple of minutes.
+1027_DFA_ANG_XX Don't forget a jacket.
+1027_DFA_DIS_XX Don't forget a jacket.
+1027_DFA_FEA_XX Don't forget a jacket.
+1027_DFA_HAP_XX Don't forget a jacket.
+1027_DFA_NEU_XX Don't forget a jacket.
+1027_DFA_SAD_XX Don't forget a jacket.
+1027_IEO_ANG_HI It's eleven o'clock.
+1027_IEO_ANG_LO It's eleven o'clock.
+1027_IEO_ANG_MD It's eleven o'clock.
+1027_IEO_DIS_HI It's eleven o'clock.
+1027_IEO_DIS_LO It's eleven o'clock.
+1027_IEO_DIS_MD It's eleven o'clock.
+1027_IEO_FEA_HI It's eleven o'clock.
+1027_IEO_FEA_LO It's eleven o'clock.
+1027_IEO_FEA_MD It's eleven o'clock.
+1027_IEO_HAP_HI It's eleven o'clock.
+1027_IEO_HAP_LO It's eleven o'clock.
+1027_IEO_HAP_MD It's eleven o'clock.
+1027_IEO_NEU_XX It's eleven o'clock.
+1027_IEO_SAD_HI It's eleven o'clock.
+1027_IEO_SAD_LO It's eleven o'clock.
+1027_IEO_SAD_MD It's eleven o'clock.
+1027_IOM_ANG_XX I'm on my way to the meeting.
+1027_IOM_DIS_XX I'm on my way to the meeting.
+1027_IOM_FEA_XX I'm on my way to the meeting.
+1027_IOM_HAP_XX I'm on my way to the meeting.
+1027_IOM_NEU_XX I'm on my way to the meeting.
+1027_IOM_SAD_XX I'm on my way to the meeting.
+1027_ITH_ANG_XX I think I have a doctor's appointment.
+1027_ITH_DIS_XX I think I have a doctor's appointment.
+1027_ITH_FEA_XX I think I have a doctor's appointment.
+1027_ITH_HAP_XX I think I have a doctor's appointment.
+1027_ITH_NEU_XX I think I have a doctor's appointment.
+1027_ITH_SAD_XX I think I have a doctor's appointment.
+1027_ITS_ANG_XX I think I've seen this before.
+1027_ITS_DIS_XX I think I've seen this before.
+1027_ITS_FEA_XX I think I've seen this before.
+1027_ITS_HAP_XX I think I've seen this before.
+1027_ITS_NEU_XX I think I've seen this before.
+1027_ITS_SAD_XX I think I've seen this before.
+1027_IWL_ANG_XX I would like a new alarm clock.
+1027_IWL_DIS_XX I would like a new alarm clock.
+1027_IWL_FEA_XX I would like a new alarm clock.
+1027_IWL_HAP_XX I would like a new alarm clock.
+1027_IWL_NEU_XX I would like a new alarm clock.
+1027_IWL_SAD_XX I would like a new alarm clock.
+1027_IWW_ANG_XX I wonder what this is about.
+1027_IWW_DIS_XX I wonder what this is about.
+1027_IWW_FEA_XX I wonder what this is about.
+1027_IWW_HAP_XX I wonder what this is about.
+1027_IWW_NEU_XX I wonder what this is about.
+1027_IWW_SAD_XX I wonder what this is about.
+1027_MTI_ANG_XX Maybe tomorrow it will be cold.
+1027_MTI_DIS_XX Maybe tomorrow it will be cold.
+1027_MTI_FEA_XX Maybe tomorrow it will be cold.
+1027_MTI_HAP_XX Maybe tomorrow it will be cold.
+1027_MTI_NEU_XX Maybe tomorrow it will be cold.
+1027_MTI_SAD_XX Maybe tomorrow it will be cold.
+1027_TAI_ANG_XX The airplane is almost full.
+1027_TAI_DIS_XX The airplane is almost full.
+1027_TAI_FEA_XX The airplane is almost full.
+1027_TAI_HAP_XX The airplane is almost full.
+1027_TAI_NEU_XX The airplane is almost full.
+1027_TAI_SAD_XX The airplane is almost full.
+1027_TIE_ANG_XX That is exactly what happened.
+1027_TIE_DIS_XX That is exactly what happened.
+1027_TIE_FEA_XX That is exactly what happened.
+1027_TIE_HAP_XX That is exactly what happened.
+1027_TIE_NEU_XX That is exactly what happened.
+1027_TIE_SAD_XX That is exactly what happened.
+1027_TSI_ANG_XX The surface is slick.
+1027_TSI_DIS_XX The surface is slick.
+1027_TSI_FEA_XX The surface is slick.
+1027_TSI_HAP_XX The surface is slick.
+1027_TSI_NEU_XX The surface is slick.
+1027_TSI_SAD_XX The surface is slick.
+1027_WSI_ANG_XX We'll stop in a couple of minutes.
+1027_WSI_DIS_XX We'll stop in a couple of minutes.
+1027_WSI_FEA_XX We'll stop in a couple of minutes.
+1027_WSI_HAP_XX We'll stop in a couple of minutes.
+1027_WSI_NEU_XX We'll stop in a couple of minutes.
+1027_WSI_SAD_XX We'll stop in a couple of minutes.
+1028_IEO_ANG_HI It's eleven o'clock.
+1028_IEO_ANG_LO It's eleven o'clock.
+1028_IEO_ANG_MD It's eleven o'clock.
+1028_IEO_DIS_HI It's eleven o'clock.
+1028_IEO_DIS_LO It's eleven o'clock.
+1028_IEO_DIS_MD It's eleven o'clock.
+1028_IEO_FEA_HI It's eleven o'clock.
+1028_IEO_FEA_LO It's eleven o'clock.
+1028_IEO_FEA_MD It's eleven o'clock.
+1028_IEO_HAP_HI It's eleven o'clock.
+1028_IEO_HAP_LO It's eleven o'clock.
+1028_IEO_HAP_MD It's eleven o'clock.
+1028_IEO_NEU_XX It's eleven o'clock.
+1028_IEO_SAD_HI It's eleven o'clock.
+1028_IEO_SAD_LO It's eleven o'clock.
+1028_IEO_SAD_MD It's eleven o'clock.
+1028_IOM_ANG_XX I'm on my way to the meeting.
+1028_IOM_DIS_XX I'm on my way to the meeting.
+1028_IOM_FEA_XX I'm on my way to the meeting.
+1028_IOM_HAP_XX I'm on my way to the meeting.
+1028_IOM_NEU_XX I'm on my way to the meeting.
+1028_IOM_SAD_XX I'm on my way to the meeting.
+1028_IWW_ANG_XX I wonder what this is about.
+1028_IWW_DIS_XX I wonder what this is about.
+1028_IWW_FEA_XX I wonder what this is about.
+1028_IWW_HAP_XX I wonder what this is about.
+1028_IWW_NEU_XX I wonder what this is about.
+1028_IWW_SAD_XX I wonder what this is about.
+1028_TAI_HAP_XX The airplane is almost full.
+1028_TAI_NEU_XX The airplane is almost full.
+1028_TAI_SAD_XX The airplane is almost full.
+1028_TIE_ANG_XX That is exactly what happened.
+1028_TIE_DIS_XX That is exactly what happened.
+1028_TIE_FEA_XX That is exactly what happened.
+1028_TIE_HAP_XX That is exactly what happened.
+1028_TIE_NEU_XX That is exactly what happened.
+1028_TIE_SAD_XX That is exactly what happened.

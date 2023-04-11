@@ -2,19 +2,27 @@
 
 # Main emotion identification script.
 
-./path.sh
+. ./path.sh || exit 1
+. ./cmd.sh || exit 1
 
 stage=0
 
 # Data preparation
 if [ $stage -le 0 ]; then
-  utils/download_data.sh
+  personal_utils/download_data.sh
+  echo "Download data done"
 fi
 
 if [ $stage -le 1 ]; then
-  utils/prepare_data.sh
+  personal_utils/prepare_data.sh
+  utils/utt2spk_to_spk2utt.pl local/data/train/utt2spk > local/data/train/spk2utt
+  utils/utt2spk_to_spk2utt.pl local/data/test/utt2spk > local/data/test/spk2utt
+  utils/fix_data_dir.sh local/data/train
+  utils/fix_data_dir.sh local/data/test
+  echo "Prepare data done"
 fi
 
 if [ $stage -le 2 ]; then
- utils/make_mfcc.sh
+ personal_utils/run_ivector_common.sh
+ echo "Ivector common done"
 fi
