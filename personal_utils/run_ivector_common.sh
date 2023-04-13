@@ -32,7 +32,7 @@ fi
 
 if [ $stage -le 2 ]; then
   echo "$0: making MFCC features for low-resolution speed-perturbed data"
-  steps/make_mfcc.sh --nj $nj \
+  steps/make_mfcc_pitch.sh --nj $nj \
     --cmd "$train_cmd" local/data/${train_set}
   steps/compute_cmvn_stats.sh local/data/${train_set}
   echo "$0: fixing input data-dir to remove nonexistent features, in case some "
@@ -60,7 +60,7 @@ if [ $stage -le 4 ]; then
   utils/data/perturb_data_dir_volume.sh local/data/${train_set}_hires
 
   for datadir in ${train_set} test; do
-    steps/make_mfcc.sh --nj $nj --mfcc-config conf/mfcc_hires.conf \
+    steps/make_mfcc_pitch.sh --nj $nj --mfcc-config conf/mfcc_hires.conf \
       --cmd "$train_cmd" local/data/${datadir}_hires
     steps/compute_cmvn_stats.sh local/data/${datadir}_hires
     utils/fix_data_dir.sh local/data/${datadir}_hires
