@@ -20,5 +20,13 @@ else
   echo "$0: not downloading or unzipping IEMOCAP because it already exists."
 fi
 
+# Tedlium database:
+if [ ! -e Tedlium ]; then
+  echo "$0: downloading the Tedlium data (it won't re-download if it was already downloaded.)"
+  gsutil cp -r gs://tedlium_with_pitch_model/pretrained_tedlium_dir.tar.gz local/data/Tedlium
+else
+  echo "$0: not downloading or unzipping Tedlium because it already exists."
+fi
+
 exit 0
 
