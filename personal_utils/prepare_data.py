@@ -4,7 +4,7 @@ import random
 import pandas as pd
 cwd = os.getcwd()
 
-train_percent = 0.1
+train_percent = 0.03
 
 def tied_emotions(row):
     emotions = str.split(row, ':')

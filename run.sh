@@ -23,6 +23,17 @@ if [ $stage -le 1 ]; then
 fi
 
 if [ $stage -le 2 ]; then
- personal_utils/run_ivector_common.sh
- echo "Ivector common done"
+  personal_utils/run_ivector_common.sh
+  echo "Ivector common done"
 fi
+
+if [ $stage -le 3 ]; then
+  personal_utils/run_acoustic_model.sh
+  echo "Running acoustic model done"
+
+ # --online-ivectors=scp:exp/nnet3_cleaned/ivectors_train_hires/ivector_online.scp --online-ivector-period=10 
+ # use kaldi-io to convert bert embeddings to ark
+ # <<1,2,3>, <4,5,6>> audio frames
+ # <<1,1,1>> sentence
+fi
+ 
