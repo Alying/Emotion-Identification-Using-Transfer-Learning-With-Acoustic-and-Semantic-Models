@@ -5,6 +5,11 @@ import matplotlib.pyplot as plt
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
+# Load pre-trained model
+model = BertModel.from_pretrained('bert-base-uncased',
+                                   output_hidden_states=True)
+model.eval()
+
 with open('local/data/test/text', 'r') as f:
     for line in f:
         print(repr(line))
@@ -24,9 +29,6 @@ with open('local/data/test/text', 'r') as f:
         tokens_tensor = torch.tensor([indexed_tokens])
         segments_tensors = torch.tensor([segment_ids])
 
-        # Load pre-trained model
-        model = BertModel.from_pretrained('bert-base-uncased',
-                                        output_hidden_states=True)
-        model.eval()
-
-        break
+        with torch.no_grad():
+            outputs = model(tokens_tensor, segments_tensors)
+            # print(outputs)
