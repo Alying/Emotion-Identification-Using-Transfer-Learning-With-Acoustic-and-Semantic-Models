@@ -3,7 +3,7 @@ from transformers import BertTokenizer, BertModel
 import logging
 import matplotlib.pyplot as plt
 import numpy as np
-#import kaldi_io
+import kaldi_io
 
 def print_dict(d):
    for key,value in d.items():
@@ -62,7 +62,8 @@ with open('local/data/test/text', 'r') as f:
 
                 sentence_embedding = last_hidden_state.numpy()
                 sentence_embedding = sentence_embedding.mean(axis=0)
-                sentence_embedding = list(sentence_embedding)
+                sentence_embedding = sentence_embedding.reshape(1,768)
+                #sentence_embedding = list(sentence_embedding)
                 #print(sentence_embedding)
 
                 sentence_to_embeddings_mapper[sentence] = sentence_embedding
@@ -74,5 +75,8 @@ with open('local/data/test/text', 'r') as f:
 
 #print_dict(id_to_embeddings_mapper)
 
-
-
+ark_scp_output='ark:| copy-feats --compress=true ark:- ark,scp:local/data/test_hires/bert_embeddings.ark,local/data/test_hires/bert_embeddings.scp'
+with kaldi_io.open_or_fd(ark_scp_output,'wb') as f:
+  for key,mat in id_to_embeddings_mapper.items():
+      print(key,":",mat)
+      kaldi_io.write_mat(f, mat, key=key)

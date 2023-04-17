@@ -13,3 +13,7 @@ sudo -H pip3 install --ignore-installed PyYAML
 sudo pip3 install transformers
 sudo pip3 install torch
 sudo pip3 install -U Pillow
+sudo pip3 install kaldi-io
+git clone https://github.com/vesis84/kaldi-io-for-python.git
+cd kaldi-io-for-python
+sudo python3 setup.py install
