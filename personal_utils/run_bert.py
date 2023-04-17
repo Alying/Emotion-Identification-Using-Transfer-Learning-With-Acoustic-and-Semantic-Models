@@ -4,6 +4,8 @@ import logging
 import numpy as np
 import kaldi_io
 
+DIR = "train"
+
 def print_dict(d):
    for key,value in d.items():
        print(key," : ",value)
@@ -24,18 +26,20 @@ model = BertModel.from_pretrained('bert-base-uncased',
                                    return_dict=False)
 model.eval()
 
-with open('local/data/test/text', 'r') as f:
+with open(f'local/data/{DIR}/text', 'r') as f:
     for line in f:
-        print(repr(line))
-        line_arr = line.split("                  ")
-        sentence_id = line_arr[0]
-        sentence = line_arr[1]
+        # print(repr(line))
+
+        split_point = line.index(" ")
+        sentence_id = line[:split_point]
+        sentence = line[split_point:].strip()
+
         if sentence not in sentence_to_embeddings_mapper:
             marked_text = "[CLS] " + sentence + " [SEP]"
 
             # Tokenize our sentence with the BERT tokenizer; split sentence into tokens
             tokenized_text = tokenizer.tokenize(marked_text)
-            print(tokenized_text)
+            # print(tokenized_text)
 
             # Map the token strings to their vocabulary indeces
             indexed_tokens = tokenizer.convert_tokens_to_ids(tokenized_text)
@@ -73,8 +77,8 @@ with open('local/data/test/text', 'r') as f:
 
 #print_dict(id_to_embeddings_mapper)
 
-ark_scp_output='ark:| copy-feats --compress=true ark:- ark,scp:local/data/test_hires/bert_embeddings.ark,local/data/test_hires/bert_embeddings.scp'
+ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings.ark,local/data/{DIR}_hires/bert_embeddings.scp'
 with kaldi_io.open_or_fd(ark_scp_output,'wb') as f:
   for key,mat in id_to_embeddings_mapper.items():
-      print(key,":",mat)
+      #print(key,":",mat)
       kaldi_io.write_mat(f, mat, key=key)

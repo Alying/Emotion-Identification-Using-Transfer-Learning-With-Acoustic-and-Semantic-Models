@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=0
+stage=4
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -30,10 +30,9 @@ fi
 if [ $stage -le 3 ]; then
   personal_utils/run_acoustic_model.sh
   echo "Running acoustic model done"
-
- # --online-ivectors=scp:exp/nnet3_cleaned/ivectors_train_hires/ivector_online.scp --online-ivector-period=10 
- # use kaldi-io to convert bert embeddings to ark
- # <<1,2,3>, <4,5,6>> audio frames
- # <<1,1,1>> sentence
 fi
  
+if [ $stage -le 4 ]; then
+  python3 personal_utils/run_bert.py
+  echo "Running bert model done"
+fi
