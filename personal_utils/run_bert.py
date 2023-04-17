@@ -70,7 +70,6 @@ with open('local/data/test/text', 'r') as f:
         else:
             sentence_embedding = sentence_to_embeddings_mapper[sentence]
             id_to_embeddings_mapper[sentence_id] = sentence_embedding
-        break
 
 #print_dict(id_to_embeddings_mapper)
 
