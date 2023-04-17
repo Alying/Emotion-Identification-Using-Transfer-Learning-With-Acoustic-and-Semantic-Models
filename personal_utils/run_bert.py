@@ -3,7 +3,11 @@ from transformers import BertTokenizer, BertModel
 import logging
 import matplotlib.pyplot as plt
 import numpy as np
-import kaldi_io
+#import kaldi_io
+
+def print_dict(d):
+   for key,value in d.items():
+       print(key," : ",value)
 
 # (1) sentence to embeddings dictionary
 sentence_to_embeddings_mapper = {}
@@ -24,8 +28,11 @@ model.eval()
 with open('local/data/test/text', 'r') as f:
     for line in f:
         print(repr(line))
-        if line not in sentence_to_embeddings_mapper:
-            marked_text = "[CLS] " + line + " [SEP]"
+        line_arr = line.split("                  ")
+        sentence_id = line_arr[0]
+        sentence = line_arr[1]
+        if sentence not in sentence_to_embeddings_mapper:
+            marked_text = "[CLS] " + sentence + " [SEP]"
 
             # Tokenize our sentence with the BERT tokenizer; split sentence into tokens
             tokenized_text = tokenizer.tokenize(marked_text)
@@ -56,9 +63,16 @@ with open('local/data/test/text', 'r') as f:
                 sentence_embedding = last_hidden_state.numpy()
                 sentence_embedding = sentence_embedding.mean(axis=0)
                 sentence_embedding = list(sentence_embedding)
-                print(sentence_embedding)
+                #print(sentence_embedding)
 
-                sentence_to_embeddings_mapper[line] = sentence_embedding
+                sentence_to_embeddings_mapper[sentence] = sentence_embedding
+                id_to_embeddings_mapper[sentence_id] = sentence_embedding
         else:
-            sentence_embedding = sentence_to_embeddings_mapper[line]    
+            sentence_embedding = sentence_to_embeddings_mapper[sentence]
+            id_to_embeddings_mapper[sentence_id] = sentence_embedding
         break
+
+#print_dict(id_to_embeddings_mapper)
+
+
+
