@@ -3,11 +3,15 @@ from transformers import BertTokenizer, BertModel
 import logging
 import matplotlib.pyplot as plt
 import numpy as np
-import kaldi
+import kaldi_io
 
-embeddings_mapper = {}
+# (1) sentence to embeddings dictionary
+sentence_to_embeddings_mapper = {}
 
-# BERT model
+# (2) id to embeddings dictionary
+id_to_embeddings_mapper = {}
+
+# (3) BERT model
 # get tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
@@ -20,7 +24,7 @@ model.eval()
 with open('local/data/test/text', 'r') as f:
     for line in f:
         print(repr(line))
-        if line not in embeddings_mapper:
+        if line not in sentence_to_embeddings_mapper:
             marked_text = "[CLS] " + line + " [SEP]"
 
             # Tokenize our sentence with the BERT tokenizer; split sentence into tokens
@@ -54,5 +58,7 @@ with open('local/data/test/text', 'r') as f:
                 sentence_embedding = list(sentence_embedding)
                 print(sentence_embedding)
 
-                embeddings_mapper[line] = sentence_embedding
+                sentence_to_embeddings_mapper[line] = sentence_embedding
+        else:
+            sentence_embedding = sentence_to_embeddings_mapper[line]    
         break
