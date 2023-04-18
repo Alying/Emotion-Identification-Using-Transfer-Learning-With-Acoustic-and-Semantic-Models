@@ -16,6 +16,8 @@ sentence_to_embeddings_mapper = {}
 # (2) id to embeddings dictionary
 id_to_embeddings_mapper = {}
 
+id_to_dims_mapper = {}
+
 # (3) BERT model
 # get tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -25,6 +27,11 @@ model = BertModel.from_pretrained('bert-base-uncased',
                                    output_hidden_states=True,
                                    return_dict=False)
 model.eval()
+
+for key,mat in kaldi_io.read_mat_scp(f'local/data/{DIR}_hires/nnet_prediction.scp'):
+    id_to_dims_mapper[key] = mat.shape[0]
+    # print(key + " " + str(mat.shape[0]))
+
 
 with open(f'local/data/{DIR}/text', 'r') as f:
     for line in f:
@@ -66,14 +73,14 @@ with open(f'local/data/{DIR}/text', 'r') as f:
                 sentence_embedding = last_hidden_state.numpy()
                 sentence_embedding = sentence_embedding.mean(axis=0)
                 sentence_embedding = sentence_embedding.reshape(1,768)
+                #sentence_embedding = np.repeat(sentence_embedding, repeats=id_to_dims_mapper[sentence_id], axis = 0)
                 #sentence_embedding = list(sentence_embedding)
-                #print(sentence_embedding)
 
                 sentence_to_embeddings_mapper[sentence] = sentence_embedding
-                id_to_embeddings_mapper[sentence_id] = sentence_embedding
+                id_to_embeddings_mapper[sentence_id] = np.repeat(sentence_embedding, repeats=id_to_dims_mapper[sentence_id], axis = 0)
         else:
             sentence_embedding = sentence_to_embeddings_mapper[sentence]
-            id_to_embeddings_mapper[sentence_id] = sentence_embedding
+            id_to_embeddings_mapper[sentence_id] = np.repeat(sentence_embedding, repeats=id_to_dims_mapper[sentence_id], axis = 0)
 
 #print_dict(id_to_embeddings_mapper)
 

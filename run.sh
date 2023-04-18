@@ -36,3 +36,13 @@ if [ $stage -le 4 ]; then
   python3 personal_utils/run_bert.py
   echo "Running bert model done"
 fi
+
+if [ $stage -le 4 ]; then
+  dset=train
+  paste-feats ark:local/data/${dset}_hires/bert_embeddings.ark  ark:local/data/${dset}_hires/nnet_prediction.ark ark,scp:local/data/${dset}_hires/combined.ark,local/data/${dset}_hires/combined.scp
+  echo "Concatenating features done"
+fi
+
+
+# paste-feats
+# ivector-compute-lda (https://github.com/kaldi-asr/kaldi/blob/59299d1cf95b72bb109d583947d9e9ece19aa6dc/egs/voxceleb/v2/run.sh#L175)
