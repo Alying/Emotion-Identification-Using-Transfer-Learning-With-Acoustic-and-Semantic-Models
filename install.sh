@@ -17,3 +17,4 @@ sudo pip3 install kaldi-io
 git clone https://github.com/vesis84/kaldi-io-for-python.git
 cd kaldi-io-for-python
 sudo python3 setup.py install
+sudo pip3 install -U scikit-learn

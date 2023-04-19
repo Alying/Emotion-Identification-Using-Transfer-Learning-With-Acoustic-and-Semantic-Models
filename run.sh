@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=4
+stage=5
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -43,6 +43,11 @@ if [ $stage -le 4 ]; then
   echo "Concatenating features done"
 fi
 
+if [ $stage -le 5 ]; then
+  python3 personal_utils/lda.py
+  echo "Running LDA done"
+fi
 
-# paste-feats
+#/data/train_hires/nnet_prediction.scp
+# paste-feats 
 # ivector-compute-lda (https://github.com/kaldi-asr/kaldi/blob/59299d1cf95b72bb109d583947d9e9ece19aa6dc/egs/voxceleb/v2/run.sh#L175)

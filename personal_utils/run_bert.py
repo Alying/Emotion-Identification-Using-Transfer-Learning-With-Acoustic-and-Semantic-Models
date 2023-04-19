@@ -30,7 +30,6 @@ model.eval()
 
 for key,mat in kaldi_io.read_mat_scp(f'local/data/{DIR}_hires/nnet_prediction.scp'):
     id_to_dims_mapper[key] = mat.shape[0]
-    # print(key + " " + str(mat.shape[0]))
 
 
 with open(f'local/data/{DIR}/text', 'r') as f:
