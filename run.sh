@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=5
+stage=4
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -51,3 +51,13 @@ fi
 #/data/train_hires/nnet_prediction.scp
 # paste-feats 
 # ivector-compute-lda (https://github.com/kaldi-asr/kaldi/blob/59299d1cf95b72bb109d583947d9e9ece19aa6dc/egs/voxceleb/v2/run.sh#L175)
+
+#do we need minibatches
+#any recommendations on our tdnn architecutre
+#does lda work? we could get lda to work, since we cannot generate ivectors for our concatenated embeddings. (unable to convert feat to vects)
+#when lda how many classes do you recommend to fit on? use emotion classes
+# extract-xvectors
+# egs generation script gets random chunk from audio file. use voxceleb/v2. nnet-copy-egs to see content of egs. 
+# NJ(num jobs) controls the number of ark files
+
+# utt2spk speaker should be emotion

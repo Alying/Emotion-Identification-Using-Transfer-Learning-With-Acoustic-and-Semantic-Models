@@ -25,7 +25,7 @@ for key,mat in kaldi_io.read_mat_scp(f'local/data/{DIR}_hires/combined.scp'):
 # print(check_sum)
 # print(Y.shape)
 
-clf = LinearDiscriminantAnalysis(n_components = 22)
+clf = LinearDiscriminantAnalysis(n_components = 50)
 clf.fit(X, Y)
 
 X = clf.transform(X)

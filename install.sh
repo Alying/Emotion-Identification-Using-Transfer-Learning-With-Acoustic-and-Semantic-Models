@@ -1,6 +1,5 @@
 sudo apt update
 sudo apt-get install git-lfs
-sudo apt install python3-pandas
 sudo apt-get install python3-sklearn
 sudo apt install python3-pip
 # pip install tensorflow==1.11.0.
@@ -18,3 +17,4 @@ git clone https://github.com/vesis84/kaldi-io-for-python.git
 cd kaldi-io-for-python
 sudo python3 setup.py install
 sudo pip3 install -U scikit-learn
+sudo pip3 install pandas

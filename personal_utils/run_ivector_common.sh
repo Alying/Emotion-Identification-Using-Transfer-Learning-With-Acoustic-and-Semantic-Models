@@ -6,7 +6,7 @@ set -e -o pipefail
 # of the script.  See those scripts for examples of usage.
 
 stage=0
-nj=30
+nj=5
 
 train_set=train 
 online_cmvn_iextractor=false
@@ -88,7 +88,7 @@ if [ $stage -le 5 ]; then
 
   echo "$0: training the diagonal UBM."
   # Use 512 Gaussians in the UBM.
-  steps/online/nnet2/train_diag_ubm.sh --cmd "$train_cmd" --nj 30 \
+  steps/online/nnet2/train_diag_ubm.sh --cmd "$train_cmd" --nj 5 \
     --num-frames 700000 \
     --num-threads $num_threads_ubm \
     ${temp_data_root}/${train_set}_hires_subset 512 \
@@ -99,7 +99,7 @@ if [ $stage -le 6 ]; then
   # Train the iVector extractor. µUse all of the speed-perturbed data since iVector extractors
   # can be sensitive to the amount of data. The script defaults to an iVector dimension of 100.
   echo "$0: training the iVector extractor"
-  steps/online/nnet2/train_ivector_extractor.sh --cmd "$train_cmd" --nj 15 \
+  steps/online/nnet2/train_ivector_extractor.sh --cmd "$train_cmd" --nj 1 \
     --num-threads 4 --num-processes 2 \
     --online-cmvn-iextractor $online_cmvn_iextractor \
     local/data/${train_set}_hires exp/nnet3${nnet3_affix}/diag_ubm \
@@ -107,6 +107,7 @@ if [ $stage -le 6 ]; then
 fi
 
 if [ $stage -le 7 ]; then
+  echo "$0: On step 7"
   # note, we don't encode the 'max2' in the name of the ivectordir even though
   # that's the data we extract the ivectors from, as it's still going to be
   # valid for the non-'max2' data, the utterance list is the same.

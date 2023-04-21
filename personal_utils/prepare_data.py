@@ -44,10 +44,10 @@ def get_text(id):
 
 def createOutputs(df, path):
     with open(path + "wav.scp", 'a') as f:
-        dfAsString = df[:train_rows][["recordingId", "path"]].to_string(header=False, index=False)
+        dfAsString = df[:train_rows][["utteranceId", "path"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
     with open(path + "utt2spk", 'a') as f:
-        dfAsString = df[:train_rows][["utteranceId", "utteranceId"]].to_string(header=False, index=False)
+        dfAsString = df[:train_rows][["utteranceId", "emotion"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
     with open(path + "text", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "text"]].to_string(header=False, index=False)
@@ -65,9 +65,11 @@ df = df.iloc[: , 1:11]
 # do column transforms
 df['emoVote'] = df['emoVote'].apply(tied_emotions)
 df['text'] = df.apply(lambda row: get_text(row.fileName.split('_')[1]), axis=1)
-df['utteranceId'] = df.apply(lambda row: row.fileName, axis=1)
-df['recordingId'] = df.apply(lambda row: row.fileName, axis=1)
+df['utteranceId'] = df.apply(lambda row: row.fileName.split('_')[2] + "-" + row.fileName, axis=1)
+df['emotion'] = df.apply(lambda row: row.fileName.split('_')[2], axis=1)
 df['path'] = df.apply(lambda row: "local/data/CREMA-D/AudioWAV/" + row.fileName + ".wav", axis=1)
+
+# print(df['utteranceId'].head)
 
 # split train, test data
 total_rows = df.shape[0]
