@@ -48,6 +48,19 @@ if [ $stage -le 5 ]; then
   echo "Running LDA done"
 fi
 
+if [ $stage -le 6 ]; then
+  sid/nnet3/xvector/get_egs.sh --cmd "$train_cmd" \
+    --nj 8 \
+    --stage 0 \
+    --frames-per-iter 1000000000 \
+    --frames-per-iter-diagnostic 100000 \
+    --min-frames-per-chunk 100 \
+    --max-frames-per-chunk 300 \
+    --num-diagnostic-archives 3 \
+    --num-repeats 50 \
+    "local/data/train_hires" "local/data/goobs"
+fi
+
 #/data/train_hires/nnet_prediction.scp
 # paste-feats 
 # ivector-compute-lda (https://github.com/kaldi-asr/kaldi/blob/59299d1cf95b72bb109d583947d9e9ece19aa6dc/egs/voxceleb/v2/run.sh#L175)
