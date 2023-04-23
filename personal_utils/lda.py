@@ -33,7 +33,7 @@ X = clf.transform(X)
 # print(X.shape)
 # print(id_to_index_mapper)
 
-ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/lda.ark,local/data/{DIR}_hires/lda.scp'
+ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/feats.ark,local/data/{DIR}_hires/feats.scp'
 with kaldi_io.open_or_fd(ark_scp_output,'wb') as f:
   total_index = 0
   for key, index in id_to_index_mapper.items():
