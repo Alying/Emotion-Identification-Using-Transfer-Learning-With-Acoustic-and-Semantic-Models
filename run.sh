@@ -124,16 +124,9 @@ EOF
   remove_egs=false
   steps/nnet3/train_raw_dnn.py --stage=$train_stage \
     --cmd="$train_cmd" \
-    --trainer.optimization.proportional-shrink 10 \
-    --trainer.optimization.momentum=0.5 \
-    --trainer.optimization.num-jobs-initial=3 \
-    --trainer.optimization.num-jobs-final=1 \
-    --trainer.optimization.initial-effective-lrate=0.001 \
-    --trainer.optimization.final-effective-lrate=0.0001 \
-    --trainer.optimization.minibatch-size=1 \
     --trainer.srand=$srand \
     --trainer.max-param-change=2 \
-    --trainer.num-epochs=3 \
+    --trainer.num-epochs=1 \
     --trainer.dropout-schedule="$dropout_schedule" \
     --trainer.shuffle-buffer-size=1 \
     --egs.frames-per-eg=1 \
