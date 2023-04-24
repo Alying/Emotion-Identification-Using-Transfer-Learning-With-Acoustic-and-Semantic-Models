@@ -22,7 +22,7 @@ echo $feat_dim
 # to 100 seconds.  If the input recording is greater than 100 seconds,
 # we will compute multiple xvectors from the same recording and average
 # to produce the final xvector.
-max_chunk_size=10000
+max_chunk_size=1000
 
 # The smallest number of frames we're comfortable computing an xvector from.
 # Note that the hard minimum is given by the left and right context of the
@@ -34,9 +34,7 @@ cat <<EOF > $nnet_dir/configs/network.xconfig
 
   # The frame-level layers. ASK ABOUT THE TDNN SYNTAXX
   input dim=${feat_dim} name=input
-  relu-batchnorm-layer name=tdnn1 input=Append(-2,-1,0,1,2) dim=512
-  relu-batchnorm-layer name=tdnn2 input=Append(-2,0,2) dim=512
-  relu-batchnorm-layer name=tdnn3 input=Append(-3,0,3) dim=512
+  relu-batchnorm-layer name=tdnn1 dim=512
   relu-batchnorm-layer name=tdnn4 dim=512
   relu-batchnorm-layer name=tdnn5 dim=1500
 
@@ -45,10 +43,10 @@ cat <<EOF > $nnet_dir/configs/network.xconfig
   # means that we pool over an input segment starting at frame 0
   # and ending at frame ${max_chunk_size} or earlier.  The other arguments (1:1)
   # mean that no subsampling is performed.
-  stats-layer name=stats config=mean+stddev(0:1:1:${max_chunk_size})
+  # stats-layer name=stats config=mean+stddev(0:1:1:${max_chunk_size})
 
   # This is where we usually extract the embedding (aka xvector) from.
-  relu-batchnorm-layer name=tdnn6 dim=512 input=stats
+  relu-batchnorm-layer name=tdnn6 dim=512
 
   # This is where another layer the embedding could be extracted
   # from, but usually the previous one works better.

@@ -53,6 +53,17 @@ if [ $stage -le 6 ]; then
   echo "TDNN created and trained"
 fi
 
+if [ $stage -le 7 ]; then
+  dir="local/data/train_hires"
+  nj=3
+
+  $decode_cmd JOB=1:$nj compute_output.JOB.log \
+  nnet3-compute $dir/nnet/final.raw scp:$dir/feats.scp ark,scp:$dir/predictions.ark,$dir/predictions.scp
+
+  echo "Ran embeddings through TDNN"
+fi
+
+
 #/data/train_hires/nnet_prediction.scp
 # paste-feats 
 # ivector-compute-lda (https://github.com/kaldi-asr/kaldi/blob/59299d1cf95b72bb109d583947d9e9ece19aa6dc/egs/voxceleb/v2/run.sh#L175)
