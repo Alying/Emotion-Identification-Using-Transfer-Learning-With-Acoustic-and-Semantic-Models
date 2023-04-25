@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=6
+stage=0
 
 # Data preparation
 if [ $stage -le 0 ]; then
