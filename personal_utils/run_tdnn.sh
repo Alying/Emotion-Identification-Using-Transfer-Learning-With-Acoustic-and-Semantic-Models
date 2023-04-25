@@ -5,7 +5,7 @@ sid/nnet3/xvector/get_egs.sh --cmd "$train_cmd" \
 --stage 0 \
 --frames-per-iter 1000000000 \
 --frames-per-iter-diagnostic 100000 \
---min-frames-per-chunk 100 \
+--min-frames-per-chunk 200 \
 --max-frames-per-chunk 300 \
 --num-diagnostic-archives 3 \
 --num-repeats 50 \
