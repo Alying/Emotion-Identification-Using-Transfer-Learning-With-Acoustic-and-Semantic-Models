@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=6
+stage=8
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -62,6 +62,14 @@ if [ $stage -le 7 ]; then
 
   echo "Ran embeddings through TDNN"
 fi
+
+if [ $stage -le 8 ]; then
+  dset=train
+  #sh personal_utils/ark_to_txt.sh local/data/${dset}_hires
+  python3 personal_utils/score_model.py
+  echo "Scored TDNN model"
+fi
+
 
 
 #/data/train_hires/nnet_prediction.scp
