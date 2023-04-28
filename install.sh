@@ -19,3 +19,4 @@ cd kaldi-io-for-python
 sudo python3 setup.py install
 sudo pip3 install -U scikit-learn==0.21.3
 sudo pip3 install pandas
+sudo apt-get install r-base
