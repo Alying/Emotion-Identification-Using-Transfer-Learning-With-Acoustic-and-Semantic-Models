@@ -23,15 +23,31 @@ if [ $stage -le 1 ]; then
 fi
 
 if [ $stage -le 2 ]; then
+  nj=5
+
   personal_utils/run_ivector_common.sh
+  utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/train_hires/local local/data/lang
+
+  steps/align_si.sh --nj $nj --cmd "$train_cmd" \
+    local/data/train local/data/lang exp/tri3 exp/tri3_ali
   echo "Ivector common done"
 fi
 
 if [ $stage -le 3 ]; then
-  personal_utils/run_acoustic_model.sh
+  for i in exp/tri3_ali/ali.*.gz;
+    do ali-to-phones --ctm-output exp/tri3_ali/final.mdl ark:"gunzip -c $i|" -> ${i%.gz}.ctm;
+  done;
+
+  cd exp/tri3_ali
+  cat *.ctm > merged_alignment.txt
+
+  # UNCOMMENT BELOW STEP
+  # personal_utils/run_acoustic_model.sh
   echo "Running acoustic model done"
 fi
- 
+
+exit 1
+
 if [ $stage -le 4 ]; then
   python3 personal_utils/run_bert.py
   echo "Running bert model done"

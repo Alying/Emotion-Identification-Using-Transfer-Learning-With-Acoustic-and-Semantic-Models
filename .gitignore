@@ -1,3 +1,4 @@
 local/
 exp/
 kaldi-io-for-python/
+compute_output.*.log

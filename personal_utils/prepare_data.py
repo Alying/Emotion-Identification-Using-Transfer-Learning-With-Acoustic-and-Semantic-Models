@@ -2,6 +2,9 @@ import os
 import os.path
 import random
 import pandas as pd
+import wave
+import contextlib
+
 cwd = os.getcwd()
 
 train_percent = 0.03
@@ -42,6 +45,14 @@ def get_text(id):
         raise Exception("Unknown id for get_text")
     return result
 
+def getWavDuration(path):
+    with contextlib.closing(wave.open(path,'r')) as f:
+        frames = f.getnframes()
+        rate = f.getframerate()
+        duration = frames / float(rate)
+        return duration
+
+# TODO: Need to add remaining row
 def createOutputs(df, path):
     with open(path + "wav.scp", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "path"]].to_string(header=False, index=False)
@@ -51,6 +62,9 @@ def createOutputs(df, path):
         f.write(dfAsString + "\n")
     with open(path + "text", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "text"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "segments", 'a') as f:
+        dfAsString = df[:train_rows][["utteranceId", "utteranceId", "durationStart", "durationEnd"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
 
 # if os.path.isfile("../local/data/test/data.csv") or os.path.isfile("../local/data/train/data.csv"):
@@ -67,7 +81,9 @@ df['emoVote'] = df['emoVote'].apply(tied_emotions)
 df['text'] = df.apply(lambda row: get_text(row.fileName.split('_')[1]), axis=1)
 df['utteranceId'] = df.apply(lambda row: row.fileName.split('_')[2] + "-" + row.fileName, axis=1)
 df['emotion'] = df.apply(lambda row: row.fileName.split('_')[2], axis=1)
-df['path'] = df.apply(lambda row: "local/data/CREMA-D/AudioWAV/" + row.fileName + ".wav", axis=1)
+df['path'] = df.apply(lambda row: "../local/data/CREMA-D/AudioWAV/" + row.fileName + ".wav", axis=1)
+df['durationStart'] = df.apply(lambda row: 0.0, axis=1)
+df['durationEnd'] = df.apply(lambda row: getWavDuration(row.path), axis=1)
 
 # print(df['utteranceId'].head)
 
