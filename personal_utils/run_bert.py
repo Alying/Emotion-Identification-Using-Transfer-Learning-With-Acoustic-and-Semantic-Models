@@ -80,8 +80,6 @@ for DIR in ["train", "test"]:
     ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
     f = kaldi_io.open_or_fd(ark_scp_output,'wb')
 
-    #full_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings.ark,local/data/{DIR}_hires/bert_embeddings.scp'
-    #with kaldi_io.open_or_fd(full_scp_output,'wb') as f_final:
     for key,mat in id_to_embeddings_mapper.items():
         #print(key,":",mat)
         ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
@@ -94,16 +92,5 @@ for DIR in ["train", "test"]:
         if line_number % ark_file_length == 0 and line_number != 0:
             file_number += 1
         line_number+=1
-        
-        #kaldi_io.write_mat(f_final, mat, key=key)
     f.close()
 
-
-"""    list_of_files = []
-    for i in range(file_number+1):
-        list_of_files.append(f"local/data/{DIR}_hires/bert_embeddings{i}.scp")
-    print(list_of_files)
-
-
-    with open(f"local/data/{DIR}_hires/bert_embeddings.txt",'wb') as f_final:
-        f_final.write("\n".join([open(i, 'wb') for i in list_of_files])) """
