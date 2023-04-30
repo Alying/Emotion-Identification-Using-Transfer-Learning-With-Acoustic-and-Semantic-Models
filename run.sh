@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=8
+stage=5
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -27,6 +27,7 @@ if [ $stage -le 2 ]; then
 
   personal_utils/run_ivector_common.sh
   utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/train_hires/local local/data/lang
+  utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/test_hires/local local/data/lang
 
   steps/align_si.sh --nj $nj --cmd "$train_cmd" \
     local/data/train local/data/lang exp/tri3 exp/tri3_ali
@@ -46,31 +47,45 @@ if [ $stage -le 3 ]; then
   echo "Running acoustic model done"
 fi
 
-exit 1
-
 if [ $stage -le 4 ]; then
   python3 personal_utils/run_bert.py
+
+  dset="train" 
+  for file in local/data/${dset}_hires/bert_embeddings*.scp;
+  do cat $file >> local/data/${dset}_hires/bert_embeddings.scp
+  done
+
+  dset="test" 
+  for file in local/data/${dset}_hires/bert_embeddings*.scp;
+  do cat $file >> local/data/${dset}_hires/bert_embeddings.scp
+  done
+
+  #copy-feats ark:local/data/train_hires/bert_embeddings.txt scp:local/data/train_hires/bert_embeddings_combined.scp
+  #copy-feats ark:local/data/test_hires/bert_embeddings.txt scp:local/data/test_hires/bert_embeddings_combined.scp
+  
+  #combine_data local/data/train_hires/bert_embeddings_combined.scp local/data/train_hires/bert_embeddings0.scp local/data/train_hires/bert_embeddings0.scp
   echo "Running bert model done"
 fi
 
-if [ $stage -le 4 ]; then
-  dset=train
-  paste-feats ark:local/data/${dset}_hires/bert_embeddings.ark  ark:local/data/${dset}_hires/nnet_prediction.ark ark,scp:local/data/${dset}_hires/combined.ark,local/data/${dset}_hires/combined.scp
+if [ $stage -le 5 ]; then
+  for dset in train test;
+  do paste-feats scp:local/data/${dset}_hires/bert_embeddings.scp  ark:local/data/${dset}_hires/nnet_prediction.ark ark,scp:local/data/${dset}_hires/combined.ark,local/data/${dset}_hires/combined.scp
+  done
   echo "Concatenating features done"
 fi
 
-if [ $stage -le 5 ]; then
+if [ $stage -le 6 ]; then
   python3 personal_utils/lda.py
   echo "Running LDA done"
 fi
 
-if [ $stage -le 6 ]; then
+if [ $stage -le 7 ]; then
   personal_utils/run_tdnn.sh
   echo "TDNN created and trained"
 fi
 
-if [ $stage -le 7 ]; then
-  dir="local/data/train_hires"
+if [ $stage -le 8 ]; then
+  dir="local/data/test_hires"
   nj=3
 
   $decode_cmd JOB=1:$nj compute_output.JOB.log \
@@ -79,8 +94,8 @@ if [ $stage -le 7 ]; then
   echo "Ran embeddings through TDNN"
 fi
 
-if [ $stage -le 8 ]; then
-  dset=train
+if [ $stage -le 9 ]; then
+  dset=test
   #sh personal_utils/ark_to_txt.sh local/data/${dset}_hires
   python3 personal_utils/score_model.py
   echo "Scored TDNN model"
