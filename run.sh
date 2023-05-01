@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=5
+stage=1
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -26,24 +26,24 @@ if [ $stage -le 2 ]; then
   nj=5
 
   personal_utils/run_ivector_common.sh
-  utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/train_hires/local local/data/lang
-  utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/test_hires/local local/data/lang
+ # utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/train_hires/local local/data/lang
+ # utils/prepare_lang.sh personal_utils/lang "<unk>" local/data/test_hires/local local/data/lang
 
-  steps/align_si.sh --nj $nj --cmd "$train_cmd" \
-    local/data/train local/data/lang exp/tri3 exp/tri3_ali
+ # steps/align_si.sh --nj $nj --cmd "$train_cmd" \
+ #   local/data/train local/data/lang exp/tri3 exp/tri3_ali"""
   echo "Ivector common done"
 fi
 
 if [ $stage -le 3 ]; then
-  for i in exp/tri3_ali/ali.*.gz;
-    do ali-to-phones --ctm-output exp/tri3_ali/final.mdl ark:"gunzip -c $i|" -> ${i%.gz}.ctm;
-  done;
+  #for i in exp/tri3_ali/ali.*.gz;
+  #  do ali-to-phones --ctm-output exp/tri3_ali/final.mdl ark:"gunzip -c $i|" -> ${i%.gz}.ctm;
+  #done;
 
-  cd exp/tri3_ali
-  cat *.ctm > merged_alignment.txt
+  #cd exp/tri3_ali
+  #cat *.ctm > merged_alignment.txt
 
   # UNCOMMENT BELOW STEP
-  # personal_utils/run_acoustic_model.sh
+  personal_utils/run_acoustic_model.sh
   echo "Running acoustic model done"
 fi
 
@@ -60,10 +60,6 @@ if [ $stage -le 4 ]; then
   do cat $file >> local/data/${dset}_hires/bert_embeddings.scp
   done
 
-  #copy-feats ark:local/data/train_hires/bert_embeddings.txt scp:local/data/train_hires/bert_embeddings_combined.scp
-  #copy-feats ark:local/data/test_hires/bert_embeddings.txt scp:local/data/test_hires/bert_embeddings_combined.scp
-  
-  #combine_data local/data/train_hires/bert_embeddings_combined.scp local/data/train_hires/bert_embeddings0.scp local/data/train_hires/bert_embeddings0.scp
   echo "Running bert model done"
 fi
 
@@ -96,7 +92,7 @@ fi
 
 if [ $stage -le 9 ]; then
   dset=test
-  #sh personal_utils/ark_to_txt.sh local/data/${dset}_hires
+  sh personal_utils/ark_to_txt.sh local/data/${dset}_hires
   python3 personal_utils/score_model.py
   echo "Scored TDNN model"
 fi

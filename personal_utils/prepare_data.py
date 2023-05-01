@@ -53,7 +53,7 @@ def getWavDuration(path):
         return duration
 
 # TODO: Need to add remaining row
-def createOutputs(df, path):
+def createOutputsTrain(df, path):
     with open(path + "wav.scp", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "path"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
@@ -65,6 +65,20 @@ def createOutputs(df, path):
         f.write(dfAsString + "\n")
     with open(path + "segments", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "utteranceId", "durationStart", "durationEnd"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+
+def createOutputsTest(df, path):
+    with open(path + "wav.scp", 'a') as f:
+        dfAsString = df[train_rows:][["utteranceId", "path"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "utt2spk", 'a') as f:
+        dfAsString = df[train_rows:][["utteranceId", "emotion"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "text", 'a') as f:
+        dfAsString = df[train_rows:][["utteranceId", "text"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "segments", 'a') as f:
+        dfAsString = df[train_rows:][["utteranceId", "utteranceId", "durationStart", "durationEnd"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
 
 # if os.path.isfile("../local/data/test/data.csv") or os.path.isfile("../local/data/train/data.csv"):
@@ -91,5 +105,5 @@ df['durationEnd'] = df.apply(lambda row: getWavDuration(row.path), axis=1)
 total_rows = df.shape[0]
 train_rows = int(total_rows*train_percent)
 
-createOutputs(df, "../local/data/train/")
-createOutputs(df, "../local/data/test/")
+createOutputsTrain(df, "../local/data/train/")
+createOutputsTrain(df, "../local/data/test/")

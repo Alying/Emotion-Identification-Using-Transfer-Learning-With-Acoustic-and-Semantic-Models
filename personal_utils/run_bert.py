@@ -73,7 +73,7 @@ for DIR in ["train", "test"]:
     #print_dict(id_to_embeddings_mapper)
 
     # (4) convert to ark and scp files
-    ark_file_length = 600 # features we want per ark file
+    ark_file_length = 1000 # features we want per ark file
     file_number = 0
     line_number = 0
     previous_file_number = 0
