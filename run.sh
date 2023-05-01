@@ -85,7 +85,7 @@ if [ $stage -le 8 ]; then
   nj=3
 
   $decode_cmd JOB=1:$nj compute_output.JOB.log \
-  nnet3-compute $dir/nnet/final.raw scp:$dir/feats.scp ark,scp:$dir/predictions.ark,$dir/predictions.scp
+  nnet3-compute local/data/train_hires/nnet/final.raw scp:$dir/feats.scp ark,scp:$dir/predictions.ark,$dir/predictions.scp
 
   echo "Ran embeddings through TDNN"
 fi

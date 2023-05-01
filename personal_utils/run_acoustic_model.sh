@@ -4,7 +4,7 @@ nj=10
 
 # nnet3-copy --binary=false local/data/tdnn1d_sp/final.mdl local/data/tdnn1d_sp/final_text.mdl
 
-for dset in test train:
+for dset in test train
 do
 	cp personal_utils/final_golden.mdl $model_dir/final_text.mdl
 	nnet3-copy personal_utils/final_golden.mdl $model_dir/final.raw

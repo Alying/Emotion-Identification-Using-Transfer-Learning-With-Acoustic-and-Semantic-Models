@@ -1,7 +1,7 @@
 import kaldi_io
 import sys
 
-dset = "train"
+dset = "test"
 count = 0
 emotion_mapping = ['ANG','DIS','FEA','HAP','NEU','SAD']
 
@@ -41,9 +41,5 @@ with open(f"local/data/{dset}_hires/predictions.ark.txt", "r") as f:
                 break
         emotion = emotion_mapping[closest_to_zero_ind]
         emotion_votes[emotion] += 1
-
-        """count+=1
-        if count > 500:
-            break"""
 
 print("accuracy: ",correct_emotions/total_utterances, "correct_emotions: ", correct_emotions, "total utterances: ", total_utterances)
