@@ -34,7 +34,7 @@ cat <<EOF > $nnet_dir/configs/network.xconfig
 
   # The frame-level layers. ASK ABOUT THE TDNN SYNTAXX
   input dim=${feat_dim} name=input
-  relu-batchnorm-layer name=tdnn1 input=Append(0,1,2) dim=512
+  relu-batchnorm-layer name=tdnn1 dim=512
   relu-batchnorm-layer name=tdnn4 dim=512
   relu-batchnorm-layer name=tdnn5 dim=1500
 
