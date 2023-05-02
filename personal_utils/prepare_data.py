@@ -7,7 +7,8 @@ import contextlib
  
 cwd = os.getcwd()
  
-train_percent = 0.03
+train_percent = 0.2
+test_percent = 0.05
  
 def tied_emotions(row):
     emotions = str.split(row, ':')
@@ -53,7 +54,7 @@ def getWavDuration(path):
         return duration
  
 # TODO: Need to add remaining row
-def createOutputs(df, path):
+def createOutputsTrain(df, path):
     with open(path + "wav.scp", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "path"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
@@ -66,7 +67,22 @@ def createOutputs(df, path):
     with open(path + "segments", 'a') as f:
         dfAsString = df[:train_rows][["utteranceId", "utteranceId", "durationStart", "durationEnd"]].to_string(header=False, index=False)
         f.write(dfAsString + "\n")
+
+def createOutputsTest(df, path):
+    with open(path + "wav.scp", 'a') as f:
+        dfAsString = df[train_rows:train_rows+test_rows][["utteranceId", "path"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "utt2spk", 'a') as f:
+        dfAsString = df[train_rows:train_rows+test_rows][["utteranceId", "emotion"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "text", 'a') as f:
+        dfAsString = df[train_rows:train_rows+test_rows][["utteranceId", "text"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
+    with open(path + "segments", 'a') as f:
+        dfAsString = df[train_rows:train_rows+test_rows][["utteranceId", "utteranceId", "durationStart", "durationEnd"]].to_string(header=False, index=False)
+        f.write(dfAsString + "\n")
  
+
 # if os.path.isfile("../local/data/test/data.csv") or os.path.isfile("../local/data/train/data.csv"):
 #    quit()
  
@@ -90,6 +106,7 @@ df['durationEnd'] = df.apply(lambda row: getWavDuration("../" + row.path), axis=
 # split train, test data
 total_rows = df.shape[0]
 train_rows = int(total_rows*train_percent)
+test_rows = int(total_rows*test_percent)
  
-createOutputs(df, "../local/data/train/")
-createOutputs(df, "../local/data/test/")
+createOutputsTrain(df, "../local/data/train/")
+createOutputsTest(df, "../local/data/test/")
