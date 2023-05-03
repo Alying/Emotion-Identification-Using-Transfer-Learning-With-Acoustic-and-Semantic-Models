@@ -14,8 +14,6 @@ sentence_to_embeddings_mapper = {}
 # (2) id to embeddings dictionary
 id_to_embeddings_mapper = {}
 
-id_to_dims_mapper = {}
-
 # (3) BERT model
 # get tokenizer
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
@@ -27,16 +25,14 @@ model = BertModel.from_pretrained('bert-base-uncased',
 model.eval()
 
 for DIR in ["train", "test"]:
-    for key,mat in kaldi_io.read_mat_scp(f'local/data/{DIR}_hires/nnet_prediction.scp'):
-        id_to_dims_mapper[key] = mat.shape[0]
-
     with open(f'local/data/{DIR}/text', 'r') as f:
         for line in f:
             # print(repr(line))
-
+            
             split_point = line.index(" ")
             sentence_id = line[:split_point]
             sentence = line[split_point:].strip()
+            sentence = sentence.rstrip(sentence[-1])
 
             if sentence not in sentence_to_embeddings_mapper:
                 marked_text = "[CLS] " + sentence + " [SEP]"
@@ -60,37 +56,46 @@ for DIR in ["train", "test"]:
 
                     last_hidden_state = outputs[0][0]
 
-                    sentence_embedding = last_hidden_state.numpy()
-                    sentence_embedding = sentence_embedding.mean(axis=0)
-                    sentence_embedding = sentence_embedding.reshape(1,768)
+                slice_index = 1
+                for i, word in enumerate(sentence.split(' ')):
+                    length = len(tokenizer.tokenize(word))
+                    if i == 0:
+                        sentence_embedding = last_hidden_state.numpy()[slice_index : slice_index + length, : ].mean(0)
+                    else:
+                        sentence_embedding = np.vstack((sentence_embedding, last_hidden_state.numpy()[slice_index : slice_index + length, : ].mean(0)))
+                    slice_index = slice_index+length
 
-                    sentence_to_embeddings_mapper[sentence] = sentence_embedding
-                    id_to_embeddings_mapper[sentence_id] = np.repeat(sentence_embedding, repeats=id_to_dims_mapper[sentence_id], axis = 0)
+                sentence_to_embeddings_mapper[sentence] = sentence_embedding
+                id_to_embeddings_mapper[sentence_id] = sentence_embedding
             else:
                 sentence_embedding = sentence_to_embeddings_mapper[sentence]
-                id_to_embeddings_mapper[sentence_id] = np.repeat(sentence_embedding, repeats=id_to_dims_mapper[sentence_id], axis = 0)
-
-    #print_dict(id_to_embeddings_mapper)
+                id_to_embeddings_mapper[sentence_id] = sentence_embedding
 
     # (4) convert to ark and scp files
-    ark_file_length = 1000 # features we want per ark file
-    file_number = 0
-    line_number = 0
-    previous_file_number = 0
-    ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
+    # ark_file_length = 1000 # features we want per ark file
+    # file_number = 0
+    # line_number = 0
+    # previous_file_number = 0
+    # ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
+    # f = kaldi_io.open_or_fd(ark_scp_output,'wb')
+
+    # for key,mat in id_to_embeddings_mapper.items():
+    #     #print(key,":",mat)
+    #     ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
+    #     if previous_file_number != file_number:
+    #         f.close()
+    #         f = kaldi_io.open_or_fd(ark_scp_output,'wb')
+    #         previous_file_number += 1
+    #     kaldi_io.write_mat(f, mat, key=key)
+        
+    #     if line_number % ark_file_length == 0 and line_number != 0:
+    #         file_number += 1
+    #     line_number+=1
+    # f.close()
+
+    ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings.ark,local/data/{DIR}_hires/bert_embeddings.scp'
     f = kaldi_io.open_or_fd(ark_scp_output,'wb')
 
     for key,mat in id_to_embeddings_mapper.items():
-        #print(key,":",mat)
-        ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/bert_embeddings{file_number}.ark,local/data/{DIR}_hires/bert_embeddings{file_number}.scp'
-        if previous_file_number != file_number:
-            f.close()
-            f = kaldi_io.open_or_fd(ark_scp_output,'wb')
-            previous_file_number += 1
         kaldi_io.write_mat(f, mat, key=key)
-        
-        if line_number % ark_file_length == 0 and line_number != 0:
-            file_number += 1
-        line_number+=1
     f.close()
-
