@@ -24,11 +24,31 @@ test_ids = {}
 emotions = ["ANG", "DIS", "FEA", "HAP", "NEU", "SAD"]
 for key,_ in kaldi_io.read_vec_flt_scp(f'local/data/test_hires/lda_feats.scp'):
     compares = []
-    for i in emotions:
-        if replaceRepEmotion(getRep(key), i) not in val_list:
+    for emotion in emotions:
+        standard = replaceRepEmotion(getRep(key), emotion)
+        if standard not in val_list:
+            splitted = standard.split("-")
+            nstandard = splitted[0][:-2]+"XX-"+splitted[1]
+            if nstandard in val_list:
+                compares.append(nstandard)
+                continue
+            nstandard = splitted[0][:-2]+"MD-"+splitted[1]
+            if nstandard in val_list:
+                compares.append(nstandard)
+                continue
+            nstandard = splitted[0][:-2]+"HI-"+splitted[1]
+            if nstandard in val_list:
+                compares.append(nstandard)
+                continue
+            nstandard = splitted[0][:-2]+"LO-"+splitted[1]
+            if nstandard in val_list:
+                compares.append(nstandard)
+                continue
+            
             print("encountered test example with no corresponding train golden, skipping it")
             continue
-        compares.append(replaceRepEmotion(getRep(key), i))
+        else:
+            compares.append(standard)
     test_ids[key] = compares
     # print(test_ids[key])
 
