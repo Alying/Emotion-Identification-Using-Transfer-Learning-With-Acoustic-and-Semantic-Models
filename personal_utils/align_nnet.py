@@ -63,22 +63,22 @@ for DIR in ["train", "test"]:
         for word in sentence.split(" "):
             phones = phones + lex[word.lower()]
 
-        # cannot get actual align so assume uniform
+        # cannot get actual align so assume percentages based on number of phones per word
         if phones > len(id_to_ts[key]):
             slice_index = 0
             arr = sentence.split(" ")
 
             for i, word in enumerate(arr):
-                percent = 1.0 / len(arr)
+                percent = lex[word.lower()] / float(phones)
 
                 if i >= len(arr) - 1:
                     id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:, :].mean(0)))
                 else:
                     if i == 0:
-                        id_to_redmat[key] = id_to_mat[key][slice_index:math.ceil(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)
+                        id_to_redmat[key] = id_to_mat[key][slice_index:math.floor(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)
                     else:
-                        id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:math.ceil(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)))
-                    slice_index = math.ceil(slice_index + percent * id_to_mat[key].shape[0])
+                        id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:math.floor(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)))
+                    slice_index = math.floor(slice_index + percent * id_to_mat[key].shape[0])
         else:        
             index = -1
             previous = 0
@@ -94,10 +94,10 @@ for DIR in ["train", "test"]:
                     id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:, :].mean(0)))
                 else:
                     if i == 0:
-                        id_to_redmat[key] = id_to_mat[key][slice_index:math.ceil(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)
+                        id_to_redmat[key] = id_to_mat[key][slice_index:math.floor(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)
                     else:
-                        id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:math.ceil(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)))
-                    slice_index = math.ceil(slice_index + percent * id_to_mat[key].shape[0])
+                        id_to_redmat[key] = np.vstack((id_to_redmat[key], id_to_mat[key][slice_index:math.floor(slice_index + percent * id_to_mat[key].shape[0]), :].mean(0)))
+                    slice_index = math.floor(slice_index + percent * id_to_mat[key].shape[0])
 
 
     ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/nnet_prediction_aligned.ark,local/data/{DIR}_hires/nnet_prediction_aligned.scp'
