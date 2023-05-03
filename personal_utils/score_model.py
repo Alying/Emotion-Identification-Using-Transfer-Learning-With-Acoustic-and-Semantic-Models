@@ -28,11 +28,24 @@ with open(f"exp/scores", "r") as f:
             biggest_index = 0
 
 correct_emotions = 0.0 
+correct_emotions_l = [0, 0, 0, 0, 0, 0]
+emotions_total_l = [0, 0, 0, 0, 0, 0]
 for k in id_to_votes:
     id_to_votes[k] = most_frequent(id_to_votes[k])
     correct_emo = k.split("-")[0]
     predicted_emo = emotion_mapping[id_to_votes[k]]
     if predicted_emo != correct_emo:
         correct_emotions = correct_emotions + 1
+    else:
+        correct_emotions_l[id_to_votes[k]] = correct_emotions_l[id_to_votes[k]] + 1
+    emotions_total_l[id_to_votes[k]] = emotions_total_l[id_to_votes[k]] + 1
 
-print("accuracy: ", correct_emotions/float(len(id_to_votes)), "correct_emotions: ", correct_emotions, "total utterances: ", len(id_to_votes))
+print("TOTAL accuracy: ", correct_emotions/float(len(id_to_votes)), "correct_emotions: ", correct_emotions, "total utterances: ", len(id_to_votes))
+print("ANG accuracy: ", correct_emotions_l[0]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[0], "total utterances: ", emotions_total_l[0])
+print("DIS accuracy: ", correct_emotions_l[1]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[1], "total utterances: ", emotions_total_l[1])
+print("FEA accuracy: ", correct_emotions_l[2]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[2], "total utterances: ", emotions_total_l[2])
+print("HAP accuracy: ", correct_emotions_l[3]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[3], "total utterances: ", emotions_total_l[3])
+print("NEU accuracy: ", correct_emotions_l[4]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[4], "total utterances: ", emotions_total_l[4])
+print("SAD accuracy: ", correct_emotions_l[5]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[5], "total utterances: ", emotions_total_l[5])
+
+
