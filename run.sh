@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=0
+stage=1
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -97,7 +97,7 @@ if [ $stage -le 7 ]; then
   done
 
   dir="train"  
-  lda_dim=15
+  lda_dim=100
   $train_cmd local/data/${dir}_hires/log/lda.log \
     ivector-compute-lda --total-covariance-factor=0.0 --dim=$lda_dim \
     "ark:ivector-subtract-global-mean scp:local/data/${dir}_hires/lda_feats.scp ark:- |" \

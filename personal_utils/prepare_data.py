@@ -7,8 +7,8 @@ import contextlib
  
 cwd = os.getcwd()
  
-train_percent = 0.03
-test_percent = 0.04
+train_percent = 0.8
+test_percent = 0.2
  
 def tied_emotions(row):
     emotions = str.split(row, ':')
