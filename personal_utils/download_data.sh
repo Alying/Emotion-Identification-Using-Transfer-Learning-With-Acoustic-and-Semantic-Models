@@ -27,7 +27,7 @@ if [ ! -e Tedlium.tar.gz ]; then
   echo "unzipping Tedlium"
   tar -xvzf "Tedlium.tar.gz"
   echo "unzipped Tedlium"
-  cp kaldi-trunk/egs/tedlium/s5_r3/exp/chain_cleaned_1d/tdnn1d_sp .
+  cp -r kaldi-trunk/egs/tedlium/s5_r3/exp/chain_cleaned_1d/tdnn1d_sp .
   echo "moved Tedlium"
 else
   echo "$0: not downloading or unzipping Tedlium because it already exists."
