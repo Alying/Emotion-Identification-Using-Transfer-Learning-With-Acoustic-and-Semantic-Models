@@ -28,7 +28,7 @@ for DIR in ["train", "test"]:
     with open(f'local/data/{DIR}/text', 'r') as f:
         for line in f:
             # print(repr(line))
-            
+            line = line.strip()
             split_point = line.index(" ")
             sentence_id = line[:split_point]
             sentence = line[split_point:].strip()
@@ -77,7 +77,9 @@ for DIR in ["train", "test"]:
     f = kaldi_io.open_or_fd(ark_scp_output,'wb')
 
     for key,mat in id_to_embeddings_mapper.items():
+        print(mat.shape)
         kaldi_io.write_mat(f, mat, key=key)
+        break
     f.close()
     # (4) convert to ark and scp files
     # ark_file_length = 1000 # features we want per ark file
