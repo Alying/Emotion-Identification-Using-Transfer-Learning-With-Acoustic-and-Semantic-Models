@@ -100,7 +100,7 @@ for DIR in ["train", "test"]:
                     slice_index = math.floor(slice_index + percent * id_to_mat[key].shape[0])
 
 
-    ark_scp_output=f'ark:| copy-feats --compress=true ark:- ark,scp:local/data/{DIR}_hires/nnet_prediction_aligned.ark,local/data/{DIR}_hires/nnet_prediction_aligned.scp'
+    ark_scp_output=f'ark:| copy-feats ark:- ark,scp:local/data/{DIR}_hires/nnet_prediction_aligned.ark,local/data/{DIR}_hires/nnet_prediction_aligned.scp'
     with kaldi_io.open_or_fd(ark_scp_output,'wb') as f:
         for key, value in id_to_redmat.items():
             kaldi_io.write_mat(f, value, key=key)
