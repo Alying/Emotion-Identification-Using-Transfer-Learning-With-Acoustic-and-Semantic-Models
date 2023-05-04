@@ -77,7 +77,7 @@ for DIR in ["train", "test"]:
     f = kaldi_io.open_or_fd(ark_scp_output,'wb')
 
     for key,mat in id_to_embeddings_mapper.items():
-        print(mat.shape)
+        #print(mat.shape)
         kaldi_io.write_mat(f, mat, key=key)
         break
     f.close()

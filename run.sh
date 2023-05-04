@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=0
+stage=5
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -77,7 +77,7 @@ if [ $stage -le 5 ]; then
 
   echo "Running bert model done"
 fi
-
+exit 1
 if [ $stage -le 6 ]; then
   for dset in train test;
   do paste-feats scp:local/data/${dset}_hires/bert_embeddings.scp  ark:local/data/${dset}_hires/nnet_prediction_aligned.ark ark,scp:local/data/${dset}_hires/combined.ark,local/data/${dset}_hires/combined.scp
