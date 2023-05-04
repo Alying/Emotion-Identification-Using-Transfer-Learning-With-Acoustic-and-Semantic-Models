@@ -53,11 +53,10 @@ for filename in os.listdir(directory):
         emotions_total_l[id_to_votes[k]] = emotions_total_l[id_to_votes[k]] + 1
 
     print("TOTAL accuracy: ", correct_emotions/float(len(id_to_votes)), "correct_emotions: ", correct_emotions, "total utterances: ", len(id_to_votes))
-    print("ANG accuracy: ", correct_emotions_l[0]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[0], "total utterances: ", emotions_total_l[0])
-    print("DIS accuracy: ", correct_emotions_l[1]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[1], "total utterances: ", emotions_total_l[1])
-    print("FEA accuracy: ", correct_emotions_l[2]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[2], "total utterances: ", emotions_total_l[2])
-    print("HAP accuracy: ", correct_emotions_l[3]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[3], "total utterances: ", emotions_total_l[3])
-    print("NEU accuracy: ", correct_emotions_l[4]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[4], "total utterances: ", emotions_total_l[4])
-    print("SAD accuracy: ", correct_emotions_l[5]/float(emotions_total_l[0]), "correct_emotions: ", correct_emotions_l[5], "total utterances: ", emotions_total_l[5])
+    print("ANG/DIS accuracy: ", (correct_emotions_l[0]+correct_emotions_l[1])/(float(emotions_total_l[0])+float(emotions_total_l[1])), "correct_emotions: ", correct_emotions_l[0], "total utterances: ", emotions_total_l[0])
+    print("FEA accuracy: ", correct_emotions_l[2]/float(emotions_total_l[2]), "correct_emotions: ", correct_emotions_l[2], "total utterances: ", emotions_total_l[2])
+    print("HAP accuracy: ", correct_emotions_l[3]/float(emotions_total_l[3]), "correct_emotions: ", correct_emotions_l[3], "total utterances: ", emotions_total_l[3])
+    print("NEU accuracy: ", correct_emotions_l[4]/float(emotions_total_l[4]), "correct_emotions: ", correct_emotions_l[4], "total utterances: ", emotions_total_l[4])
+    print("SAD accuracy: ", correct_emotions_l[5]/float(emotions_total_l[5]), "correct_emotions: ", correct_emotions_l[5], "total utterances: ", emotions_total_l[5])
     print(f"Finished processing {fpath}")
 
