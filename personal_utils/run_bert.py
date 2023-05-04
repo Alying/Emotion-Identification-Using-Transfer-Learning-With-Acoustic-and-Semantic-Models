@@ -79,7 +79,7 @@ for DIR in ["train", "test"]:
     for key,mat in id_to_embeddings_mapper.items():
         #print(mat.shape)
         kaldi_io.write_mat(f, mat, key=key)
-        break
+        
     f.close()
     # (4) convert to ark and scp files
     # ark_file_length = 1000 # features we want per ark file
