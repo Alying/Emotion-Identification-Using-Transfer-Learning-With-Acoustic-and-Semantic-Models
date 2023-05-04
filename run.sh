@@ -5,7 +5,7 @@
 . ./path.sh || exit 1
 . ./cmd.sh || exit 1
 
-stage=5
+stage=0
 
 # Data preparation
 if [ $stage -le 0 ]; then
@@ -14,6 +14,10 @@ if [ $stage -le 0 ]; then
 fi
 
 if [ $stage -le 1 ]; then
+  rm -r local/data/test*
+  rm -r local/data/train*
+  rm -r exp/tri3*
+
   personal_utils/prepare_data.sh
   utils/utt2spk_to_spk2utt.pl local/data/train/utt2spk > local/data/train/spk2utt
   utils/utt2spk_to_spk2utt.pl local/data/test/utt2spk > local/data/test/spk2utt
@@ -77,7 +81,7 @@ if [ $stage -le 5 ]; then
 
   echo "Running bert model done"
 fi
-exit 1
+
 if [ $stage -le 6 ]; then
   for dset in train test;
   do paste-feats scp:local/data/${dset}_hires/bert_embeddings.scp  ark:local/data/${dset}_hires/nnet_prediction_aligned.ark ark,scp:local/data/${dset}_hires/combined.ark,local/data/${dset}_hires/combined.scp
