@@ -3,7 +3,7 @@ model_dir=local/data/tdnn1d_sp
 nj=10
 
 echo "output-node name=output input=tdnnf12.noop" > $model_dir/extract.config
-nnet3-copy --binary=false --nnet-config=$model_dir/extract.config $model_dir/final.raw $model_dir/final2.raw
+nnet3-copy --binary=false --nnet-config=$model_dir/extract.config $model_dir/final.mdl $model_dir/final2.raw
 
 # nnet3-copy personal_utils/final_golden.mdl $model_dir/final.raw
 
