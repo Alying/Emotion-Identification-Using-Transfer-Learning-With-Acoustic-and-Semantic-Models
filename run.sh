@@ -123,7 +123,7 @@ if [ $stage -le 8 ]; then
     "ivector-copy-plda --smoothing=0.0 local/data/train_hires/plda - |" \
     "ark:ivector-subtract-global-mean local/data/train_hires/mean.vec scp:local/data/train_hires/lda_feats.scp ark:- | transform-vec local/data/train_hires/transform.mat ark:- ark:- | ivector-normalize-length ark:- ark:- |" \
     "ark:ivector-subtract-global-mean local/data/test_hires/mean.vec scp:local/data/test_hires/lda_feats.scp ark:- | transform-vec local/data/train_hires/transform.mat ark:- ark:- | ivector-normalize-length ark:- ark:- |" \
-    local/data/test_hires/trials exp/scores || exit 1;
+    local/data/test_hires/trials results/scores || exit 1;
 
   echo "PLDA Scoring done"
 fi
