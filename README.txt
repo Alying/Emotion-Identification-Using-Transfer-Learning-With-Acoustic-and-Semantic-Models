@@ -21,6 +21,16 @@ tested on the Crema-D dataset.
 (1) Run install.sh to get necessary prerequisites
 (2) Run run.sh (you do not need to run path.sh or run.sh they are executed in run.sh)
 
+Put this in your ~/.bashrc
+# Add Kaldi bin folders to path. Put into ~/bashrc
+for dir in ~/kaldi/tools/*bin ~/kaldi/src/*bin; do
+    if [ -d "$dir" ] && [[ ":$PATH:" != *":$dir:"* ]]; then
+        export PATH="${PATH:+"$PATH:"}$dir"
+    fi
+done
+alias python3='/usr/bin/python3.6'
+
+
 ---Directory breakdown---
 (1) conf/ contains all the configuration files for running kaldi scripts.
 (2) exp/ contains intermediate output files, mainly the alignment ones
