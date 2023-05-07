@@ -1,3 +1,6 @@
+# Author Alina Ying
+# Job: Unused in final code. Here in case we need to revisit
+
 import os
 import os.path
 import random

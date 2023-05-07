@@ -1,3 +1,8 @@
+# Author Daniel Mao
+# Job: Scores the output of the classifier.
+# Input: Expects results/
+# Output: Prints accuracy to terminal
+
 from collections import Counter
 import os
 

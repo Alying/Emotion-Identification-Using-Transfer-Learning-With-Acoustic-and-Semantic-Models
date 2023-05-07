@@ -1,10 +1,11 @@
-#!/bin/sh
-
-#  id2phone.R
-#  
-#
-#  Created by Eleanor Chodroff on 3/24/15.
-#
+# Author Eleanor Chodroff (Copied from online)
+# See https://eleanorchodroff.com/tutorial/kaldi/forced-alignment.html
+# Job: Convert phone ID's into phone symbols
+# Input: Expects to see exp/tri3_train_ali/merged_alignment.txt, 
+#                                         /phones.txt
+#                       local/data/train/segments
+#        And all the corresponding files under test
+# Output: Creates exp/tri3_train_ali/final_ali.txt as well for test
 
 for (dset in list("train", "test")) {
     phones <- read.table(sprintf("exp/tri3_%s_ali/phones.txt", dset), quote="\"")

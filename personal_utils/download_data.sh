@@ -1,3 +1,9 @@
+# Author Alina Ying
+# Job: Download all necessary data
+# Input: None
+# Output: Downloads CremaD dataset and pretrained acoustic model
+
+
 #!/usr/bin/env bash
 # Used for downloading CremaD data
 
@@ -10,14 +16,6 @@ if [ ! -e CREMA-D ]; then
   git lfs clone https://github.com/CheyneyComputerScience/CREMA-D.git
 else
   echo "$0: not downloading or unzipping CREMA-D because it already exists."
-fi
-
-# IEMOCAP database:
-if [ ! -e IEMOCAP_full_release ]; then
-  echo "$0: downloading the IEMOCAP data (it won't re-download if it was already downloaded.)"
-  tar -xf "IEMOCAP_full_release_withoutVideos.tar.gz"
-else
-  echo "$0: not downloading or unzipping IEMOCAP because it already exists."
 fi
 
 # Tedlium database:

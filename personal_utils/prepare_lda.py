@@ -1,3 +1,8 @@
+# Author Daniel Mao
+# Job: Creates necessary prereq files for Kaldi's lda algorithm to run
+# Input: Expects to see combined.scp+ark in local/data/train_hires and test_hires
+# Output: Creates lda_feats.scp+ark and utt2spk2 files in train_hires and test_hires
+
 import numpy as np
 import kaldi_io, codecs, math
 # from collections import OrderedDict

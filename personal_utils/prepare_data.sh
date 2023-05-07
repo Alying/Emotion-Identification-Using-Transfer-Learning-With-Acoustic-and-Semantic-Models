@@ -1,3 +1,8 @@
+# Author Alina Ying
+# Job: Runs prepare_data.py
+# Input: Expects the local/data/CREMA-D/
+# Output: Creates text, segments, utt2spk, wav.scp in local/data/train and test
+
 cd local
 
 for set in test train; do

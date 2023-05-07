@@ -1,10 +1,10 @@
-#  split_alignments.py
-#  
-#
-#  Created by Eleanor Chodroff on 3/25/15.
-#
-#
-#
+# Author Eleanor Chodroff (Copied from online)
+# See https://eleanorchodroff.com/tutorial/kaldi/forced-alignment.html
+# Job: Split all the files in final_ali.txt into files based on utterance.
+#      This is mainly a convenience method for align_nnet.py
+# Input: Expects to see exp/tri3_train_ali/final_ali.txt as well as for test
+# Output: Creates local/data/train_temp and also for test
+
 import sys,csv,glob, os,os.path,re,codecs
 results=[]
 

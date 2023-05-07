@@ -1,3 +1,6 @@
+# Author Daniel Mao
+# Job: Unused in final code. Here in case we need to revisit
+
 import numpy as np
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 import kaldi_io

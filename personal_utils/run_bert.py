@@ -1,3 +1,8 @@
+# Author Alina Ying
+# Job: Creates textual embeddings for each word in the utterance
+# Input: Expects text file in local/data/train and test
+# Output: Creates bert_embeddings.scp+ark in local/data/train_hires and test
+
 import torch
 from transformers import BertTokenizer, BertModel
 import logging

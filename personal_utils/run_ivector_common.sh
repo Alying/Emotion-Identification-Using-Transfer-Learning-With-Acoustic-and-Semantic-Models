@@ -1,3 +1,9 @@
+# Author Daniel Mao
+# Job: Creates iVectors and mfcc_pitch features. Mainly copied from Kaldi side.
+# Input: Expects local/data/train and test
+# Output: Creates local/data_train_hires and test_hires. Also creates ivector extractors
+# in exp/
+
 #!/usr/bin/env bash
 
 set -e -o pipefail

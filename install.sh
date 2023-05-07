@@ -1,3 +1,5 @@
+# Run me to get all prerequisites
+
 sudo apt update
 sudo apt-get install git-lfs
 sudo apt-get install python3-sklearn

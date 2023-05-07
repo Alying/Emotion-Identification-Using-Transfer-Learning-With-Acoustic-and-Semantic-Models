@@ -1,3 +1,8 @@
+# Author Daniel Mao
+# Job: Parse the CremaD dataset into the necessary kaldi prerequisites
+# Input: Expects the local/data/CREMA-D/
+# Output: Creates text, segments, utt2spk, wav.scp in local/data/train and test
+
 import os
 import os.path
 import random

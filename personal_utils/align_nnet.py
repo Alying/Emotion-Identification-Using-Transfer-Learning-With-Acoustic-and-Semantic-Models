@@ -1,3 +1,8 @@
+# Author Daniel Mao
+# Job: Averages the frame based audio embeddings to make word based audio embeddings
+# Input: Expects to see nnet_prediction.scp+ark in local/data/train_hires and test_hires
+# Output: Creates nnet_prediction_aligned.scp+ark in both directories
+
 import numpy as np
 import kaldi_io, codecs, math
 # from collections import OrderedDict

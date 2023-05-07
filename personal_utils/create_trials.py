@@ -1,3 +1,8 @@
+# Author Daniel Mao
+# Job: Creates trials file for pLDA to score
+# Input: Expects to see lda_feats.scp+ark in local/data/train_hires and test_hires
+# Output: Creates trials file in local/data/test_hires
+
 import numpy as np
 import kaldi_io, random
 

@@ -1,3 +1,6 @@
+# Author Daniel Mao
+# Job: Unused in final code. Here in case we need to revisit
+
 egs_dir="local/data/train_hires/egs"
 nnet_dir="local/data/train_hires/nnet"
 sid/nnet3/xvector/get_egs.sh --cmd "$train_cmd" \
