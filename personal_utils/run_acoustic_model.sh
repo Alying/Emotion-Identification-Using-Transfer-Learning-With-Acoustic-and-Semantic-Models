@@ -7,8 +7,8 @@ model_dir=local/data/tdnn1d_sp
 #dset=train
 nj=10
 
+sudo chmod 777 $model_dir
 sudo touch $model_dir/extract.config
-sudo chmod 777 $model_dir/extract.config
 echo "output-node name=output input=tdnnf12.noop" > $model_dir/extract.config
 nnet3-copy --binary=false --nnet-config=$model_dir/extract.config $model_dir/final.mdl $model_dir/final2.raw
 
