@@ -28,7 +28,6 @@ for dir in ~/kaldi/tools/*bin ~/kaldi/src/*bin; do
         export PATH="${PATH:+"$PATH:"}$dir"
     fi
 done
-alias python3='/usr/bin/python3.6'
 
 
 ---Directory breakdown---
